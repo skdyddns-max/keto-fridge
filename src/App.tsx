@@ -1,10 +1,11 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ingredientsRaw from "./data/ingredients.gen.json";
 import recipesRaw from "./data/recipes.gen.json";
 import { matchRecipes, type MatchResult } from "./lib/match";
 import type { Ingredient, Recipe } from "./lib/types";
 import { useLocalStorage } from "./store/useLocalStorage";
 import { localDateKey, makeEntry, type DayEntry } from "./lib/tracker";
+import { recipeIdsWithPhotos } from "./lib/photos";
 import { syncEnabled } from "./lib/supabase";
 import type { SyncState } from "./lib/sync";
 import { useSync } from "./store/useSync";
@@ -35,7 +36,13 @@ export default function App() {
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [selected, setSelected] = useState<MatchResult | null>(null);
   const [showShopping, setShowShopping] = useState(false);
+  const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
   const now = new Date();
+
+  const refreshPhotoIds = () => recipeIdsWithPhotos().then(setPhotoIds).catch(() => {});
+  useEffect(() => {
+    refreshPhotoIds();
+  }, []);
 
   const favoriteSet = useMemo(() => new Set(favorites), [favorites]);
 
@@ -77,7 +84,7 @@ export default function App() {
   const sync = useSync({ local, applyRemote });
 
   const card = (r: MatchResult) => (
-    <RecipeCard key={r.recipe.id} result={r} isFavorite={favoriteSet.has(r.recipe.id)} onClick={() => setSelected(r)} />
+    <RecipeCard key={r.recipe.id} result={r} isFavorite={favoriteSet.has(r.recipe.id)} hasPhoto={photoIds.has(r.recipe.id)} onClick={() => setSelected(r)} />
   );
 
   return (
@@ -252,6 +259,7 @@ export default function App() {
           onToggleFavorite={() => toggleFavorite(selected.recipe.id)}
           onEat={() => eatRecipe(selected.recipe)}
           onAddShopping={addShopping}
+          onPhotosChanged={refreshPhotoIds}
           onClose={() => setSelected(null)}
         />
       )}

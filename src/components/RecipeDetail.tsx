@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { MatchResult } from "../lib/match";
 import { categoryMeta } from "../lib/categories";
+import { usePhotos } from "../store/usePhotos";
 import { MacroPie } from "./MacroPie";
 
 interface Props {
@@ -11,16 +12,20 @@ interface Props {
   onToggleFavorite: () => void;
   onEat: () => void;
   onAddShopping: (items: { id: string; name: string }[]) => void;
+  onPhotosChanged?: () => void;
   onClose: () => void;
 }
 
-/** 레시피 상세 모달 — 재료(보유 표시)·조리 순서·매크로 파이 */
-export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onEat, onAddShopping, onClose }: Props) {
+/** 레시피 상세 모달 — 재료(보유 표시)·조리 순서·매크로 파이·내 사진 */
+export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onEat, onAddShopping, onPhotosChanged, onClose }: Props) {
   const { recipe } = result;
   const missing = recipe.ingredients.filter((ri) => !effectiveOwned.has(ri.id));
 
   const [ate, setAte] = useState(false);
   const [shopped, setShopped] = useState(false);
+  const [zoom, setZoom] = useState<string | null>(null);
+  const fileRef = useRef<HTMLInputElement>(null);
+  const { photos, add, remove, busy, error } = usePhotos(recipe.id, onPhotosChanged);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -145,6 +150,60 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
           </ol>
         </section>
 
+        {/* 내가 만든 사진 */}
+        <section className="mt-6">
+          <div className="mb-2 flex items-center justify-between">
+            <h3 className="text-sm font-bold text-stone-500">📸 내가 만든 사진 {photos.length > 0 && <span className="text-stone-400">({photos.length})</span>}</h3>
+            <button
+              type="button"
+              onClick={() => fileRef.current?.click()}
+              disabled={busy}
+              className="rounded-lg border border-emerald-300 bg-white px-3 py-1.5 text-xs font-semibold text-emerald-700 transition hover:bg-emerald-50 disabled:opacity-60"
+            >
+              {busy ? "저장 중…" : "+ 사진 추가"}
+            </button>
+          </div>
+          <input
+            ref={fileRef}
+            type="file"
+            accept="image/*"
+            capture="environment"
+            className="hidden"
+            onChange={(e) => {
+              const f = e.target.files?.[0];
+              if (f) add(f);
+              e.target.value = "";
+            }}
+          />
+          {error && <p className="mb-2 text-xs text-rose-600">{error}</p>}
+          {photos.length === 0 ? (
+            <button
+              type="button"
+              onClick={() => fileRef.current?.click()}
+              className="flex w-full flex-col items-center justify-center gap-1 rounded-xl border border-dashed border-stone-300 bg-stone-50/50 py-6 text-stone-400 transition hover:border-emerald-300 hover:text-emerald-600"
+            >
+              <span className="text-2xl">🍳</span>
+              <span className="text-xs">직접 만든 요리 사진을 남겨보세요</span>
+            </button>
+          ) : (
+            <div className="grid grid-cols-3 gap-2">
+              {photos.map((p) => (
+                <div key={p.id} className="group relative aspect-square overflow-hidden rounded-xl bg-stone-100">
+                  <img src={p.url} alt="내가 만든 사진" className="h-full w-full cursor-pointer object-cover" onClick={() => setZoom(p.url)} />
+                  <button
+                    type="button"
+                    onClick={() => remove(p.id)}
+                    aria-label="사진 삭제"
+                    className="absolute right-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-black/50 text-sm text-white opacity-0 transition group-hover:opacity-100"
+                  >
+                    ×
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+
         {recipe.tags.length > 0 && (
           <div className="mt-5 flex flex-wrap gap-1.5">
             {recipe.tags.map((t) => (
@@ -153,6 +212,13 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
           </div>
         )}
       </div>
+
+      {/* 사진 확대 보기 */}
+      {zoom && (
+        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/80 p-4" onClick={() => setZoom(null)}>
+          <img src={zoom} alt="확대" className="max-h-full max-w-full rounded-lg object-contain" />
+        </div>
+      )}
     </div>
   );
 }

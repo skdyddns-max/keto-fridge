@@ -5,10 +5,11 @@ import { MacroBar } from "./MacroBar";
 interface Props {
   result: MatchResult;
   isFavorite?: boolean;
+  hasPhoto?: boolean;
   onClick?: () => void;
 }
 
-export function RecipeCard({ result, isFavorite = false, onClick }: Props) {
+export function RecipeCard({ result, isFavorite = false, hasPhoto = false, onClick }: Props) {
   const { recipe, status, missing } = result;
   const cat = categoryMeta(recipe.category);
 
@@ -35,6 +36,7 @@ export function RecipeCard({ result, isFavorite = false, onClick }: Props) {
               <span>{cat.emoji}</span>
               {cat.label}
               {isFavorite && <span className="ml-0.5 text-amber-500">★</span>}
+              {hasPhoto && <span className="ml-0.5">📸</span>}
             </span>
             <h3 className="mt-1.5 truncate text-base font-bold text-stone-800">{recipe.name}</h3>
           </div>
