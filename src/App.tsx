@@ -110,7 +110,7 @@ export default function App() {
       </header>
 
       {syncEnabled && (
-        <SyncPanel session={sync.session} status={sync.status} onSignIn={sync.signIn} onSignOut={sync.signOut} />
+        <SyncPanel session={sync.session} status={sync.status} onSignIn={sync.signIn} onSignInPassword={sync.signInPassword} onSignOut={sync.signOut} />
       )}
 
       <DayTracker

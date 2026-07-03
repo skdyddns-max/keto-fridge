@@ -101,9 +101,25 @@ export function useSync({ local, applyRemote }: Params) {
     const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.href } });
     return { error: error?.message };
   };
+
+  /** 비밀번호 로그인 — 계정 없으면 즉시 가입(이메일 확인 꺼진 경우 바로 로그인). */
+  const signInPassword = async (email: string, password: string) => {
+    if (!supabase) return { error: "sync disabled" };
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (!error) return {};
+    // 계정이 없으면 가입 시도
+    if (/invalid login credentials/i.test(error.message)) {
+      const { data, error: upErr } = await supabase.auth.signUp({ email, password });
+      if (upErr) return { error: upErr.message };
+      if (!data.session) return { error: "가입됨 — 이메일 확인이 켜져 있어요. Supabase Auth에서 'Confirm email'을 끄면 바로 로그인됩니다." };
+      return {};
+    }
+    return { error: error.message };
+  };
+
   const signOut = async () => {
     await supabase?.auth.signOut();
   };
 
-  return { session, status, signIn, signOut };
+  return { session, status, signIn, signInPassword, signOut };
 }
