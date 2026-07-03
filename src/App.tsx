@@ -78,24 +78,31 @@ export default function App() {
 
   return (
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-8">
-      <header className="mb-6 flex items-start justify-between gap-3">
-        <div>
-          <h1 className="text-2xl font-extrabold tracking-tight">키토 냉장고</h1>
-          <p className="mt-1 text-sm text-stone-500">냉장고에 있는 재료로, 지금 만들 수 있는 키토 레시피</p>
+      <header className="relative mb-6 overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 via-emerald-500 to-teal-500 p-6 text-white shadow-lg shadow-emerald-600/20">
+        {/* 장식용 반투명 원 */}
+        <div className="pointer-events-none absolute -right-8 -top-10 h-40 w-40 rounded-full bg-white/10" />
+        <div className="pointer-events-none absolute -bottom-12 -left-6 h-32 w-32 rounded-full bg-white/10" />
+        <div className="relative flex items-start justify-between gap-3">
+          <div>
+            <h1 className="flex items-center gap-2 text-2xl font-extrabold tracking-tight">
+              <span className="text-3xl">🥑</span> 키토 냉장고
+            </h1>
+            <p className="mt-1.5 text-sm text-emerald-50/90">냉장고에 있는 재료로, 지금 만들 수 있는 키토 레시피</p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setShowShopping(true)}
+            className="relative flex shrink-0 items-center gap-1.5 rounded-full bg-white/15 px-3 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+            aria-label="장보기 리스트 열기"
+          >
+            🛒 장보기
+            {shopping.length > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1 text-[11px] font-bold text-amber-950">
+                {shopping.length}
+              </span>
+            )}
+          </button>
         </div>
-        <button
-          type="button"
-          onClick={() => setShowShopping(true)}
-          className="relative flex shrink-0 items-center gap-1.5 rounded-full border border-stone-200 bg-white px-3 py-2 text-sm font-medium text-stone-600 hover:bg-stone-50"
-          aria-label="장보기 리스트 열기"
-        >
-          🛒 장보기
-          {shopping.length > 0 && (
-            <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-500 px-1 text-[11px] font-bold text-white">
-              {shopping.length}
-            </span>
-          )}
-        </button>
       </header>
 
       {syncEnabled && (
@@ -158,18 +165,23 @@ export default function App() {
       </details>
 
       {!hasInput && !favoritesOnly ? (
-        <div className="rounded-2xl border border-dashed border-stone-300 bg-white p-8 text-center text-stone-500">
-          <p className="font-medium">재료를 입력하면 레시피를 찾아드려요</p>
-          <p className="mt-1 text-sm">키토 적합 레시피 {RECIPES.filter((r) => r.keto).length}개 준비되어 있어요</p>
+        <div className="rounded-3xl border border-dashed border-emerald-200 bg-white/70 p-10 text-center">
+          <div className="text-5xl">🧊</div>
+          <p className="mt-4 font-semibold text-stone-700">재료를 입력하면 레시피를 찾아드려요</p>
+          <p className="mt-1.5 text-sm text-stone-500">
+            키토 적합 레시피 <span className="font-bold text-emerald-600">{RECIPES.filter((r) => r.keto).length}</span>개 준비되어 있어요
+          </p>
         </div>
       ) : (
         <div className="space-y-8">
           <section>
-            <h2 className="mb-3 text-lg font-bold text-emerald-700">
-              지금 만들 수 있어요 <span className="text-sm font-semibold text-stone-400">{cookNow.length}</span>
+            <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-emerald-700">
+              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-sm">🔥</span>
+              지금 만들 수 있어요
+              <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-bold text-emerald-600">{cookNow.length}</span>
             </h2>
             {cookNow.length === 0 ? (
-              <p className="text-sm text-stone-500">아직 없어요. 재료를 더 추가해보세요.</p>
+              <p className="rounded-xl bg-white/60 px-4 py-3 text-sm text-stone-500">아직 없어요. 재료를 더 추가해보세요.</p>
             ) : (
               <div className="space-y-3">{cookNow.map(card)}</div>
             )}
@@ -177,8 +189,10 @@ export default function App() {
 
           {almost.length > 0 && (
             <section>
-              <h2 className="mb-3 text-lg font-bold text-amber-700">
-                거의 가능해요 <span className="text-sm font-semibold text-stone-400">{almost.length}</span>
+              <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-amber-700">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-amber-100 text-sm">🛒</span>
+                거의 가능해요
+                <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-600">{almost.length}</span>
               </h2>
               <div className="space-y-3">{almost.map(card)}</div>
             </section>
@@ -186,7 +200,9 @@ export default function App() {
 
           {explore.length > 0 && (
             <details>
-              <summary className="cursor-pointer text-sm font-medium text-stone-500">더 탐색하기 ({explore.length})</summary>
+              <summary className="cursor-pointer rounded-xl bg-white/60 px-4 py-2.5 text-sm font-medium text-stone-500 transition hover:bg-white">
+                🔍 더 탐색하기 ({explore.length})
+              </summary>
               <div className="mt-3 space-y-3">{explore.map(card)}</div>
             </details>
           )}

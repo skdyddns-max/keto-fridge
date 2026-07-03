@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
 import type { MatchResult } from "../lib/match";
+import { categoryMeta } from "../lib/categories";
 import { MacroPie } from "./MacroPie";
-
-const CATEGORY_LABEL: Record<string, string> = {
-  meat: "육류", egg: "계란", seafood: "해산물", veg_side: "채소반찬", soup: "국·찌개", salad: "샐러드", snack: "간식",
-};
 
 interface Props {
   result: MatchResult;
@@ -49,10 +46,11 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
       >
         <div className="flex items-start justify-between gap-3">
           <div>
-            <span className="text-xs font-medium text-stone-400">
-              {CATEGORY_LABEL[recipe.category] ?? recipe.category} · {recipe.servings}인분 기준
+            <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${categoryMeta(recipe.category).chip}`}>
+              <span>{categoryMeta(recipe.category).emoji}</span>
+              {categoryMeta(recipe.category).label} · {recipe.servings}인분
             </span>
-            <h2 className="text-xl font-bold">{recipe.name}</h2>
+            <h2 className="mt-1.5 text-xl font-bold">{recipe.name}</h2>
           </div>
           <div className="flex shrink-0 items-center gap-1">
             <button

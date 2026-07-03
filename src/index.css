@@ -6,5 +6,11 @@
 }
 
 body {
-  @apply bg-stone-50 text-stone-900;
+  @apply text-stone-900;
+  background-color: #fafaf9;
+  background-image:
+    radial-gradient(60rem 40rem at 100% -10%, rgba(16, 185, 129, 0.1), transparent 60%),
+    radial-gradient(50rem 40rem at -10% 0%, rgba(251, 191, 36, 0.08), transparent 55%);
+  background-attachment: fixed;
+  min-height: 100vh;
 }
