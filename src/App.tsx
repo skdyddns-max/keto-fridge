@@ -18,6 +18,10 @@ import { SyncPanel } from "./components/SyncPanel";
 const INGREDIENTS = ingredientsRaw as unknown as Ingredient[];
 const RECIPES = recipesRaw as unknown as Recipe[];
 const PANTRY_IDS = new Set(INGREDIENTS.filter((i) => i.pantry).map((i) => i.id));
+const INGREDIENT_BY_ID = new Map(INGREDIENTS.map((i) => [i.id, i]));
+
+/** 원터치 추가용 인기 재료 */
+const POPULAR_IDS = ["pork_belly", "egg", "cabbage", "chicken_thigh", "tofu", "shrimp", "butter", "cheese_cheddar", "zucchini", "avocado"];
 
 const EXPLORE_LIMIT = 20;
 
@@ -116,14 +120,45 @@ export default function App() {
         onClear={() => setDayLog((prev) => prev.filter((e) => e.date !== localDateKey(now)))}
       />
 
-      <section className="mb-4">
+      <section className="mb-4 rounded-2xl border border-stone-200/80 bg-white p-4 shadow-sm">
+        <h2 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-stone-700">
+          🧺 냉장고에 뭐가 있나요?
+        </h2>
         <IngredientInput
           ingredients={INGREDIENTS}
           owned={owned}
           onAdd={(id) => setOwned((prev) => (prev.includes(id) ? prev : [...prev, id]))}
           onRemove={(id) => setOwned((prev) => prev.filter((x) => x !== id))}
         />
-        <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
+
+        {/* 원터치 인기 재료 */}
+        {(() => {
+          const picks = POPULAR_IDS.filter((id) => !owned.includes(id));
+          if (picks.length === 0) return null;
+          return (
+            <div className="mt-3">
+              <p className="mb-1.5 text-[11px] font-medium text-stone-400">자주 쓰는 재료 톡 눌러 담기</p>
+              <div className="flex flex-wrap gap-1.5">
+                {picks.map((id) => {
+                  const ing = INGREDIENT_BY_ID.get(id);
+                  if (!ing) return null;
+                  return (
+                    <button
+                      key={id}
+                      type="button"
+                      onClick={() => setOwned((prev) => [...prev, id])}
+                      className="rounded-full border border-stone-200 bg-stone-50 px-2.5 py-1 text-xs font-medium text-stone-600 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-700"
+                    >
+                      + {ing.name}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
+
+        <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-stone-100 pt-3">
           <label className="flex items-center gap-2 text-sm text-stone-600">
             <input
               type="checkbox"
@@ -149,7 +184,7 @@ export default function App() {
 
       <details className="mb-6 rounded-xl border border-stone-200 bg-white px-4 py-3" open={excluded.length > 0}>
         <summary className="cursor-pointer text-sm font-medium text-stone-600">
-          제외 재료 설정 {excluded.length > 0 && <span className="text-rose-600">({excluded.length})</span>}
+          🚫 제외 재료 설정 {excluded.length > 0 && <span className="text-rose-600">({excluded.length})</span>}
         </summary>
         <div className="mt-3">
           <p className="mb-2 text-xs text-stone-400">알레르기·비선호 재료가 든 레시피는 추천에서 빠져요.</p>
@@ -230,7 +265,34 @@ export default function App() {
         />
       )}
 
-      <footer className="mt-12 text-center text-[11px] text-stone-400">
+      {/* 사용법 안내 */}
+      <section className="mt-12 rounded-3xl border border-stone-200/70 bg-white/70 p-6">
+        <h2 className="mb-4 flex items-center gap-2 text-base font-bold text-stone-700">💡 이렇게 사용하세요</h2>
+        <ol className="space-y-3">
+          {[
+            { icon: "🧺", title: "재료 입력", desc: "냉장고에 있는 재료를 검색하거나 '자주 쓰는 재료'를 톡 눌러 담으세요." },
+            { icon: "🔥", title: "레시피 확인", desc: "‘지금 만들 수 있어요’에 바로 요리 가능한 레시피가 뜹니다. 카드를 누르면 조리법·순탄수·매크로를 볼 수 있어요." },
+            { icon: "🛒", title: "장보기", desc: "‘거의 가능해요’ 레시피는 상세에서 부족 재료를 장보기 리스트에 담을 수 있어요." },
+            { icon: "📊", title: "하루 순탄수 관리", desc: "먹은 레시피를 ‘오늘 먹었어요’로 기록하면 하루 순탄수(20g 이하)를 자동으로 합산해줘요." },
+          ].map((s, i) => (
+            <li key={i} className="flex gap-3">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-lg ring-1 ring-emerald-100">{s.icon}</span>
+              <div>
+                <p className="text-sm font-semibold text-stone-700">
+                  <span className="mr-1.5 text-emerald-600">{i + 1}.</span>{s.title}
+                </p>
+                <p className="mt-0.5 text-sm leading-relaxed text-stone-500">{s.desc}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+        <div className="mt-5 rounded-xl bg-emerald-50/60 px-4 py-3 text-xs leading-relaxed text-emerald-800/80">
+          <strong className="font-semibold">키토 기준</strong> · 순탄수 = 총탄수 − 식이섬유. 1인분 순탄수 8g 이하 레시피만 추천하며, 하루 총 20g 이하를 권장합니다.
+          로그인하면 즐겨찾기·기록이 다른 기기에서도 이어집니다(선택).
+        </div>
+      </section>
+
+      <footer className="mt-8 text-center text-[11px] text-stone-400">
         영양 정보는 식약처·USDA 기준 참고용입니다. 의학적 판단의 근거로 사용하지 마세요.
       </footer>
     </div>
