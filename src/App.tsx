@@ -4,9 +4,12 @@ import recipesRaw from "./data/recipes.gen.json";
 import { matchRecipes, type MatchResult } from "./lib/match";
 import type { Ingredient, Recipe } from "./lib/types";
 import { useLocalStorage } from "./store/useLocalStorage";
+import { localDateKey, makeEntry, type DayEntry } from "./lib/tracker";
 import { IngredientInput } from "./components/IngredientInput";
 import { RecipeCard } from "./components/RecipeCard";
 import { RecipeDetail } from "./components/RecipeDetail";
+import { DayTracker } from "./components/DayTracker";
+import { ShoppingList, type ShoppingItem } from "./components/ShoppingList";
 
 const INGREDIENTS = ingredientsRaw as unknown as Ingredient[];
 const RECIPES = recipesRaw as unknown as Recipe[];
@@ -19,8 +22,12 @@ export default function App() {
   const [excluded, setExcluded] = useLocalStorage<string[]>("kf.excluded", []);
   const [favorites, setFavorites] = useLocalStorage<string[]>("kf.favorites", []);
   const [assumePantry, setAssumePantry] = useLocalStorage<boolean>("kf.assumePantry", true);
+  const [dayLog, setDayLog] = useLocalStorage<DayEntry[]>("kf.daylog", []);
+  const [shopping, setShopping] = useLocalStorage<ShoppingItem[]>("kf.shopping", []);
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [selected, setSelected] = useState<MatchResult | null>(null);
+  const [showShopping, setShowShopping] = useState(false);
+  const now = new Date();
 
   const favoriteSet = useMemo(() => new Set(favorites), [favorites]);
 
@@ -44,16 +51,45 @@ export default function App() {
   const toggleFavorite = (recipeId: string) =>
     setFavorites((prev) => (prev.includes(recipeId) ? prev.filter((x) => x !== recipeId) : [...prev, recipeId]));
 
+  const eatRecipe = (r: Recipe) => setDayLog((prev) => [...prev, makeEntry(r, new Date())]);
+  const addShopping = (items: ShoppingItem[]) =>
+    setShopping((prev) => {
+      const seen = new Set(prev.map((x) => x.id));
+      return [...prev, ...items.filter((x) => !seen.has(x.id))];
+    });
+
   const card = (r: MatchResult) => (
     <RecipeCard key={r.recipe.id} result={r} isFavorite={favoriteSet.has(r.recipe.id)} onClick={() => setSelected(r)} />
   );
 
   return (
     <div className="mx-auto max-w-2xl px-4 pb-24 pt-8">
-      <header className="mb-6">
-        <h1 className="text-2xl font-extrabold tracking-tight">키토 냉장고</h1>
-        <p className="mt-1 text-sm text-stone-500">냉장고에 있는 재료로, 지금 만들 수 있는 키토 레시피</p>
+      <header className="mb-6 flex items-start justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-extrabold tracking-tight">키토 냉장고</h1>
+          <p className="mt-1 text-sm text-stone-500">냉장고에 있는 재료로, 지금 만들 수 있는 키토 레시피</p>
+        </div>
+        <button
+          type="button"
+          onClick={() => setShowShopping(true)}
+          className="relative flex shrink-0 items-center gap-1.5 rounded-full border border-stone-200 bg-white px-3 py-2 text-sm font-medium text-stone-600 hover:bg-stone-50"
+          aria-label="장보기 리스트 열기"
+        >
+          🛒 장보기
+          {shopping.length > 0 && (
+            <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-500 px-1 text-[11px] font-bold text-white">
+              {shopping.length}
+            </span>
+          )}
+        </button>
       </header>
+
+      <DayTracker
+        log={dayLog}
+        now={now}
+        onRemove={(at) => setDayLog((prev) => prev.filter((e) => e.at !== at))}
+        onClear={() => setDayLog((prev) => prev.filter((e) => e.date !== localDateKey(now)))}
+      />
 
       <section className="mb-4">
         <IngredientInput
@@ -145,7 +181,18 @@ export default function App() {
           effectiveOwned={effectiveOwned}
           isFavorite={favoriteSet.has(selected.recipe.id)}
           onToggleFavorite={() => toggleFavorite(selected.recipe.id)}
+          onEat={() => eatRecipe(selected.recipe)}
+          onAddShopping={addShopping}
           onClose={() => setSelected(null)}
+        />
+      )}
+
+      {showShopping && (
+        <ShoppingList
+          items={shopping}
+          onRemove={(id) => setShopping((prev) => prev.filter((x) => x.id !== id))}
+          onClear={() => setShopping([])}
+          onClose={() => setShowShopping(false)}
         />
       )}
 

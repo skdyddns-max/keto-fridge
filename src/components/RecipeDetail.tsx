@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import type { MatchResult } from "../lib/match";
 import { MacroPie } from "./MacroPie";
 
@@ -12,12 +12,18 @@ interface Props {
   effectiveOwned: Set<string>;
   isFavorite: boolean;
   onToggleFavorite: () => void;
+  onEat: () => void;
+  onAddShopping: (items: { id: string; name: string }[]) => void;
   onClose: () => void;
 }
 
 /** 레시피 상세 모달 — 재료(보유 표시)·조리 순서·매크로 파이 */
-export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onClose }: Props) {
+export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onEat, onAddShopping, onClose }: Props) {
   const { recipe } = result;
+  const missing = recipe.ingredients.filter((ri) => !effectiveOwned.has(ri.id));
+
+  const [ate, setAte] = useState(false);
+  const [shopped, setShopped] = useState(false);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -79,6 +85,27 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
             {Math.round(recipe.computed.kcal)} kcal
             <div className="text-xs text-stone-400">1인분 기준</div>
           </div>
+        </div>
+
+        <div className="mt-3 flex gap-2">
+          <button
+            type="button"
+            onClick={() => { onEat(); setAte(true); }}
+            disabled={ate}
+            className={`flex-1 rounded-xl py-2.5 text-sm font-semibold transition ${ate ? "bg-emerald-100 text-emerald-600" : "bg-emerald-600 text-white hover:bg-emerald-700"}`}
+          >
+            {ate ? "오늘 기록에 담았어요 ✓" : "오늘 먹었어요"}
+          </button>
+          {missing.length > 0 && (
+            <button
+              type="button"
+              onClick={() => { onAddShopping(missing.map((m) => ({ id: m.id, name: m.name }))); setShopped(true); }}
+              disabled={shopped}
+              className={`flex-1 rounded-xl py-2.5 text-sm font-semibold transition ${shopped ? "bg-amber-100 text-amber-600" : "border border-amber-400 bg-white text-amber-700 hover:bg-amber-50"}`}
+            >
+              {shopped ? "장보기에 담았어요 ✓" : `부족 재료 담기 (${missing.length})`}
+            </button>
+          )}
         </div>
 
         <section className="mt-5">
