@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import ingredientsRaw from "./data/ingredients.gen.json";
 import recipesRaw from "./data/recipes.gen.json";
-import { matchRecipes, type MatchResult } from "./lib/match";
+import { diversify, matchRecipes, type MatchResult } from "./lib/match";
+import { CATEGORY_ORDER, categoryMeta } from "./lib/categories";
 import type { Ingredient, Recipe } from "./lib/types";
+import { getPhotos } from "./lib/photos";
 import { useLocalStorage } from "./store/useLocalStorage";
 import { localDateKey, makeEntry, type DayEntry } from "./lib/tracker";
 import { recipeIdsWithPhotos } from "./lib/photos";
@@ -25,6 +27,21 @@ const INGREDIENT_BY_ID = new Map(INGREDIENTS.map((i) => [i.id, i]));
 const POPULAR_IDS = ["pork_belly", "egg", "cabbage", "chicken_thigh", "tofu", "shrimp", "butter", "cheese_cheddar", "zucchini", "avocado"];
 
 const EXPLORE_LIMIT = 20;
+const BROWSE_LIMIT = 40;
+
+/** 레시피를 카드 표시용 결과로 감싼다 (추천·카테고리 탐색용) */
+const asResult = (recipe: Recipe): MatchResult => ({ recipe, status: "explore", missing: [], coverage: 0 });
+
+/** 첫 화면 추천 — 카테고리별로 가장 간단한(주재료 적고 순탄수 낮은) 레시피 1개씩 */
+const nonPantryCount = (r: Recipe) => r.ingredients.filter((i) => !PANTRY_IDS.has(i.id)).length;
+const RECOMMENDED: Recipe[] = CATEGORY_ORDER.map(
+  (c) =>
+    RECIPES.filter((r) => r.keto && r.category === c).sort(
+      (a, b) => nonPantryCount(a) - nonPantryCount(b) || a.computed.netCarbG - b.computed.netCarbG,
+    )[0],
+)
+  .filter(Boolean)
+  .slice(0, 6);
 
 export default function App() {
   const [owned, setOwned] = useLocalStorage<string[]>("kf.owned", []);
@@ -37,11 +54,28 @@ export default function App() {
   const [selected, setSelected] = useState<MatchResult | null>(null);
   const [showShopping, setShowShopping] = useState(false);
   const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
+  const [photoThumbs, setPhotoThumbs] = useState<Record<string, string>>({});
+  const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
   const now = new Date();
 
-  const refreshPhotoIds = () => recipeIdsWithPhotos().then(setPhotoIds).catch(() => {});
+  // 사진 있는 레시피 id + 첫 사진 썸네일(카드용) 로드. photoIds는 작으므로 부담 없음.
+  const refreshPhotoIds = async () => {
+    const ids = await recipeIdsWithPhotos().catch(() => new Set<string>());
+    setPhotoIds(ids);
+    setPhotoThumbs((prev) => {
+      Object.values(prev).forEach((u) => URL.revokeObjectURL(u));
+      return {};
+    });
+    const thumbs: Record<string, string> = {};
+    for (const id of ids) {
+      const ps = await getPhotos(id).catch(() => []);
+      if (ps[0]) thumbs[id] = URL.createObjectURL(ps[0].blob);
+    }
+    setPhotoThumbs(thumbs);
+  };
   useEffect(() => {
     refreshPhotoIds();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const favoriteSet = useMemo(() => new Set(favorites), [favorites]);
@@ -50,12 +84,23 @@ export default function App() {
     () => matchRecipes(RECIPES, new Set(owned), new Set(excluded), { assumePantry, pantryIds: PANTRY_IDS }),
     [owned, excluded, assumePantry],
   );
-  const visible = favoritesOnly ? results.filter((r) => favoriteSet.has(r.recipe.id)) : results;
+  const catOk = (r: MatchResult) => !categoryFilter || r.recipe.category === categoryFilter;
+  const base = favoritesOnly ? results.filter((r) => favoriteSet.has(r.recipe.id)) : results;
+  const visible = base.filter(catOk);
 
   const cookNow = visible.filter((r) => r.status === "cookNow");
   const almost = visible.filter((r) => r.status === "almost");
   const explore = visible.filter((r) => r.status === "explore").slice(0, EXPLORE_LIMIT);
   const hasInput = owned.length > 0;
+
+  // 재료 입력 전 카테고리만 선택한 경우: 그 카테고리 레시피 둘러보기
+  const browse = useMemo(
+    () =>
+      !hasInput && !favoritesOnly && categoryFilter
+        ? diversify(RECIPES.filter((r) => r.keto && r.category === categoryFilter), (r) => r.name).slice(0, BROWSE_LIMIT).map(asResult)
+        : [],
+    [hasInput, favoritesOnly, categoryFilter],
+  );
 
   const effectiveOwned = useMemo(() => {
     const s = new Set(owned);
@@ -84,7 +129,40 @@ export default function App() {
   const sync = useSync({ local, applyRemote });
 
   const card = (r: MatchResult) => (
-    <RecipeCard key={r.recipe.id} result={r} isFavorite={favoriteSet.has(r.recipe.id)} hasPhoto={photoIds.has(r.recipe.id)} onClick={() => setSelected(r)} />
+    <RecipeCard
+      key={r.recipe.id}
+      result={r}
+      isFavorite={favoriteSet.has(r.recipe.id)}
+      hasPhoto={photoIds.has(r.recipe.id)}
+      thumbUrl={photoThumbs[r.recipe.id]}
+      onClick={() => setSelected(r)}
+    />
+  );
+  const grid = (rs: MatchResult[]) => <div className="grid gap-3 sm:grid-cols-2">{rs.map(card)}</div>;
+
+  const categoryTiles = (
+    <div className="mb-6">
+      <p className="mb-2 text-sm font-bold text-stone-700">🍽️ 카테고리로 둘러보기</p>
+      <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
+        {CATEGORY_ORDER.map((c) => {
+          const m = categoryMeta(c);
+          const active = categoryFilter === c;
+          return (
+            <button
+              key={c}
+              type="button"
+              onClick={() => setCategoryFilter(active ? null : c)}
+              className={`flex flex-col items-center gap-1 rounded-2xl border py-3 transition ${
+                active ? "border-emerald-400 bg-emerald-50 ring-1 ring-emerald-200" : "border-stone-200 bg-white hover:border-emerald-300 hover:bg-emerald-50/40"
+              }`}
+            >
+              <span className={`flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br text-lg ${m.tile}`}>{m.emoji}</span>
+              <span className="text-[11px] font-medium text-stone-600">{m.label}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 
   return (
@@ -206,16 +284,45 @@ export default function App() {
         </div>
       </details>
 
-      {!hasInput && !favoritesOnly ? (
-        <div className="rounded-3xl border border-dashed border-emerald-200 bg-white/70 p-10 text-center">
-          <div className="text-5xl">🧊</div>
-          <p className="mt-4 font-semibold text-stone-700">재료를 입력하면 레시피를 찾아드려요</p>
-          <p className="mt-1.5 text-sm text-stone-500">
-            키토 적합 레시피 <span className="font-bold text-emerald-600">{RECIPES.filter((r) => r.keto).length}</span>개 준비되어 있어요
-          </p>
+      {categoryTiles}
+
+      {!hasInput && !favoritesOnly && !categoryFilter ? (
+        <div className="space-y-6">
+          <section>
+            <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-emerald-700">
+              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-sm">✨</span>
+              오늘의 초간단 추천
+            </h2>
+            {grid(RECOMMENDED.map(asResult))}
+          </section>
+          <div className="rounded-2xl border border-dashed border-emerald-200 bg-white/70 p-6 text-center">
+            <span className="text-2xl">🧊</span>
+            <p className="mt-2 text-sm text-stone-500">
+              냉장고 재료를 입력하면 <span className="font-bold text-emerald-600">{RECIPES.filter((r) => r.keto).length}</span>개 중 딱 맞는 레시피를 찾아드려요
+            </p>
+          </div>
         </div>
+      ) : browse.length > 0 ? (
+        <section>
+          <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-stone-700">
+            <span>{categoryMeta(categoryFilter!).emoji}</span>
+            {categoryMeta(categoryFilter!).label} 레시피
+            <button type="button" onClick={() => setCategoryFilter(null)} className="ml-1 text-xs font-medium text-stone-400 underline hover:text-stone-600">
+              전체 보기
+            </button>
+          </h2>
+          {grid(browse)}
+          {browse.length >= BROWSE_LIMIT && (
+            <p className="mt-4 text-center text-xs text-stone-400">냉장고 재료를 입력하면 이 중 만들 수 있는 걸 골라드려요</p>
+          )}
+        </section>
       ) : (
         <div className="space-y-8">
+          {categoryFilter && (
+            <button type="button" onClick={() => setCategoryFilter(null)} className="rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-700 ring-1 ring-emerald-200">
+              {categoryMeta(categoryFilter).emoji} {categoryMeta(categoryFilter).label}만 보는 중 · 필터 해제 ✕
+            </button>
+          )}
           <section>
             <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-emerald-700">
               <span className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-sm">🔥</span>
@@ -225,7 +332,7 @@ export default function App() {
             {cookNow.length === 0 ? (
               <p className="rounded-xl bg-white/60 px-4 py-3 text-sm text-stone-500">아직 없어요. 재료를 더 추가해보세요.</p>
             ) : (
-              <div className="space-y-3">{cookNow.map(card)}</div>
+              grid(cookNow)
             )}
           </section>
 
@@ -236,7 +343,7 @@ export default function App() {
                 거의 가능해요
                 <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-600">{almost.length}</span>
               </h2>
-              <div className="space-y-3">{almost.map(card)}</div>
+              {grid(almost)}
             </section>
           )}
 
@@ -245,7 +352,7 @@ export default function App() {
               <summary className="cursor-pointer rounded-xl bg-white/60 px-4 py-2.5 text-sm font-medium text-stone-500 transition hover:bg-white">
                 🔍 더 탐색하기 ({explore.length})
               </summary>
-              <div className="mt-3 space-y-3">{explore.map(card)}</div>
+              <div className="mt-3">{grid(explore)}</div>
             </details>
           )}
         </div>
