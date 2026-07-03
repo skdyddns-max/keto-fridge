@@ -37,6 +37,9 @@ export function matchRecipes(
   for (const recipe of recipes) {
     if (!recipe.keto) continue;
     if (recipe.ingredients.some((ri) => excluded.has(ri.id))) continue;
+    // 관련성: 사용자가 실제로 가진 재료를 하나도 안 쓰는 레시피는 제외
+    // (pantry 자동보유는 관련성으로 치지 않는다 — 양념만 겹치는 무관한 레시피 방지)
+    if (!recipe.ingredients.some((ri) => owned.has(ri.id))) continue;
 
     const required = recipe.ingredients.map((ri) => ri.id);
     const has = (id: string) => owned.has(id) || (opts.assumePantry && opts.pantryIds.has(id));

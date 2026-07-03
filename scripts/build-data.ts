@@ -70,6 +70,7 @@ function main() {
   const recipeIdSeen = new Set<string>();
   const nameSig = new Map<string, string>(); // normalized name -> recipe id
   const comboSig = new Map<string, string>(); // ingredient-set -> recipe id
+  const comboDupes: string[] = []; // 같은 재료조합(조리법만 다름) — 경고용
   const categoryCount = new Map<string, number>();
   const overLimit: { id: string; name: string; netCarbG: number }[] = [];
   let ketoTrue = 0;
@@ -121,8 +122,9 @@ function main() {
     const nkey = r.name.replace(/\s+/g, "").toLowerCase();
     if (nameSig.has(nkey)) errors.push(`중복 이름: ${r.id} == ${nameSig.get(nkey)} ("${r.name}")`);
     else nameSig.set(nkey, r.id);
+    // 재료조합 중복은 경고만 — 같은 재료라도 조리법이 다르면 다른 요리(예: 계란 오믈렛 vs 수란)
     const ckey = r.ingredients.map((x) => x.id).sort().join("+");
-    if (comboSig.has(ckey)) errors.push(`중복 재료조합: ${r.id} ~ ${comboSig.get(ckey)} (${ckey})`);
+    if (comboSig.has(ckey)) comboDupes.push(`${r.id} "${r.name}" ~ ${comboSig.get(ckey)}`);
     else comboSig.set(ckey, r.id);
 
     // 5) 카테고리 분포
@@ -150,6 +152,7 @@ function main() {
 
   const avoidCount = recipes.filter((r) => r.hasAvoidIngredient).length;
   if (avoidCount) console.log(`\n  ${YEL(`⚠ avoid 재료 포함 레시피: ${avoidCount}개 (UI 경고 배지 대상)`)}`);
+  if (comboDupes.length) console.log(`\n  ${DIM(`ℹ 동일 재료조합(조리법만 다름): ${comboDupes.length}개 — 정상 허용`)}`);
 
   if (errors.length) {
     console.log(`\n${RED(`[에러 ${errors.length}건] — 빌드 실패, 산출물 미생성`)}`);

@@ -40766,5 +40766,6722 @@
     },
     "hasAvoidIngredient": false,
     "keto": true
+  },
+  {
+    "id": "r0811",
+    "name": "기본 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 곱게 푼다.",
+      "기름 두른 팬에 부어 약불에서 돌돌 말아준다.",
+      "한 김 식힌 뒤 먹기 좋게 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이"
+    ],
+    "computed": {
+      "kcal": 143,
+      "netCarbG": 1,
+      "fatG": 10,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0812",
+    "name": "체다 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_cheddar",
+        "name": "체다치즈",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "팬에 얇게 부어 체다치즈를 올리고 돌돌 만다.",
+      "썰어서 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 203.5,
+      "netCarbG": 1.2,
+      "fatG": 15,
+      "proteinG": 16.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0813",
+    "name": "참기름 계란찜",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "계란 2개에 물 약간과 소금을 넣고 푼다.",
+      "그릇에 담아 약불에서 뚜껑 덮고 5분 찐다.",
+      "참기름을 둘러 마무리한다."
+    ],
+    "tags": [
+      "초간단",
+      "계란찜"
+    ],
+    "computed": {
+      "kcal": 187.2,
+      "netCarbG": 1,
+      "fatG": 15,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0814",
+    "name": "버터 스크램블 에그",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "약불에 버터를 녹인 뒤 계란을 부어 천천히 저어 촉촉하게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 214.7,
+      "netCarbG": 1,
+      "fatG": 18.1,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0815",
+    "name": "반숙 후라이 간장",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "기름 두른 팬에 계란을 깨 넣어 노른자가 반숙이 되게 굽는다.",
+      "접시에 담고 간장을 살짝 둘러 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 146,
+      "netCarbG": 1.3,
+      "fatG": 10,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0816",
+    "name": "완숙 계란 프라이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "기름 두른 팬에 계란을 깨 넣는다.",
+      "소금 후추 뿌리고 노른자까지 완전히 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 143,
+      "netCarbG": 1,
+      "fatG": 10,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0817",
+    "name": "기본 수란",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "끓는 물에 식초 약간 넣고 소용돌이를 만든다.",
+      "계란 1개를 넣어 3분간 익힌 뒤 건져 소금을 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "수란"
+    ],
+    "computed": {
+      "kcal": 71.5,
+      "netCarbG": 0.5,
+      "fatG": 5,
+      "proteinG": 6.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0818",
+    "name": "기본 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 곱게 푼다.",
+      "버터 녹인 팬에 부어 반쯤 익으면 반으로 접는다."
+    ],
+    "tags": [
+      "초간단",
+      "오믈렛"
+    ],
+    "computed": {
+      "kcal": 200.4,
+      "netCarbG": 1,
+      "fatG": 16.5,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0819",
+    "name": "마요 계란 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "계란 2개에 마요네즈를 넣고 푼다.",
+      "약불 팬에서 부드럽게 저어 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 211,
+      "netCarbG": 1.1,
+      "fatG": 17.5,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0820",
+    "name": "생크림 계란찜",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "heavy_cream",
+        "name": "생크림",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란 2개에 생크림과 소금을 넣고 곱게 푼다.",
+      "그릇에 담아 약불에서 뚜껑 덮고 5분 부드럽게 찐다."
+    ],
+    "tags": [
+      "초간단",
+      "계란찜"
+    ],
+    "computed": {
+      "kcal": 211,
+      "netCarbG": 1.6,
+      "fatG": 17.2,
+      "proteinG": 13.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0821",
+    "name": "부추 계란찜",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "chives",
+        "name": "부추",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "부추를 잘게 썰어 푼 계란에 섞는다.",
+      "물 약간과 소금 넣고 그릇에 담아 약불로 5분 찐다."
+    ],
+    "tags": [
+      "초간단",
+      "계란찜"
+    ],
+    "computed": {
+      "kcal": 147.5,
+      "netCarbG": 1.3,
+      "fatG": 10.1,
+      "proteinG": 13.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0822",
+    "name": "파마산 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_parmesan",
+        "name": "파마산치즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "약불 팬에서 저으며 파마산치즈를 뿌려 부드럽게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 186.1,
+      "netCarbG": 1.4,
+      "fatG": 12.9,
+      "proteinG": 16.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0823",
+    "name": "들기름 계란 프라이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "팬에 들기름을 두르고 계란을 깨 넣는다.",
+      "소금 살짝 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 196,
+      "netCarbG": 1,
+      "fatG": 16,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0824",
+    "name": "간장버터 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "계란 2개를 푼다.",
+      "버터 녹인 팬에 부어 저으며 간장 약간 둘러 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 200.4,
+      "netCarbG": 1,
+      "fatG": 16.5,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0825",
+    "name": "김가루 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "계란 2개에 부순 김과 소금을 넣고 푼다.",
+      "팬에 얇게 부어 돌돌 말아 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이"
+    ],
+    "computed": {
+      "kcal": 148.2,
+      "netCarbG": 1.2,
+      "fatG": 10,
+      "proteinG": 14.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0826",
+    "name": "명란 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "pollock_roe",
+        "name": "명란",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "명란을 풀어 계란과 섞는다.",
+      "약불 팬에 버터 약간 넣고 저으며 촉촉하게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 161,
+      "netCarbG": 1.2,
+      "fatG": 10.5,
+      "proteinG": 16.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0827",
+    "name": "모짜렐라 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_mozzarella",
+        "name": "모짜렐라치즈",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "팬에 부어 반쯤 익으면 모짜렐라를 올리고 반으로 접는다."
+    ],
+    "tags": [
+      "초간단",
+      "오믈렛",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 199,
+      "netCarbG": 1.6,
+      "fatG": 13.4,
+      "proteinG": 18.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0828",
+    "name": "크림치즈 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_cream",
+        "name": "크림치즈",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "팬에 부어 반쯤 익으면 크림치즈를 발라 반으로 접는다."
+    ],
+    "tags": [
+      "초간단",
+      "오믈렛",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 211.4,
+      "netCarbG": 1.8,
+      "fatG": 16.8,
+      "proteinG": 14.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0829",
+    "name": "양송이 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "mushroom_button",
+        "name": "양송이버섯",
+        "grams": 25
+      }
+    ],
+    "steps": [
+      "양송이를 얇게 썰어 살짝 볶는다.",
+      "푼 계란을 부어 버섯과 함께 돌돌 말아 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이"
+    ],
+    "computed": {
+      "kcal": 148.5,
+      "netCarbG": 1.6,
+      "fatG": 10.1,
+      "proteinG": 13.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0830",
+    "name": "파프리카 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "bell_pepper",
+        "name": "파프리카",
+        "grams": 25
+      }
+    ],
+    "steps": [
+      "파프리카를 잘게 다져 푼 계란에 섞는다.",
+      "팬에 얇게 부어 돌돌 말아 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이"
+    ],
+    "computed": {
+      "kcal": 149.5,
+      "netCarbG": 2,
+      "fatG": 10.1,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0831",
+    "name": "매콤 고춧가루 계란 프라이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "gochugaru",
+        "name": "고춧가루",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "기름 두른 팬에 계란을 깨 넣는다.",
+      "소금과 고춧가루를 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 148.6,
+      "netCarbG": 1.6,
+      "fatG": 10.2,
+      "proteinG": 13.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0832",
+    "name": "사워크림 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "sour_cream",
+        "name": "사워크림",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란 2개에 사워크림과 소금을 넣고 푼다.",
+      "약불 팬에서 부드럽게 저어 촉촉하게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 183,
+      "netCarbG": 1.8,
+      "fatG": 13.8,
+      "proteinG": 13.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0833",
+    "name": "슬라이스치즈 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_slice",
+        "name": "슬라이스치즈",
+        "grams": 18
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "팬에 부어 반쯤 익으면 슬라이스치즈를 올려 반으로 접는다."
+    ],
+    "tags": [
+      "초간단",
+      "오믈렛",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 197,
+      "netCarbG": 2.1,
+      "fatG": 14,
+      "proteinG": 16.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0834",
+    "name": "다시마육수 계란찜",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "wakame",
+        "name": "미역",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "불린 미역을 잘게 썰어 푼 계란에 섞는다.",
+      "물 약간과 소금 넣고 그릇에 담아 약불로 5분 찐다."
+    ],
+    "tags": [
+      "초간단",
+      "계란찜"
+    ],
+    "computed": {
+      "kcal": 143.5,
+      "netCarbG": 1.1,
+      "fatG": 10,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0835",
+    "name": "마늘버터 계란 프라이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "팬에 버터를 녹이고 다진 마늘을 살짝 볶는다.",
+      "계란을 깨 넣고 소금 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 200.4,
+      "netCarbG": 1,
+      "fatG": 16.5,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0836",
+    "name": "청양풍 대파 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "대파를 잘게 썰어 기름에 볶는다.",
+      "푼 계란을 부어 저으며 소금 간해 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 147.8,
+      "netCarbG": 1.7,
+      "fatG": 10,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0837",
+    "name": "베이컨 계란 프라이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "bacon",
+        "name": "베이컨",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "베이컨을 팬에 바삭하게 굽는다.",
+      "그 기름에 계란을 깨 넣어 반숙으로 구워 함께 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "후라이"
+    ],
+    "computed": {
+      "kcal": 223,
+      "netCarbG": 1.2,
+      "fatG": 18,
+      "proteinG": 15.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0838",
+    "name": "허브버터 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "계란 2개에 소금과 말린 파슬리를 넣고 푼다.",
+      "버터 녹인 팬에 부어 반쯤 익으면 반으로 접는다."
+    ],
+    "tags": [
+      "초간단",
+      "오믈렛"
+    ],
+    "computed": {
+      "kcal": 200.4,
+      "netCarbG": 1,
+      "fatG": 16.5,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0839",
+    "name": "굴소스 계란볶음",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "oyster_sauce",
+        "name": "굴소스",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "계란 2개를 푼다.",
+      "기름 두른 팬에 부어 크게 저으며 굴소스를 넣어 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 145.6,
+      "netCarbG": 2,
+      "fatG": 10,
+      "proteinG": 13.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0840",
+    "name": "차이브 크림 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "heavy_cream",
+        "name": "생크림",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "계란 2개에 생크림과 소금을 넣고 푼다.",
+      "약불 팬에서 저으며 잘게 썬 부추를 넣어 촉촉하게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 194,
+      "netCarbG": 1.5,
+      "fatG": 15.4,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0841",
+    "name": "액젓 계란찜",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "fish_sauce",
+        "name": "액젓",
+        "grams": 4
+      }
+    ],
+    "steps": [
+      "계란 2개에 물 약간과 액젓을 넣고 푼다.",
+      "그릇에 담아 약불에서 뚜껑 덮고 5분 찐다."
+    ],
+    "tags": [
+      "초간단",
+      "계란찜"
+    ],
+    "computed": {
+      "kcal": 145,
+      "netCarbG": 1.1,
+      "fatG": 10,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0842",
+    "name": "머스타드 계란 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "mustard",
+        "name": "머스타드",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "계란 2개에 머스타드와 소금을 넣고 푼다.",
+      "버터 두른 약불 팬에서 부드럽게 저어 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "스크램블"
+    ],
+    "computed": {
+      "kcal": 146.3,
+      "netCarbG": 1.1,
+      "fatG": 10.2,
+      "proteinG": 13.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0843",
+    "name": "스트링치즈 계란말이",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cheese_string",
+        "name": "스트링치즈",
+        "grams": 18
+      }
+    ],
+    "steps": [
+      "계란 2개를 소금 약간 넣고 푼다.",
+      "팬에 얇게 부어 스트링치즈를 올리고 돌돌 말아 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "계란말이",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 200.6,
+      "netCarbG": 1.4,
+      "fatG": 14.3,
+      "proteinG": 17.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0844",
+    "name": "간장 반숙 수란",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "끓는 물에 식초 약간 넣고 소용돌이를 만들어 계란을 넣는다.",
+      "3분간 반숙으로 익혀 건진 뒤 간장을 살짝 둘러 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "수란"
+    ],
+    "computed": {
+      "kcal": 74.5,
+      "netCarbG": 0.8,
+      "fatG": 5,
+      "proteinG": 6.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0845",
+    "name": "시금치 버터볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "spinach",
+        "name": "시금치",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "팬에 버터를 녹인다.",
+      "시금치를 넣고 소금 약간과 함께 숨이 죽을 때까지 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 94.7,
+      "netCarbG": 1.4,
+      "fatG": 8.5,
+      "proteinG": 3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0846",
+    "name": "애호박 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "name": "애호박",
+        "grams": 120
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "애호박을 도톰하게 썬다.",
+      "올리브오일 두른 팬에 소금 뿌려 양면을 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 91.1,
+      "netCarbG": 2.5,
+      "fatG": 8.4,
+      "proteinG": 1.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0847",
+    "name": "브로콜리 데침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "broccoli",
+        "name": "브로콜리",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "끓는 소금물에 브로콜리를 1분 데친다.",
+      "찬물에 헹궈 물기를 뺀다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 34,
+      "netCarbG": 4.4,
+      "fatG": 0.4,
+      "proteinG": 2.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0848",
+    "name": "콜리플라워 소금 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "콜리플라워를 한입 크기로 자른다.",
+      "버터 녹인 팬에 소금 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 101.7,
+      "netCarbG": 3.6,
+      "fatG": 8.5,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0849",
+    "name": "아스파라거스 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "asparagus",
+        "name": "아스파라거스",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "아스파라거스 밑동을 다듬는다.",
+      "올리브오일 두른 팬에 소금 뿌려 굴려가며 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 90.7,
+      "netCarbG": 1.8,
+      "fatG": 8.1,
+      "proteinG": 2.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0850",
+    "name": "양송이 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mushroom_button",
+        "name": "양송이버섯",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "양송이를 반으로 자른다.",
+      "버터 녹인 팬에 소금 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 93.7,
+      "netCarbG": 2.3,
+      "fatG": 8.4,
+      "proteinG": 3.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0851",
+    "name": "표고버섯 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mushroom_shiitake",
+        "name": "표고버섯",
+        "grams": 80
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "표고버섯을 도톰하게 저민다.",
+      "버터 녹인 팬에 소금 뿌려 향이 날 때까지 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 98.9,
+      "netCarbG": 3.6,
+      "fatG": 8.5,
+      "proteinG": 1.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0852",
+    "name": "느타리버섯 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mushroom_oyster",
+        "name": "느타리버섯",
+        "grams": 90
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "느타리버섯을 결대로 찢는다.",
+      "버터 녹인 팬에 소금 뿌려 노릇하게 볶듯 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 101.4,
+      "netCarbG": 3.3,
+      "fatG": 8.5,
+      "proteinG": 3.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0853",
+    "name": "새송이 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mushroom_king",
+        "name": "새송이버섯",
+        "grams": 90
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "새송이를 도톰하게 저민다.",
+      "올리브오일 두른 팬에 소금 뿌려 양면을 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 102.2,
+      "netCarbG": 3.6,
+      "fatG": 8.3,
+      "proteinG": 2.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0854",
+    "name": "새콤 오이 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 120
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "오이를 얇게 썬다.",
+      "소금·식초 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 62.2,
+      "netCarbG": 3.7,
+      "fatG": 5.1,
+      "proteinG": 0.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0855",
+    "name": "부추 참기름겉절이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chives",
+        "name": "부추",
+        "grams": 80
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "부추를 먹기 좋게 썬다.",
+      "소금 약간과 참기름을 넣고 살살 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 68.2,
+      "netCarbG": 1.6,
+      "fatG": 5.3,
+      "proteinG": 2.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0856",
+    "name": "청경채 굴소스볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bok_choy",
+        "name": "청경채",
+        "grams": 100
+      },
+      {
+        "id": "oyster_sauce",
+        "name": "굴소스",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "청경채를 반으로 가른다.",
+      "기름 두른 팬에 볶다가 굴소스 소량을 넣고 마저 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 15.6,
+      "netCarbG": 2.2,
+      "fatG": 0.2,
+      "proteinG": 1.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0857",
+    "name": "가지 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "eggplant",
+        "name": "가지",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "가지를 도톰하게 썬다.",
+      "올리브오일 두른 팬에 소금 뿌려 양면을 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 95.7,
+      "netCarbG": 3,
+      "fatG": 8.2,
+      "proteinG": 1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0858",
+    "name": "미나리 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "water_dropwort",
+        "name": "미나리",
+        "grams": 80
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "미나리를 살짝 데쳐 물기를 뺀다.",
+      "소금 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 56.2,
+      "netCarbG": 1.2,
+      "fatG": 5.2,
+      "proteinG": 1.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0859",
+    "name": "양배추 버터볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cabbage",
+        "name": "양배추",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "양배추를 채 썬다.",
+      "버터 녹인 팬에 소금 뿌려 숨이 죽을 때까지 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 96.7,
+      "netCarbG": 3.5,
+      "fatG": 8.2,
+      "proteinG": 1.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0860",
+    "name": "배추 들기름볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "napa_cabbage",
+        "name": "배추",
+        "grams": 100
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "배추를 먹기 좋게 썬다.",
+      "들기름 두른 팬에 소금 뿌려 부드럽게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 69,
+      "netCarbG": 1.8,
+      "fatG": 6.1,
+      "proteinG": 1.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0861",
+    "name": "상추 겉절이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "lettuce",
+        "name": "상추",
+        "grams": 60
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "상추를 손으로 큼직하게 뜯는다.",
+      "소금·참깨·참기름을 넣고 살살 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 53.2,
+      "netCarbG": 1,
+      "fatG": 5.1,
+      "proteinG": 0.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0862",
+    "name": "콩나물 소금무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bean_sprout",
+        "name": "콩나물",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콩나물을 끓는 소금물에 3분 데친다.",
+      "소금 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 75.2,
+      "netCarbG": 2.5,
+      "fatG": 5.5,
+      "proteinG": 5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0863",
+    "name": "숙주 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mung_sprout",
+        "name": "숙주",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "숙주를 끓는 물에 살짝 데친다.",
+      "소금 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 74.2,
+      "netCarbG": 2.2,
+      "fatG": 5.2,
+      "proteinG": 3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0864",
+    "name": "케일 버터볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "kale",
+        "name": "케일",
+        "grams": 80
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "케일을 먹기 좋게 썬다.",
+      "버터 녹인 팬에 소금 뿌려 숨이 죽을 때까지 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 99.7,
+      "netCarbG": 0.3,
+      "fatG": 8.5,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0865",
+    "name": "셀러리 소금볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "celery",
+        "name": "셀러리",
+        "grams": 90
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "셀러리를 어슷하게 썬다.",
+      "올리브오일 두른 팬에 소금 뿌려 아삭하게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 85.1,
+      "netCarbG": 1.3,
+      "fatG": 8.2,
+      "proteinG": 0.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0866",
+    "name": "파프리카 올리브볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bell_pepper",
+        "name": "파프리카",
+        "grams": 90
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "파프리카를 채 썬다.",
+      "올리브오일 두른 팬에 소금 뿌려 아삭하게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 94.1,
+      "netCarbG": 3.6,
+      "fatG": 8.3,
+      "proteinG": 0.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0867",
+    "name": "팽이버섯 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mushroom_enoki",
+        "name": "팽이버섯",
+        "grams": 80
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "팽이버섯을 결대로 가른다.",
+      "버터 녹인 팬에 소금 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 101.3,
+      "netCarbG": 4,
+      "fatG": 8.3,
+      "proteinG": 2.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0868",
+    "name": "무 들기름볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "radish",
+        "name": "무",
+        "grams": 120
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "무를 채 썬다.",
+      "들기름 두른 팬에 소금 뿌려 투명해질 때까지 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 74.6,
+      "netCarbG": 2.9,
+      "fatG": 6.1,
+      "proteinG": 0.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0869",
+    "name": "대파 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 70
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "대파를 5cm 길이로 썬다.",
+      "버터 녹인 팬에 소금 뿌려 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 94.1,
+      "netCarbG": 3.1,
+      "fatG": 8.2,
+      "proteinG": 1.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0870",
+    "name": "깻잎 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "perilla_leaf",
+        "name": "깻잎",
+        "grams": 40
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "깻잎을 채 썬다.",
+      "소금 약간과 참기름을 넣고 살살 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 60.2,
+      "netCarbG": 0.8,
+      "fatG": 5.3,
+      "proteinG": 1.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0871",
+    "name": "아보카도 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "아보카도를 반 갈라 도톰하게 썬다.",
+      "올리브오일 두른 팬에 소금 뿌려 겉만 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 204.2,
+      "netCarbG": 2,
+      "fatG": 20,
+      "proteinG": 2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0872",
+    "name": "콜리플라워 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 데쳐 물기를 뺀다.",
+      "소금 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 69.2,
+      "netCarbG": 3,
+      "fatG": 5.3,
+      "proteinG": 1.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0873",
+    "name": "브로콜리 올리브볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "broccoli",
+        "name": "브로콜리",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "브로콜리를 한입 크기로 자른다.",
+      "올리브오일 두른 팬에 소금 뿌려 노릇하게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 104.7,
+      "netCarbG": 4.4,
+      "fatG": 8.4,
+      "proteinG": 2.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0874",
+    "name": "청경채 참기름 데침무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bok_choy",
+        "name": "청경채",
+        "grams": 90
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "청경채를 살짝 데쳐 물기를 뺀다.",
+      "소금 약간과 참기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 55.9,
+      "netCarbG": 1.1,
+      "fatG": 5.2,
+      "proteinG": 1.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0875",
+    "name": "가지 들기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "eggplant",
+        "name": "가지",
+        "grams": 100
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "가지를 쪄서 결대로 찢는다.",
+      "소금 약간과 들기름을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 78,
+      "netCarbG": 3,
+      "fatG": 6.2,
+      "proteinG": 1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0876",
+    "name": "애호박 들기름볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "zucchini",
+        "name": "애호박",
+        "grams": 120
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "애호박을 반달 모양으로 썬다.",
+      "들기름 두른 팬에 소금 뿌려 부드럽게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 73.4,
+      "netCarbG": 2.5,
+      "fatG": 6.4,
+      "proteinG": 1.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0877",
+    "name": "시금치 참기름나물",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "spinach",
+        "name": "시금치",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "시금치를 끓는 소금물에 30초 데친다.",
+      "찬물에 헹궈 물기를 짜고 소금·참기름에 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "채소"
+    ],
+    "computed": {
+      "kcal": 67.2,
+      "netCarbG": 1.4,
+      "fatG": 5.4,
+      "proteinG": 2.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0878",
+    "name": "두부 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "두부를 도톰하게 썰어 키친타월로 물기를 뺀다.",
+      "달군 팬에 올리브오일을 두르고 소금을 뿌린 두부를 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 189.2,
+      "netCarbG": 1.7,
+      "fatG": 15.2,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0879",
+    "name": "두부 참기름 팬구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "두부를 두툼하게 썰어 물기를 제거한다.",
+      "팬에 참기름을 두르고 소금 간을 한 두부를 노릇하게 지진다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 189.2,
+      "netCarbG": 1.7,
+      "fatG": 15.2,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0880",
+    "name": "두부 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "두부를 큼직하게 썰어 물기를 뺀다.",
+      "달군 팬에 버터를 녹이고 두부를 넣어 앞뒤로 노릇하게 굽는다.",
+      "소금, 후추로 간한다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 190.2,
+      "netCarbG": 1.7,
+      "fatG": 15.3,
+      "proteinG": 12.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0881",
+    "name": "두부 간장조림",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 12
+      }
+    ],
+    "steps": [
+      "두부를 도톰하게 썰어 팬에 노릇하게 굽는다.",
+      "간장과 물 약간을 넣고 국물이 자작해질 때까지 조린다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 125.7,
+      "netCarbG": 2.3,
+      "fatG": 7.2,
+      "proteinG": 12.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0882",
+    "name": "데친 두부 양념장",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "두부를 끓는 물에 살짝 데쳐 물기를 뺀 뒤 도톰하게 썬다.",
+      "간장에 참기름과 참깨를 섞은 양념장을 두부 위에 올린다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 124.5,
+      "netCarbG": 2.2,
+      "fatG": 7.2,
+      "proteinG": 12.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0883",
+    "name": "두부 김가루무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "두부를 데쳐 물기를 짜고 으깬다.",
+      "구운 김을 잘게 부숴 넣고 참기름, 소금과 함께 조물조물 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 123.7,
+      "netCarbG": 1.9,
+      "fatG": 7.2,
+      "proteinG": 13.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0884",
+    "name": "두부 들기름 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "두부를 도톰하게 썰어 물기를 뺀다.",
+      "팬에 들기름을 두르고 소금을 뿌린 두부를 앞뒤로 고소하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 189.2,
+      "netCarbG": 1.7,
+      "fatG": 15.2,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0885",
+    "name": "두부 마요구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 12
+      }
+    ],
+    "steps": [
+      "두부를 도톰하게 썰어 물기를 뺀다.",
+      "두부 겉면에 마요네즈를 얇게 바른다.",
+      "팬에 올려 앞뒤로 노릇하게 구운 뒤 소금, 후추로 간한다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 200.1,
+      "netCarbG": 1.8,
+      "fatG": 16.2,
+      "proteinG": 12.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0886",
+    "name": "으깬 두부 참깨무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "sesame",
+        "name": "참깨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "두부를 데쳐 물기를 꼭 짜고 곱게 으깬다.",
+      "참깨와 참기름, 소금을 넣고 고루 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 147.2,
+      "netCarbG": 2.2,
+      "fatG": 9.7,
+      "proteinG": 12.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0887",
+    "name": "두부 대파 간장볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "두부는 깍둑 썰고 대파는 송송 썬다.",
+      "팬에 기름을 두르고 두부를 노릇하게 볶는다.",
+      "대파와 간장을 넣고 향이 나게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 123.3,
+      "netCarbG": 2.3,
+      "fatG": 7.2,
+      "proteinG": 12.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0888",
+    "name": "두부 부침 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "avocado_oil",
+        "name": "아보카도오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "두부를 얇게 부침용으로 썰어 물기를 뺀다.",
+      "팬에 아보카도오일을 두르고 소금 간한 두부를 바삭하게 부친다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 189.2,
+      "netCarbG": 1.7,
+      "fatG": 15.2,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0889",
+    "name": "순두부 계란찜",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 150
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "순두부를 그릇에 담아 살살 으깬다.",
+      "계란을 풀어 순두부와 섞고 소금으로 간한다.",
+      "약불이나 찜기에서 몽글하게 익힌다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 142,
+      "netCarbG": 2.8,
+      "fatG": 9.1,
+      "proteinG": 14
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0890",
+    "name": "순두부 참기름 소금간",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "순두부를 그릇에 따뜻하게 담는다.",
+      "참기름을 두르고 소금을 살짝 뿌려 그대로 떠먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 137.6,
+      "netCarbG": 2.7,
+      "fatG": 10.9,
+      "proteinG": 9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0891",
+    "name": "순두부 들기름 간장",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "순두부를 그릇에 담는다.",
+      "들기름과 간장을 조금 둘러 그대로 떠먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 137.6,
+      "netCarbG": 2.7,
+      "fatG": 10.9,
+      "proteinG": 9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0892",
+    "name": "순두부 김가루 참기름",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "순두부를 따뜻한 그릇에 담는다.",
+      "구운 김을 부숴 올리고 참기름과 소금을 뿌려 먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 89.8,
+      "netCarbG": 2.9,
+      "fatG": 4.9,
+      "proteinG": 10.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0893",
+    "name": "순두부 버터 소금간",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "순두부를 데워 그릇에 담는다.",
+      "버터 한 조각을 올려 녹이고 소금, 후추로 간한다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 142,
+      "netCarbG": 2.7,
+      "fatG": 11.3,
+      "proteinG": 9.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0894",
+    "name": "순두부 참깨 들깨무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "perilla_seed",
+        "name": "들깨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "순두부를 그릇에 담아 살짝 으깬다.",
+      "들깨가루와 소금, 참기름을 넣고 부드럽게 섞는다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 110,
+      "netCarbG": 3.7,
+      "fatG": 6.7,
+      "proteinG": 9.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0895",
+    "name": "유부 소금구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "유부를 반으로 갈라 펼친다.",
+      "마른 팬이나 참기름 두른 팬에 소금을 뿌려 바삭하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 173,
+      "netCarbG": 2.4,
+      "fatG": 13.8,
+      "proteinG": 9.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0896",
+    "name": "유부 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "유부를 끓는 물에 살짝 데쳐 기름기를 빼고 채 썬다.",
+      "참기름, 소금, 참깨를 넣고 조물조물 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 173,
+      "netCarbG": 2.4,
+      "fatG": 13.8,
+      "proteinG": 9.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0897",
+    "name": "유부 버터구이",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "유부를 먹기 좋게 썬다.",
+      "팬에 버터를 녹이고 유부를 노릇하고 바삭하게 굽는다.",
+      "소금, 후추로 간한다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 177.4,
+      "netCarbG": 2.4,
+      "fatG": 14.3,
+      "proteinG": 9.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0898",
+    "name": "유부 대파 간장볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "유부는 채 썰고 대파는 송송 썬다.",
+      "팬에 기름을 두르고 대파를 볶아 향을 낸다.",
+      "유부와 간장을 넣고 재빨리 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 124.8,
+      "netCarbG": 3.1,
+      "fatG": 7.8,
+      "proteinG": 9.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0899",
+    "name": "유부 참깨무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "sesame",
+        "name": "참깨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "유부를 데쳐 기름기를 빼고 가늘게 채 썬다.",
+      "참깨, 참기름, 소금을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 148.7,
+      "netCarbG": 3,
+      "fatG": 10.3,
+      "proteinG": 10.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0900",
+    "name": "유부 김가루무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "fried_tofu",
+        "name": "유부",
+        "grams": 60
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "유부를 데쳐 기름기를 빼고 채 썬다.",
+      "부순 김과 참기름, 소금을 넣고 조물조물 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "유부"
+    ],
+    "computed": {
+      "kcal": 125.2,
+      "netCarbG": 2.6,
+      "fatG": 7.8,
+      "proteinG": 10.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0901",
+    "name": "곤약 소금볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "곤약을 끓는 물에 데쳐 특유의 냄새를 뺀 뒤 먹기 좋게 썬다.",
+      "팬에 참기름을 두르고 소금 간해 쫄깃하게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 65,
+      "netCarbG": 0,
+      "fatG": 6,
+      "proteinG": 0
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0902",
+    "name": "곤약 간장볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "곤약을 데쳐 냄새를 빼고 도톰하게 썬다.",
+      "팬에 기름을 두르고 곤약을 볶다가 간장을 넣어 조리듯 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 18,
+      "netCarbG": 0.5,
+      "fatG": 0,
+      "proteinG": 0.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0903",
+    "name": "실곤약 참기름무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "실곤약을 데쳐 물기를 뺀다.",
+      "참기름, 소금, 참깨를 넣고 조물조물 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 65,
+      "netCarbG": 0,
+      "fatG": 6,
+      "proteinG": 0
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0904",
+    "name": "곤약 들기름볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "곤약을 데쳐 먹기 좋게 썬다.",
+      "팬에 들기름을 두르고 소금 간해 고소하게 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 65,
+      "netCarbG": 0,
+      "fatG": 6,
+      "proteinG": 0
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0905",
+    "name": "곤약 김가루무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "곤약을 데쳐 채 썰어 물기를 뺀다.",
+      "부순 김과 참기름, 소금을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 17.2,
+      "netCarbG": 0.2,
+      "fatG": 0,
+      "proteinG": 1.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0906",
+    "name": "곤약 대파볶음",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "곤약은 데쳐 썰고 대파는 송송 썬다.",
+      "팬에 기름을 두르고 대파를 볶아 향을 낸 뒤 곤약을 넣어 소금 간해 볶는다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 16.8,
+      "netCarbG": 0.7,
+      "fatG": 0,
+      "proteinG": 0.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0907",
+    "name": "실곤약 들깨무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "perilla_seed",
+        "name": "들깨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "실곤약을 데쳐 물기를 뺀다.",
+      "들깨가루와 소금, 참기름을 넣고 고루 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 37.4,
+      "netCarbG": 1,
+      "fatG": 1.8,
+      "proteinG": 0.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0908",
+    "name": "곤약 참깨무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "sesame",
+        "name": "참깨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "곤약을 데쳐 먹기 좋게 채 썬다.",
+      "참깨, 참기름, 소금을 넣고 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "곤약"
+    ],
+    "computed": {
+      "kcal": 40.7,
+      "netCarbG": 0.6,
+      "fatG": 2.5,
+      "proteinG": 0.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0909",
+    "name": "두부 액젓무침",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 150
+      },
+      {
+        "id": "fish_sauce",
+        "name": "액젓",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "두부를 데쳐 물기를 짜고 큼직하게 으깬다.",
+      "액젓과 참기름, 참깨를 넣고 조물조물 무친다."
+    ],
+    "tags": [
+      "초간단",
+      "두부"
+    ],
+    "computed": {
+      "kcal": 121.5,
+      "netCarbG": 1.8,
+      "fatG": 7.2,
+      "proteinG": 12.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0910",
+    "name": "순두부 액젓 참기름",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "soft_tofu",
+        "name": "순두부",
+        "grams": 180
+      },
+      {
+        "id": "fish_sauce",
+        "name": "액젓",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "순두부를 따뜻한 그릇에 담는다.",
+      "액젓과 참기름을 조금 둘러 그대로 떠먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "순두부"
+    ],
+    "computed": {
+      "kcal": 87.6,
+      "netCarbG": 2.9,
+      "fatG": 4.9,
+      "proteinG": 9.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0911",
+    "name": "삼겹살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "name": "삼겹살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "삼겹살에 소금·후추를 뿌린다.",
+      "달군 팬에 노릇하게 앞뒤로 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 496.5,
+      "netCarbG": 0,
+      "fatG": 42,
+      "proteinG": 25.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0912",
+    "name": "목살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_neck",
+        "name": "돼지목살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "목살에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 300,
+      "netCarbG": 0,
+      "fatG": 22.5,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0913",
+    "name": "베이컨 바삭구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bacon",
+        "name": "베이컨",
+        "grams": 60
+      }
+    ],
+    "steps": [
+      "팬에 베이컨을 펼쳐 올린다.",
+      "약불에서 기름이 빠지도록 바삭하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 240,
+      "netCarbG": 0.6,
+      "fatG": 24,
+      "proteinG": 7.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0914",
+    "name": "소시지 버터구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "sausage",
+        "name": "소시지",
+        "grams": 120
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "소시지에 칼집을 낸다.",
+      "버터 녹인 팬에 굴려가며 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 431.7,
+      "netCarbG": 2.4,
+      "fatG": 40.5,
+      "proteinG": 14.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0915",
+    "name": "스팸 팬구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "spam",
+        "name": "스팸",
+        "grams": 120
+      }
+    ],
+    "steps": [
+      "스팸을 도톰하게 썬다.",
+      "기름 없이 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 372,
+      "netCarbG": 2.4,
+      "fatG": 32.4,
+      "proteinG": 15.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0916",
+    "name": "닭다리살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_thigh",
+        "name": "닭다리살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "닭다리살에 소금·후추를 뿌린다.",
+      "껍질쪽부터 팬에 눌러가며 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 316.5,
+      "netCarbG": 0,
+      "fatG": 22.5,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0917",
+    "name": "닭가슴살 버터 팬구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_breast",
+        "name": "닭가슴살",
+        "grams": 150
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "닭가슴살에 소금·후추를 뿌린다.",
+      "버터 녹인 팬에 앞뒤로 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 236.7,
+      "netCarbG": 0,
+      "fatG": 10.4,
+      "proteinG": 34.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0918",
+    "name": "차돌박이 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_brisket",
+        "name": "차돌박이",
+        "grams": 120
+      }
+    ],
+    "steps": [
+      "달군 팬에 차돌박이를 펼쳐 올린다.",
+      "센불에 빠르게 구운 뒤 소금·후추를 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "소고기"
+    ],
+    "computed": {
+      "kcal": 300,
+      "netCarbG": 0,
+      "fatG": 24,
+      "proteinG": 21.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0919",
+    "name": "다진돼지 소금패티",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_ground",
+        "name": "다진돼지고기",
+        "grams": 130
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "다진돼지고기에 계란·소금·후추를 넣고 반죽해 동그랗게 빚는다.",
+      "팬에 앞뒤로 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "패티"
+    ],
+    "computed": {
+      "kcal": 413.4,
+      "netCarbG": 0.5,
+      "fatG": 32.3,
+      "proteinG": 28.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0920",
+    "name": "페퍼로니 팬구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pepperoni",
+        "name": "페퍼로니",
+        "grams": 60
+      }
+    ],
+    "steps": [
+      "팬에 페퍼로니를 펼쳐 올린다.",
+      "약불에서 바삭하게 구워 기름을 뺀다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 296.4,
+      "netCarbG": 0.6,
+      "fatG": 26.4,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0921",
+    "name": "돼지목살 후추구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_neck",
+        "name": "돼지목살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "목살에 후추를 넉넉히 뿌리고 소금으로 간한다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 300,
+      "netCarbG": 0,
+      "fatG": 22.5,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0922",
+    "name": "오리 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "duck",
+        "name": "오리고기",
+        "grams": 130
+      }
+    ],
+    "steps": [
+      "오리고기에 소금·후추를 뿌린다.",
+      "껍질쪽부터 팬에 눌러가며 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "오리고기"
+    ],
+    "computed": {
+      "kcal": 438.1,
+      "netCarbG": 0,
+      "fatG": 36.4,
+      "proteinG": 24.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0923",
+    "name": "돼지앞다리살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_shoulder",
+        "name": "돼지앞다리살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "앞다리살에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 270,
+      "netCarbG": 0,
+      "fatG": 18,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0924",
+    "name": "돼지등심 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_loin",
+        "name": "돼지등심",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "등심에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 225,
+      "netCarbG": 0,
+      "fatG": 9,
+      "proteinG": 33
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0925",
+    "name": "돼지안심 버터구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_tenderloin",
+        "name": "돼지안심",
+        "grams": 150
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "안심에 소금·후추를 뿌린다.",
+      "버터 녹인 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 251.7,
+      "netCarbG": 0,
+      "fatG": 14.1,
+      "proteinG": 31.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0926",
+    "name": "돼지갈비 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_rib",
+        "name": "돼지갈비",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "돼지갈비에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 420,
+      "netCarbG": 0,
+      "fatG": 34.5,
+      "proteinG": 24
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0927",
+    "name": "돼지뒷다리살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_ham_leg",
+        "name": "돼지뒷다리살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "뒷다리살에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 180,
+      "netCarbG": 0,
+      "fatG": 4.5,
+      "proteinG": 31.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0928",
+    "name": "삼겹살 후추구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_belly",
+        "name": "삼겹살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "삼겹살에 후추를 넉넉히 뿌리고 소금으로 간한다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "돼지고기"
+    ],
+    "computed": {
+      "kcal": 496.5,
+      "netCarbG": 0,
+      "fatG": 42,
+      "proteinG": 25.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0929",
+    "name": "소등심 소금 스테이크",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_sirloin",
+        "name": "소등심",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "소등심에 소금·후추를 뿌린다.",
+      "센불 팬에 앞뒤로 원하는 굽기까지 구운 뒤 잠시 재운다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "소고기"
+    ],
+    "computed": {
+      "kcal": 315,
+      "netCarbG": 0,
+      "fatG": 21,
+      "proteinG": 30
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0930",
+    "name": "꽃등심 소금 스테이크",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_ribeye",
+        "name": "꽃등심",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "꽃등심에 소금·후추를 뿌린다.",
+      "센불 팬에 앞뒤로 원하는 굽기까지 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "소고기"
+    ],
+    "computed": {
+      "kcal": 436.5,
+      "netCarbG": 0,
+      "fatG": 36,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0931",
+    "name": "소안심 소금 스테이크",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_tenderloin",
+        "name": "소안심",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "소안심에 소금·후추를 뿌린다.",
+      "센불 팬에 겉면을 고루 지지듯 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "소고기"
+    ],
+    "computed": {
+      "kcal": 225,
+      "netCarbG": 0,
+      "fatG": 9,
+      "proteinG": 33
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0932",
+    "name": "소갈비 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_short_rib",
+        "name": "소갈비",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "소갈비에 소금·후추를 뿌린다.",
+      "달군 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "소고기"
+    ],
+    "computed": {
+      "kcal": 450,
+      "netCarbG": 0,
+      "fatG": 39,
+      "proteinG": 22.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0933",
+    "name": "다진소고기 소금패티",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_ground",
+        "name": "다진소고기",
+        "grams": 130
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "다진소고기에 계란·소금·후추를 넣고 반죽해 동그랗게 빚는다.",
+      "팬에 앞뒤로 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "패티"
+    ],
+    "computed": {
+      "kcal": 401.7,
+      "netCarbG": 0.5,
+      "fatG": 31,
+      "proteinG": 28.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0934",
+    "name": "닭날개 버터구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_wing",
+        "name": "닭날개",
+        "grams": 150
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "닭날개에 소금·후추를 뿌린다.",
+      "버터 녹인 팬에 굴려가며 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 376.2,
+      "netCarbG": 0,
+      "fatG": 29.1,
+      "proteinG": 27.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0935",
+    "name": "닭다리 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_leg",
+        "name": "닭다리",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "닭다리에 칼집을 내고 소금·후추를 뿌린다.",
+      "팬에 뚜껑 덮어 속까지 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 270,
+      "netCarbG": 0,
+      "fatG": 16.5,
+      "proteinG": 28.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0936",
+    "name": "다진닭 소금완자구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_ground",
+        "name": "다진닭고기",
+        "grams": 130
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "다진닭고기에 계란·소금·후추를 넣고 반죽해 동그랗게 빚는다.",
+      "팬에 굴려가며 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 257.4,
+      "netCarbG": 0.5,
+      "fatG": 15.4,
+      "proteinG": 28.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0937",
+    "name": "양고기 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "lamb",
+        "name": "양고기",
+        "grams": 130
+      }
+    ],
+    "steps": [
+      "양고기에 소금·후추를 뿌린다.",
+      "센불 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "양고기"
+    ],
+    "computed": {
+      "kcal": 382.2,
+      "netCarbG": 0,
+      "fatG": 31.2,
+      "proteinG": 22.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0938",
+    "name": "햄 팬구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "ham_deli",
+        "name": "햄",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "햄을 도톰하게 썬다.",
+      "기름 두른 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 145,
+      "netCarbG": 2,
+      "fatG": 9,
+      "proteinG": 16
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0939",
+    "name": "소시지 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "sausage",
+        "name": "소시지",
+        "grams": 120
+      }
+    ],
+    "steps": [
+      "소시지에 칼집을 낸다.",
+      "기름 두른 팬에 굴려가며 노릇하게 굽고 소금·후추로 간한다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 360,
+      "netCarbG": 2.4,
+      "fatG": 32.4,
+      "proteinG": 14.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0940",
+    "name": "스팸 버터구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "spam",
+        "name": "스팸",
+        "grams": 120
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "스팸을 도톰하게 썬다.",
+      "버터 녹인 팬에 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 429.4,
+      "netCarbG": 2.4,
+      "fatG": 38.9,
+      "proteinG": 15.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0941",
+    "name": "베이컨 버터구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bacon",
+        "name": "베이컨",
+        "grams": 60
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "버터 녹인 팬에 베이컨을 펼쳐 올린다.",
+      "약불에서 노릇하고 바삭하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 297.4,
+      "netCarbG": 0.6,
+      "fatG": 30.5,
+      "proteinG": 7.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0942",
+    "name": "닭가슴살 소금구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_breast",
+        "name": "닭가슴살",
+        "grams": 150
+      }
+    ],
+    "steps": [
+      "닭가슴살을 도톰하게 저며 소금·후추를 뿌린다.",
+      "팬에 앞뒤로 속까지 익도록 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "닭고기"
+    ],
+    "computed": {
+      "kcal": 165,
+      "netCarbG": 0,
+      "fatG": 2.3,
+      "proteinG": 34.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0943",
+    "name": "오리 후추구이",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "duck",
+        "name": "오리고기",
+        "grams": 130
+      }
+    ],
+    "steps": [
+      "오리고기에 후추를 넉넉히 뿌리고 소금으로 간한다.",
+      "껍질쪽부터 팬에 눌러가며 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "구이",
+      "오리고기"
+    ],
+    "computed": {
+      "kcal": 438.1,
+      "netCarbG": 0,
+      "fatG": 36.4,
+      "proteinG": 24.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0944",
+    "name": "새우 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 120
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "새우는 껍질째 씻어 물기를 뺀다.",
+      "팬에 올리브오일을 두르고 새우를 올려 소금 후추로 간한다.",
+      "앞뒤로 2~3분씩 노릇하게 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 189.5,
+      "netCarbG": 0.2,
+      "fatG": 8.4,
+      "proteinG": 28.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0945",
+    "name": "새우 갈릭버터구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 120
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "팬에 버터를 녹이고 다진 마늘을 볶아 향을 낸다.",
+      "새우를 넣고 소금 후추로 간해 앞뒤로 굽는다.",
+      "새우가 붉게 익으면 불을 끄고 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 202.4,
+      "netCarbG": 2.7,
+      "fatG": 8.5,
+      "proteinG": 29.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0946",
+    "name": "새우 마늘볶음",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 120
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 10
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "팬에 올리브오일을 두르고 편으로 썬 마늘을 볶는다.",
+      "손질한 새우를 넣고 센 불에 볶으며 소금 후추로 간한다.",
+      "새우가 익으면 바로 접시에 담는다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 219.1,
+      "netCarbG": 2.7,
+      "fatG": 10.4,
+      "proteinG": 29.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0947",
+    "name": "오징어 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "squid",
+        "name": "오징어",
+        "grams": 150
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "오징어는 손질해 칼집을 넣고 물기를 뺀다.",
+      "팬에 올리브오일을 두르고 오징어를 올려 소금 후추로 간한다.",
+      "앞뒤로 노릇하게 구워 먹기 좋게 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 208.7,
+      "netCarbG": 4.5,
+      "fatG": 10.1,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0948",
+    "name": "오징어 마늘볶음",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "squid",
+        "name": "오징어",
+        "grams": 130
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 10
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "오징어는 손질해 링으로 썬다.",
+      "팬에 올리브오일과 다진 마늘을 볶다가 오징어를 넣는다.",
+      "센 불에 재빨리 볶고 소금 후추로 간해 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 215.5,
+      "netCarbG": 5.5,
+      "fatG": 11.8,
+      "proteinG": 23.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0949",
+    "name": "고등어 버터 팬구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mackerel",
+        "name": "고등어",
+        "grams": 140
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "고등어는 물기를 닦고 소금 후추로 밑간한다.",
+      "팬에 버터를 녹이고 껍질 쪽부터 굽는다.",
+      "앞뒤로 노릇하게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 358.7,
+      "netCarbG": 0,
+      "fatG": 27.7,
+      "proteinG": 26.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0950",
+    "name": "연어 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "salmon",
+        "name": "연어",
+        "grams": 130
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "연어는 물기를 닦고 소금 후추로 밑간한다.",
+      "팬에 올리브오일을 두르고 껍질 쪽부터 굽는다.",
+      "속까지 촉촉하게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 341.1,
+      "netCarbG": 0,
+      "fatG": 24.9,
+      "proteinG": 26
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0951",
+    "name": "삼치 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mackerel_pike",
+        "name": "꽁치",
+        "grams": 130
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "꽁치는 손질해 물기를 닦고 소금을 뿌려 잠시 둔다.",
+      "팬에 올리브오일을 두르고 앞뒤로 굽는다.",
+      "노릇하게 익으면 후추를 뿌려 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 395.7,
+      "netCarbG": 0,
+      "fatG": 34,
+      "proteinG": 23.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0952",
+    "name": "관자 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "scallop",
+        "name": "관자",
+        "grams": 120
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "관자는 물기를 꼼꼼히 닦고 소금 후추로 간한다.",
+      "팬을 뜨겁게 달궈 올리브오일을 두른다.",
+      "관자를 앞뒤로 1분씩 노릇하게 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 176.3,
+      "netCarbG": 2.4,
+      "fatG": 9,
+      "proteinG": 20.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0953",
+    "name": "문어 간장데침",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "octopus",
+        "name": "문어",
+        "grams": 150
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "끓는 물에 문어를 데쳐 부드럽게 익힌다.",
+      "먹기 좋게 썰어 접시에 담는다.",
+      "간장을 곁들여 찍어 먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "데침"
+    ],
+    "computed": {
+      "kcal": 126.6,
+      "netCarbG": 3.3,
+      "fatG": 1.5,
+      "proteinG": 22.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0954",
+    "name": "명란 팬구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pollock_roe",
+        "name": "명란",
+        "grams": 60
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "명란에 참기름을 살짝 발라 둔다.",
+      "약불 팬에 명란을 올려 겉면이 익도록 굽는다.",
+      "굴려가며 속까지 살짝 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 116.2,
+      "netCarbG": 0.6,
+      "fatG": 6.8,
+      "proteinG": 14.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0955",
+    "name": "대구 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cod",
+        "name": "대구",
+        "grams": 140
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "대구살은 물기를 닦고 소금 후추로 밑간한다.",
+      "팬에 올리브오일을 두르고 앞뒤로 굽는다.",
+      "살이 하얗게 익으면 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 185.5,
+      "netCarbG": 0,
+      "fatG": 9,
+      "proteinG": 25.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0956",
+    "name": "명태 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pollock",
+        "name": "명태",
+        "grams": 140
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "명태살은 물기를 닦고 소금으로 밑간한다.",
+      "팬에 올리브오일을 두르고 앞뒤로 굽는다.",
+      "노릇하게 익으면 후추를 뿌려 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 182.7,
+      "netCarbG": 0,
+      "fatG": 9,
+      "proteinG": 23.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0957",
+    "name": "오징어 참기름볶음",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "squid",
+        "name": "오징어",
+        "grams": 150
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "오징어는 손질해 링으로 썬다.",
+      "팬에 참기름을 두르고 오징어를 센 불에 볶는다.",
+      "소금 후추로 간해 재빨리 볶아 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 208.7,
+      "netCarbG": 4.5,
+      "fatG": 10.1,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0958",
+    "name": "새우 들기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 120
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "새우는 손질해 물기를 뺀다.",
+      "팬에 들기름을 두르고 새우를 올려 소금 후추로 간한다.",
+      "앞뒤로 노릇하게 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 189.5,
+      "netCarbG": 0.2,
+      "fatG": 8.4,
+      "proteinG": 28.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0959",
+    "name": "연어 간장버터구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "salmon",
+        "name": "연어",
+        "grams": 130
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "연어는 물기를 닦고 후추로 밑간한다.",
+      "팬에 버터를 녹여 연어를 앞뒤로 굽는다.",
+      "간장을 둘러 살짝 조리듯 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 345.1,
+      "netCarbG": 0.3,
+      "fatG": 25,
+      "proteinG": 26.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0960",
+    "name": "관자 참기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "scallop",
+        "name": "관자",
+        "grams": 120
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "관자는 물기를 닦고 소금 후추로 간한다.",
+      "팬을 달궈 참기름을 두른다.",
+      "관자를 앞뒤로 노릇하게 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 158.6,
+      "netCarbG": 2.4,
+      "fatG": 7,
+      "proteinG": 20.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0961",
+    "name": "고등어 들기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mackerel",
+        "name": "고등어",
+        "grams": 140
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "고등어는 물기를 닦고 소금으로 밑간한다.",
+      "팬에 들기름을 두르고 껍질 쪽부터 굽는다.",
+      "앞뒤로 노릇하게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 357.7,
+      "netCarbG": 0,
+      "fatG": 27.6,
+      "proteinG": 26.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0962",
+    "name": "전복 참기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "abalone",
+        "name": "전복",
+        "grams": 100
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "전복은 손질해 칼집을 살짝 넣는다.",
+      "팬에 참기름을 두르고 전복을 올려 소금 후추로 간한다.",
+      "앞뒤로 부드럽게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 143,
+      "netCarbG": 5,
+      "fatG": 6.8,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0963",
+    "name": "굴 마늘버터구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "oyster",
+        "name": "굴",
+        "grams": 100
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "굴은 씻어 물기를 뺀다.",
+      "팬에 버터를 녹이고 다진 마늘을 볶는다.",
+      "굴을 넣고 소금 후추로 간해 살짝 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 148.6,
+      "netCarbG": 5.9,
+      "fatG": 10.1,
+      "proteinG": 7.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0964",
+    "name": "게 소금찜",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "crab",
+        "name": "게",
+        "grams": 200
+      }
+    ],
+    "steps": [
+      "게는 깨끗이 씻어 손질한다.",
+      "찜기에 물을 올리고 소금을 약간 넣는다.",
+      "게를 넣고 배쪽이 위로 오게 하여 12~15분 쪄 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "찜"
+    ],
+    "computed": {
+      "kcal": 166,
+      "netCarbG": 0,
+      "fatG": 2,
+      "proteinG": 36
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0965",
+    "name": "홍합 술찜",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mussel",
+        "name": "홍합",
+        "grams": 110
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "홍합은 수염을 제거하고 껍데기를 씻는다.",
+      "냄비에 홍합과 편마늘, 약간의 물을 넣고 뚜껑을 덮는다.",
+      "센 불에 껍데기가 벌어질 때까지 찌고 후추를 뿌려 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "찜"
+    ],
+    "computed": {
+      "kcal": 99.1,
+      "netCarbG": 5.3,
+      "fatG": 2.2,
+      "proteinG": 13.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0966",
+    "name": "바지락 마늘찜",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "clam",
+        "name": "바지락",
+        "grams": 150
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "바지락은 해감 후 깨끗이 씻는다.",
+      "냄비에 바지락과 편마늘을 넣고 뚜껑을 덮는다.",
+      "센 불에 입이 벌어질 때까지 찌고 후추를 뿌려 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "찜"
+    ],
+    "computed": {
+      "kcal": 119.9,
+      "netCarbG": 5.8,
+      "fatG": 1.5,
+      "proteinG": 18.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0967",
+    "name": "장어 간장구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "eel",
+        "name": "장어",
+        "grams": 130
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "장어는 손질해 물기를 닦는다.",
+      "팬에 장어를 올려 앞뒤로 노릇하게 굽는다.",
+      "간장을 살짝 발라 한 번 더 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 310.4,
+      "netCarbG": 0.3,
+      "fatG": 24.7,
+      "proteinG": 23.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0968",
+    "name": "꽁치 들기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mackerel_pike",
+        "name": "꽁치",
+        "grams": 130
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "꽁치는 손질해 소금으로 밑간한다.",
+      "팬에 들기름을 두르고 앞뒤로 굽는다.",
+      "노릇하게 익으면 후추를 뿌려 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 395.7,
+      "netCarbG": 0,
+      "fatG": 34,
+      "proteinG": 23.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0969",
+    "name": "새우 참기름볶음",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 120
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "새우는 손질해 물기를 뺀다.",
+      "팬에 참기름을 두르고 새우를 센 불에 볶는다.",
+      "소금 후추로 간해 붉게 익으면 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 189.5,
+      "netCarbG": 0.2,
+      "fatG": 8.4,
+      "proteinG": 28.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0970",
+    "name": "대구 버터간장구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cod",
+        "name": "대구",
+        "grams": 140
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "대구살은 물기를 닦고 후추로 밑간한다.",
+      "팬에 버터를 녹여 대구를 앞뒤로 굽는다.",
+      "간장을 둘러 살짝 조리듯 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 189.5,
+      "netCarbG": 0.3,
+      "fatG": 9.1,
+      "proteinG": 25.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0971",
+    "name": "오징어 들기름볶음",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "squid",
+        "name": "오징어",
+        "grams": 150
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "오징어는 손질해 링으로 썬다.",
+      "팬에 들기름을 두르고 오징어를 센 불에 볶는다.",
+      "소금 후추로 간해 재빨리 볶아 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "볶음"
+    ],
+    "computed": {
+      "kcal": 208.7,
+      "netCarbG": 4.5,
+      "fatG": 10.1,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0972",
+    "name": "관자 갈릭버터구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "scallop",
+        "name": "관자",
+        "grams": 120
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 10
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "관자는 물기를 닦고 소금 후추로 간한다.",
+      "팬에 버터를 녹이고 다진 마늘을 볶는다.",
+      "관자를 넣어 앞뒤로 노릇하게 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 186.2,
+      "netCarbG": 4.3,
+      "fatG": 9.1,
+      "proteinG": 20.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0973",
+    "name": "연어 들기름구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "salmon",
+        "name": "연어",
+        "grams": 130
+      },
+      {
+        "id": "perilla_oil",
+        "name": "들기름",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "연어는 물기를 닦고 소금 후추로 밑간한다.",
+      "팬에 들기름을 두르고 껍질 쪽부터 굽는다.",
+      "속까지 촉촉하게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 341.1,
+      "netCarbG": 0,
+      "fatG": 24.9,
+      "proteinG": 26
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0974",
+    "name": "굴 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "oyster",
+        "name": "굴",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "굴은 씻어 물기를 뺀다.",
+      "팬에 올리브오일을 두르고 굴을 올려 소금 후추로 간한다.",
+      "겉면이 살짝 익도록 재빨리 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 138.7,
+      "netCarbG": 4,
+      "fatG": 10,
+      "proteinG": 7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0975",
+    "name": "고등어 간장구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "mackerel",
+        "name": "고등어",
+        "grams": 140
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 6
+      }
+    ],
+    "steps": [
+      "고등어는 물기를 닦고 후추로 밑간한다.",
+      "팬에 고등어를 올려 앞뒤로 노릇하게 굽는다.",
+      "간장을 살짝 발라 한 번 더 구워 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 290.6,
+      "netCarbG": 0.3,
+      "fatG": 19.6,
+      "proteinG": 27
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0976",
+    "name": "전복 소금구이",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "abalone",
+        "name": "전복",
+        "grams": 100
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "전복은 손질해 칼집을 살짝 넣는다.",
+      "팬에 올리브오일을 두르고 전복을 올려 소금 후추로 간한다.",
+      "앞뒤로 부드럽게 익혀 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "해산물",
+      "구이"
+    ],
+    "computed": {
+      "kcal": 160.7,
+      "netCarbG": 5,
+      "fatG": 8.8,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0977",
+    "name": "체다치즈 팬구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_cheddar",
+        "name": "체다치즈",
+        "grams": 40
+      }
+    ],
+    "steps": [
+      "팬을 약불로 달군다.",
+      "체다치즈를 올려 가장자리가 녹아 노릇해지면 접어 식힌다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 161.2,
+      "netCarbG": 0.5,
+      "fatG": 13.2,
+      "proteinG": 10
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0978",
+    "name": "모짜렐라 통구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_mozzarella",
+        "name": "모짜렐라치즈",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "모짜렐라치즈를 도톰하게 썬다.",
+      "달군 팬에 올려 앞뒤로 노릇하게 굽는다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 140,
+      "netCarbG": 1.5,
+      "fatG": 8.5,
+      "proteinG": 14
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0979",
+    "name": "스트링치즈 그대로",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_string",
+        "name": "스트링치즈",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "스트링치즈를 결대로 길게 찢는다.",
+      "그대로 간식으로 즐긴다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 160,
+      "netCarbG": 1,
+      "fatG": 12,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0980",
+    "name": "슬라이스치즈 롤",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_slice",
+        "name": "슬라이스치즈",
+        "grams": 40
+      }
+    ],
+    "steps": [
+      "슬라이스치즈를 실온에 잠깐 둔다.",
+      "돌돌 말아 한입 크기로 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 120,
+      "netCarbG": 2.4,
+      "fatG": 8.8,
+      "proteinG": 7.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0981",
+    "name": "아몬드 소금구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "almond",
+        "name": "아몬드",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "마른 팬에 아몬드를 넣고 약불로 볶는다.",
+      "고소한 향이 나면 소금을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "견과",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 173.7,
+      "netCarbG": 3,
+      "fatG": 15,
+      "proteinG": 6.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0982",
+    "name": "호두 팬구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "walnut",
+        "name": "호두",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "마른 팬을 약불로 달군다.",
+      "호두를 넣고 고소해질 때까지 살살 볶아 식힌다."
+    ],
+    "tags": [
+      "초간단",
+      "견과"
+    ],
+    "computed": {
+      "kcal": 196.2,
+      "netCarbG": 2.1,
+      "fatG": 19.5,
+      "proteinG": 4.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0983",
+    "name": "마카다미아 소금간",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "macadamia",
+        "name": "마카다미아",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "마카다미아를 그릇에 담는다.",
+      "소금을 아주 살짝 뿌려 버무린다."
+    ],
+    "tags": [
+      "초간단",
+      "견과"
+    ],
+    "computed": {
+      "kcal": 215.4,
+      "netCarbG": 1.5,
+      "fatG": 22.8,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0984",
+    "name": "피칸 버터구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pecan",
+        "name": "피칸",
+        "grams": 30
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "팬에 버터를 약불로 녹인다.",
+      "피칸을 넣고 코팅하듯 볶아 소금을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "견과"
+    ],
+    "computed": {
+      "kcal": 243.2,
+      "netCarbG": 1.2,
+      "fatG": 25.7,
+      "proteinG": 2.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0985",
+    "name": "삶은 계란 소금",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "끓는 물에 계란을 넣고 10분 삶는다.",
+      "찬물에 식혀 껍질을 까고 소금을 곁들인다."
+    ],
+    "tags": [
+      "초간단",
+      "계란"
+    ],
+    "computed": {
+      "kcal": 143,
+      "netCarbG": 1,
+      "fatG": 10,
+      "proteinG": 13
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0986",
+    "name": "메추리알 소금구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "quail_egg",
+        "name": "메추리알",
+        "grams": 90
+      }
+    ],
+    "steps": [
+      "삶은 메추리알 껍질을 깐다.",
+      "마른 팬에 굴려 노릇하게 굽고 소금을 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "계란"
+    ],
+    "computed": {
+      "kcal": 142.2,
+      "netCarbG": 0.4,
+      "fatG": 9.9,
+      "proteinG": 11.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0987",
+    "name": "구운 김 스낵",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 10
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "김에 참기름을 얇게 바른다.",
+      "소금을 살짝 뿌리고 팬에 살짝 구워 한입 크기로 자른다."
+    ],
+    "tags": [
+      "초간단",
+      "김"
+    ],
+    "computed": {
+      "kcal": 61.4,
+      "netCarbG": 0.7,
+      "fatG": 5.1,
+      "proteinG": 4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0988",
+    "name": "아보카도 소금 한 그릇",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 100
+      }
+    ],
+    "steps": [
+      "아보카도를 반 갈라 씨를 빼고 스푼으로 뜬다.",
+      "소금과 후추를 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "아보카도"
+    ],
+    "computed": {
+      "kcal": 160,
+      "netCarbG": 2,
+      "fatG": 15,
+      "proteinG": 2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0989",
+    "name": "올리브 그대로",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "olive",
+        "name": "올리브",
+        "grams": 40
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "올리브를 그릇에 담는다.",
+      "올리브오일을 살짝 둘러 곁들인다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 90.2,
+      "netCarbG": 1.2,
+      "fatG": 9.4,
+      "proteinG": 0.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0990",
+    "name": "크림치즈 셀러리 딥",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "celery",
+        "name": "셀러리",
+        "grams": 60
+      },
+      {
+        "id": "cheese_cream",
+        "name": "크림치즈",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "셀러리를 스틱 모양으로 썬다.",
+      "크림치즈를 부드럽게 풀어 셀러리에 찍어 먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 112.2,
+      "netCarbG": 2,
+      "fatG": 10.3,
+      "proteinG": 2.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0991",
+    "name": "다크초콜릿 한 조각",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "dark_chocolate",
+        "name": "다크초콜릿",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "다크초콜릿을 한 조각씩 쪼갠다.",
+      "천천히 녹여 먹으며 즐긴다."
+    ],
+    "tags": [
+      "초간단",
+      "디저트"
+    ],
+    "computed": {
+      "kcal": 90,
+      "netCarbG": 5.3,
+      "fatG": 6.5,
+      "proteinG": 1.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0992",
+    "name": "잣 소금볶음",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pine_nut",
+        "name": "잣",
+        "grams": 25
+      }
+    ],
+    "steps": [
+      "마른 팬을 약불로 달군다.",
+      "잣을 넣고 노릇하게 볶아 소금을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "견과"
+    ],
+    "computed": {
+      "kcal": 168.3,
+      "netCarbG": 2.3,
+      "fatG": 17,
+      "proteinG": 3.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0993",
+    "name": "호박씨 팬볶음",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pumpkin_seed",
+        "name": "호박씨",
+        "grams": 25
+      }
+    ],
+    "steps": [
+      "마른 팬에 호박씨를 넣는다.",
+      "톡톡 소리가 날 때까지 약불로 볶아 소금을 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "씨앗"
+    ],
+    "computed": {
+      "kcal": 139.8,
+      "netCarbG": 1.3,
+      "fatG": 12.3,
+      "proteinG": 7.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0994",
+    "name": "페퍼로니 칩",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pepperoni",
+        "name": "페퍼로니",
+        "grams": 40
+      }
+    ],
+    "steps": [
+      "페퍼로니를 마른 팬에 펼친다.",
+      "약불로 바삭해질 때까지 구워 기름을 뺀다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 197.6,
+      "netCarbG": 0.4,
+      "fatG": 17.6,
+      "proteinG": 8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0995",
+    "name": "돼지껍질 소금 튀각",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pork_rind",
+        "name": "돼지껍질",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "돼지껍질을 마른 팬에 올려 바삭하게 부풀린다.",
+      "소금을 살짝 뿌려 곁들인다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 163.2,
+      "netCarbG": 0,
+      "fatG": 9.3,
+      "proteinG": 18.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0996",
+    "name": "파마산 크래커 구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_parmesan",
+        "name": "파마산치즈",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "파마산치즈를 동그랗게 소복이 올린다.",
+      "약불 팬에서 녹아 바삭해지면 식혀 떼어낸다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 129.3,
+      "netCarbG": 1.2,
+      "fatG": 8.7,
+      "proteinG": 11.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0997",
+    "name": "아몬드 계피 구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "almond",
+        "name": "아몬드",
+        "grams": 30
+      },
+      {
+        "id": "cinnamon",
+        "name": "계피",
+        "grams": 1
+      },
+      {
+        "id": "erythritol",
+        "name": "에리스리톨",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "마른 팬에 아몬드를 볶는다.",
+      "계피와 에리스리톨을 뿌려 고루 코팅하고 식힌다."
+    ],
+    "tags": [
+      "초간단",
+      "견과",
+      "디저트"
+    ],
+    "computed": {
+      "kcal": 176.2,
+      "netCarbG": 3.3,
+      "fatG": 15,
+      "proteinG": 6.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0998",
+    "name": "베이컨 칩",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "bacon",
+        "name": "베이컨",
+        "grams": 40
+      }
+    ],
+    "steps": [
+      "베이컨을 마른 팬에 펼친다.",
+      "약불로 바삭해질 때까지 구워 키친타월에 기름을 뺀다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 160,
+      "netCarbG": 0.4,
+      "fatG": 16,
+      "proteinG": 4.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r0999",
+    "name": "멸치 마늘볶음",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "anchovy_dried",
+        "name": "멸치",
+        "grams": 20
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "마른 팬에 멸치를 넣고 약불로 바삭하게 볶는다.",
+      "참기름을 두르고 살짝 더 볶아 마무리한다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 110.4,
+      "netCarbG": 0,
+      "fatG": 6,
+      "proteinG": 12
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1000",
+    "name": "건새우 바삭볶음",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "shrimp_dried",
+        "name": "건새우",
+        "grams": 20
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "팬에 버터를 약불로 녹인다.",
+      "건새우를 넣고 바삭하게 볶아낸다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 91.9,
+      "netCarbG": 0,
+      "fatG": 4.7,
+      "proteinG": 12.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1001",
+    "name": "치즈 페퍼로니 한입",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cheese_cheddar",
+        "name": "체다치즈",
+        "grams": 30
+      },
+      {
+        "id": "pepperoni",
+        "name": "페퍼로니",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "체다치즈와 페퍼로니를 한입 크기로 썬다.",
+      "번갈아 이쑤시개에 꽂아 곁들인다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 219.7,
+      "netCarbG": 0.6,
+      "fatG": 18.7,
+      "proteinG": 11.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1002",
+    "name": "아보카도 라임 스낵",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 100
+      },
+      {
+        "id": "lime",
+        "name": "라임",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "아보카도를 큐브로 썬다.",
+      "라임즙과 소금을 살짝 뿌려 버무린다."
+    ],
+    "tags": [
+      "초간단",
+      "아보카도"
+    ],
+    "computed": {
+      "kcal": 161.5,
+      "netCarbG": 2.4,
+      "fatG": 15,
+      "proteinG": 2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1003",
+    "name": "마카다미아 다크초코 바이트",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "macadamia",
+        "name": "마카다미아",
+        "grams": 20
+      },
+      {
+        "id": "dark_chocolate",
+        "name": "다크초콜릿",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "다크초콜릿을 중탕으로 살짝 녹인다.",
+      "마카다미아를 담가 코팅하고 굳힌다."
+    ],
+    "tags": [
+      "초간단",
+      "견과",
+      "디저트"
+    ],
+    "computed": {
+      "kcal": 203.6,
+      "netCarbG": 4.5,
+      "fatG": 19.5,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1004",
+    "name": "오이 크림치즈 스틱",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 80
+      },
+      {
+        "id": "cheese_cream",
+        "name": "크림치즈",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "오이를 스틱 모양으로 썬다.",
+      "크림치즈를 발라 한입에 먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 114.6,
+      "netCarbG": 3.7,
+      "fatG": 10.3,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1005",
+    "name": "코코넛 칩 구이",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "coconut_meat",
+        "name": "코코넛과육",
+        "grams": 40
+      }
+    ],
+    "steps": [
+      "코코넛과육을 얇게 슬라이스한다.",
+      "마른 팬에 노릇하게 구워 소금을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "디저트"
+    ],
+    "computed": {
+      "kcal": 141.6,
+      "netCarbG": 2.4,
+      "fatG": 13.2,
+      "proteinG": 1.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1006",
+    "name": "명란 마요 스푼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pollock_roe",
+        "name": "명란",
+        "grams": 40
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "명란을 껍질에서 훑어낸다.",
+      "마요네즈와 섞어 스푼으로 떠먹는다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 116,
+      "netCarbG": 0.5,
+      "fatG": 8.7,
+      "proteinG": 9.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1007",
+    "name": "참치마요 셀러리컵",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tuna_can",
+        "name": "참치캔",
+        "grams": 60
+      },
+      {
+        "id": "celery",
+        "name": "셀러리",
+        "grams": 50
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "참치캔 기름을 빼고 마요네즈와 섞는다.",
+      "셀러리 홈에 채워 한입 크기로 낸다."
+    ],
+    "tags": [
+      "초간단",
+      "안주"
+    ],
+    "computed": {
+      "kcal": 190,
+      "netCarbG": 0.8,
+      "fatG": 12.4,
+      "proteinG": 17.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1008",
+    "name": "김 크림치즈 롤",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 8
+      },
+      {
+        "id": "cheese_cream",
+        "name": "크림치즈",
+        "grams": 30
+      }
+    ],
+    "steps": [
+      "김 위에 크림치즈를 얇게 바른다.",
+      "돌돌 말아 한입 크기로 썬다."
+    ],
+    "tags": [
+      "초간단",
+      "김",
+      "치즈"
+    ],
+    "computed": {
+      "kcal": 116.4,
+      "netCarbG": 1.8,
+      "fatG": 10.3,
+      "proteinG": 5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1009",
+    "name": "해바라기씨 소금볶음",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "sunflower_seed",
+        "name": "해바라기씨",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "마른 팬에 해바라기씨를 넣는다.",
+      "약불로 고소하게 볶아 소금을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "씨앗"
+    ],
+    "computed": {
+      "kcal": 116.8,
+      "netCarbG": 2.3,
+      "fatG": 10.2,
+      "proteinG": 4.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1010",
+    "name": "그릭요거트 호두볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 80
+      },
+      {
+        "id": "walnut",
+        "name": "호두",
+        "grams": 15
+      }
+    ],
+    "steps": [
+      "그릭요거트를 그릇에 담는다.",
+      "호두를 부숴 올리고 에리스리톨을 살짝 뿌린다."
+    ],
+    "tags": [
+      "초간단",
+      "디저트"
+    ],
+    "computed": {
+      "kcal": 145.3,
+      "netCarbG": 3.9,
+      "fatG": 10.1,
+      "proteinG": 10.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
   }
 ]

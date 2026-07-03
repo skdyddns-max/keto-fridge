@@ -39,6 +39,23 @@ describe("matchRecipes", () => {
     expect(r.status).toBe("explore");
   });
 
+  it("보유 재료를 하나도 안 쓰는 레시피는 제외 (관련성 필터)", () => {
+    const rs = matchRecipes(
+      [recipe("lamb-dish", ["lamb", "salt"]), recipe("unrelated", ["pork", "cabbage"]), recipe("pantry-only", ["salt", "olive_oil"])],
+      own("lamb"),
+      none,
+      opts,
+    );
+    // 양고기만 보유 → 양고기 쓰는 레시피만 노출, 무관/양념전용 레시피 제외
+    expect(rs.map((r) => r.recipe.id)).toEqual(["lamb-dish"]);
+  });
+
+  it("pantry만 보유로 간주돼도 관련성엔 안 쳐서 무관 레시피가 뜨지 않는다", () => {
+    // 1재료 레시피(치즈칩)는 pantry 덕에 almost가 되지만, 보유한 lamb를 안 쓰므로 제외
+    const rs = matchRecipes([recipe("cheese-chip", ["cheese"])], own("lamb"), none, opts);
+    expect(rs).toHaveLength(0);
+  });
+
   it("keto:false 레시피는 제외", () => {
     const results = matchRecipes([recipe("a", ["pork"], { keto: false })], own("pork"), none, opts);
     expect(results).toHaveLength(0);
