@@ -5,11 +5,15 @@ import { matchRecipes, type MatchResult } from "./lib/match";
 import type { Ingredient, Recipe } from "./lib/types";
 import { useLocalStorage } from "./store/useLocalStorage";
 import { localDateKey, makeEntry, type DayEntry } from "./lib/tracker";
+import { syncEnabled } from "./lib/supabase";
+import type { SyncState } from "./lib/sync";
+import { useSync } from "./store/useSync";
 import { IngredientInput } from "./components/IngredientInput";
 import { RecipeCard } from "./components/RecipeCard";
 import { RecipeDetail } from "./components/RecipeDetail";
 import { DayTracker } from "./components/DayTracker";
 import { ShoppingList, type ShoppingItem } from "./components/ShoppingList";
+import { SyncPanel } from "./components/SyncPanel";
 
 const INGREDIENTS = ingredientsRaw as unknown as Ingredient[];
 const RECIPES = recipesRaw as unknown as Recipe[];
@@ -58,6 +62,16 @@ export default function App() {
       return [...prev, ...items.filter((x) => !seen.has(x.id))];
     });
 
+  // 기기간 동기화 (Supabase 설정 시에만 활성). 로컬 상태 ↔ 원격 병합.
+  const local: SyncState = { favorites, excluded, shopping, daylog: dayLog, updatedAt: 0 };
+  const applyRemote = (s: SyncState) => {
+    setFavorites(s.favorites);
+    setExcluded(s.excluded);
+    setShopping(s.shopping);
+    setDayLog(s.daylog);
+  };
+  const sync = useSync({ local, applyRemote });
+
   const card = (r: MatchResult) => (
     <RecipeCard key={r.recipe.id} result={r} isFavorite={favoriteSet.has(r.recipe.id)} onClick={() => setSelected(r)} />
   );
@@ -83,6 +97,10 @@ export default function App() {
           )}
         </button>
       </header>
+
+      {syncEnabled && (
+        <SyncPanel session={sync.session} status={sync.status} onSignIn={sync.signIn} onSignOut={sync.signOut} />
+      )}
 
       <DayTracker
         log={dayLog}
