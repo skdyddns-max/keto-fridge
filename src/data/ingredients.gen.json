@@ -1,0 +1,2884 @@
+[
+  {
+    "id": "pork_belly",
+    "name": "삼겹살",
+    "aliases": [
+      "삼겹",
+      "돼지삼겹살"
+    ],
+    "per100g": {
+      "kcal": 331,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 28,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_neck",
+    "name": "돼지목살",
+    "aliases": [
+      "목살",
+      "목전지"
+    ],
+    "per100g": {
+      "kcal": 200,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 15,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_shoulder",
+    "name": "돼지앞다리살",
+    "aliases": [
+      "앞다리살",
+      "전지"
+    ],
+    "per100g": {
+      "kcal": 180,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 12,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_loin",
+    "name": "돼지등심",
+    "aliases": [
+      "등심"
+    ],
+    "per100g": {
+      "kcal": 150,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 6,
+      "proteinG": 22
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_tenderloin",
+    "name": "돼지안심",
+    "aliases": [
+      "안심"
+    ],
+    "per100g": {
+      "kcal": 120,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 4,
+      "proteinG": 21
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_ground",
+    "name": "다진돼지고기",
+    "aliases": [
+      "돼지다짐육",
+      "간돼지고기"
+    ],
+    "per100g": {
+      "kcal": 263,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 21,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_rib",
+    "name": "돼지갈비",
+    "aliases": [
+      "돼지등갈비"
+    ],
+    "per100g": {
+      "kcal": 280,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 23,
+      "proteinG": 16
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_hock",
+    "name": "족발",
+    "aliases": [
+      "돼지족"
+    ],
+    "per100g": {
+      "kcal": 230,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 16,
+      "proteinG": 21
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pork_ham_leg",
+    "name": "돼지뒷다리살",
+    "aliases": [
+      "뒷다리살",
+      "후지"
+    ],
+    "per100g": {
+      "kcal": 120,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 3,
+      "proteinG": 21
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "bacon",
+    "name": "베이컨",
+    "aliases": [],
+    "per100g": {
+      "kcal": 400,
+      "carbG": 1,
+      "fiberG": 0,
+      "fatG": 40,
+      "proteinG": 12
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_brisket",
+    "name": "차돌박이",
+    "aliases": [
+      "양지",
+      "우삼겹"
+    ],
+    "per100g": {
+      "kcal": 250,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 20,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_sirloin",
+    "name": "소등심",
+    "aliases": [
+      "채끝",
+      "등심"
+    ],
+    "per100g": {
+      "kcal": 210,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 14,
+      "proteinG": 20
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_ribeye",
+    "name": "꽃등심",
+    "aliases": [
+      "립아이"
+    ],
+    "per100g": {
+      "kcal": 291,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 24,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_tenderloin",
+    "name": "소안심",
+    "aliases": [
+      "안심"
+    ],
+    "per100g": {
+      "kcal": 150,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 6,
+      "proteinG": 22
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_ground",
+    "name": "다진소고기",
+    "aliases": [
+      "소다짐육",
+      "간소고기"
+    ],
+    "per100g": {
+      "kcal": 254,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 20,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_short_rib",
+    "name": "소갈비",
+    "aliases": [
+      "갈비",
+      "LA갈비"
+    ],
+    "per100g": {
+      "kcal": 300,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 26,
+      "proteinG": 15
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "beef_shank",
+    "name": "사태",
+    "aliases": [
+      "소사태"
+    ],
+    "per100g": {
+      "kcal": 160,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 6,
+      "proteinG": 22
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_thigh",
+    "name": "닭다리살",
+    "aliases": [
+      "닭허벅지살",
+      "닭정육"
+    ],
+    "per100g": {
+      "kcal": 211,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 15,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_breast",
+    "name": "닭가슴살",
+    "aliases": [],
+    "per100g": {
+      "kcal": 110,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 1.5,
+      "proteinG": 23
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_wing",
+    "name": "닭날개",
+    "aliases": [
+      "윙",
+      "봉"
+    ],
+    "per100g": {
+      "kcal": 203,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 14,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_leg",
+    "name": "닭다리",
+    "aliases": [
+      "닭북채"
+    ],
+    "per100g": {
+      "kcal": 180,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 11,
+      "proteinG": 19
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_whole",
+    "name": "닭",
+    "aliases": [
+      "생닭",
+      "통닭"
+    ],
+    "per100g": {
+      "kcal": 215,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 15,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chicken_ground",
+    "name": "다진닭고기",
+    "aliases": [
+      "닭다짐육"
+    ],
+    "per100g": {
+      "kcal": 143,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 8,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "duck",
+    "name": "오리고기",
+    "aliases": [
+      "오리",
+      "훈제오리"
+    ],
+    "per100g": {
+      "kcal": 337,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 28,
+      "proteinG": 19
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "lamb",
+    "name": "양고기",
+    "aliases": [
+      "램",
+      "양갈비"
+    ],
+    "per100g": {
+      "kcal": 294,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 24,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "sausage",
+    "name": "소시지",
+    "aliases": [
+      "비엔나"
+    ],
+    "per100g": {
+      "kcal": 300,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 27,
+      "proteinG": 12
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "ham_deli",
+    "name": "햄",
+    "aliases": [
+      "슬라이스햄",
+      "로스햄"
+    ],
+    "per100g": {
+      "kcal": 145,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 9,
+      "proteinG": 16
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "spam",
+    "name": "스팸",
+    "aliases": [
+      "런천미트"
+    ],
+    "per100g": {
+      "kcal": 310,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 27,
+      "proteinG": 13
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "pepperoni",
+    "name": "페퍼로니",
+    "aliases": [],
+    "per100g": {
+      "kcal": 494,
+      "carbG": 1,
+      "fiberG": 0,
+      "fatG": 44,
+      "proteinG": 20
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "egg",
+    "name": "계란",
+    "aliases": [
+      "달걀",
+      "닭알"
+    ],
+    "per100g": {
+      "kcal": 143,
+      "carbG": 1,
+      "fiberG": 0,
+      "fatG": 10,
+      "proteinG": 13
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "egg_yolk",
+    "name": "계란노른자",
+    "aliases": [
+      "노른자",
+      "난황"
+    ],
+    "per100g": {
+      "kcal": 322,
+      "carbG": 3.6,
+      "fiberG": 0,
+      "fatG": 27,
+      "proteinG": 16
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "egg_white",
+    "name": "계란흰자",
+    "aliases": [
+      "흰자",
+      "난백"
+    ],
+    "per100g": {
+      "kcal": 52,
+      "carbG": 0.7,
+      "fiberG": 0,
+      "fatG": 0.2,
+      "proteinG": 11
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "quail_egg",
+    "name": "메추리알",
+    "aliases": [],
+    "per100g": {
+      "kcal": 158,
+      "carbG": 0.4,
+      "fiberG": 0,
+      "fatG": 11,
+      "proteinG": 13
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "shrimp",
+    "name": "새우",
+    "aliases": [
+      "대하",
+      "칵테일새우"
+    ],
+    "per100g": {
+      "kcal": 99,
+      "carbG": 0.2,
+      "fiberG": 0,
+      "fatG": 0.3,
+      "proteinG": 24
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "squid",
+    "name": "오징어",
+    "aliases": [
+      "한치"
+    ],
+    "per100g": {
+      "kcal": 92,
+      "carbG": 3,
+      "fiberG": 0,
+      "fatG": 1.4,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "octopus",
+    "name": "문어",
+    "aliases": [
+      "낙지",
+      "주꾸미"
+    ],
+    "per100g": {
+      "kcal": 82,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 1,
+      "proteinG": 15
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mackerel",
+    "name": "고등어",
+    "aliases": [],
+    "per100g": {
+      "kcal": 205,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 14,
+      "proteinG": 19
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "salmon",
+    "name": "연어",
+    "aliases": [
+      "훈제연어"
+    ],
+    "per100g": {
+      "kcal": 208,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 13,
+      "proteinG": 20
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "tuna_can",
+    "name": "참치캔",
+    "aliases": [
+      "참치",
+      "캔참치"
+    ],
+    "per100g": {
+      "kcal": 190,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 8,
+      "proteinG": 29
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pollock",
+    "name": "명태",
+    "aliases": [
+      "동태",
+      "코다리",
+      "생태"
+    ],
+    "per100g": {
+      "kcal": 80,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0.7,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cod",
+    "name": "대구",
+    "aliases": [],
+    "per100g": {
+      "kcal": 82,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0.7,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mackerel_pike",
+    "name": "꽁치",
+    "aliases": [],
+    "per100g": {
+      "kcal": 250,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 20,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "clam",
+    "name": "바지락",
+    "aliases": [
+      "조개",
+      "모시조개"
+    ],
+    "per100g": {
+      "kcal": 74,
+      "carbG": 2.6,
+      "fiberG": 0,
+      "fatG": 1,
+      "proteinG": 12
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mussel",
+    "name": "홍합",
+    "aliases": [],
+    "per100g": {
+      "kcal": 86,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 2,
+      "proteinG": 12
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "crab",
+    "name": "게",
+    "aliases": [
+      "꽃게",
+      "대게"
+    ],
+    "per100g": {
+      "kcal": 83,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 1,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pollock_roe",
+    "name": "명란",
+    "aliases": [
+      "명란젓"
+    ],
+    "per100g": {
+      "kcal": 120,
+      "carbG": 1,
+      "fiberG": 0,
+      "fatG": 3,
+      "proteinG": 24
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "shrimp_dried",
+    "name": "건새우",
+    "aliases": [
+      "마른새우"
+    ],
+    "per100g": {
+      "kcal": 280,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 3,
+      "proteinG": 60
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "anchovy_dried",
+    "name": "멸치",
+    "aliases": [
+      "마른멸치",
+      "국물멸치"
+    ],
+    "per100g": {
+      "kcal": 331,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 5,
+      "proteinG": 60
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "gim",
+    "name": "김",
+    "aliases": [
+      "조미김",
+      "구운김"
+    ],
+    "per100g": {
+      "kcal": 172,
+      "carbG": 40,
+      "fiberG": 33,
+      "fatG": 1,
+      "proteinG": 40
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "kelp_dried",
+    "name": "다시마",
+    "aliases": [],
+    "per100g": {
+      "kcal": 170,
+      "carbG": 50,
+      "fiberG": 30,
+      "fatG": 1,
+      "proteinG": 8
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "wakame",
+    "name": "미역",
+    "aliases": [
+      "생미역"
+    ],
+    "per100g": {
+      "kcal": 15,
+      "carbG": 3,
+      "fiberG": 1,
+      "fatG": 0.2,
+      "proteinG": 1.5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "fish_cake",
+    "name": "어묵",
+    "aliases": [
+      "오뎅"
+    ],
+    "per100g": {
+      "kcal": 130,
+      "carbG": 14,
+      "fiberG": 0,
+      "fatG": 2,
+      "proteinG": 10
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "crab_stick",
+    "name": "게맛살",
+    "aliases": [
+      "맛살"
+    ],
+    "per100g": {
+      "kcal": 100,
+      "carbG": 12,
+      "fiberG": 0,
+      "fatG": 1,
+      "proteinG": 8
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "oyster",
+    "name": "굴",
+    "aliases": [
+      "석화"
+    ],
+    "per100g": {
+      "kcal": 68,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 2,
+      "proteinG": 7
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "scallop",
+    "name": "관자",
+    "aliases": [
+      "가리비"
+    ],
+    "per100g": {
+      "kcal": 88,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 0.8,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "abalone",
+    "name": "전복",
+    "aliases": [],
+    "per100g": {
+      "kcal": 90,
+      "carbG": 5,
+      "fiberG": 0,
+      "fatG": 0.8,
+      "proteinG": 13
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "eel",
+    "name": "장어",
+    "aliases": [
+      "민물장어",
+      "붕장어"
+    ],
+    "per100g": {
+      "kcal": 236,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 19,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "butter",
+    "name": "버터",
+    "aliases": [
+      "무염버터",
+      "가염버터"
+    ],
+    "per100g": {
+      "kcal": 717,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 81,
+      "proteinG": 1
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "ghee",
+    "name": "기버터",
+    "aliases": [
+      "기",
+      "정제버터"
+    ],
+    "per100g": {
+      "kcal": 900,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cheese_cheddar",
+    "name": "체다치즈",
+    "aliases": [
+      "체다"
+    ],
+    "per100g": {
+      "kcal": 403,
+      "carbG": 1.3,
+      "fiberG": 0,
+      "fatG": 33,
+      "proteinG": 25
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cheese_mozzarella",
+    "name": "모짜렐라치즈",
+    "aliases": [
+      "모짜렐라",
+      "모차렐라"
+    ],
+    "per100g": {
+      "kcal": 280,
+      "carbG": 3,
+      "fiberG": 0,
+      "fatG": 17,
+      "proteinG": 28
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cheese_cream",
+    "name": "크림치즈",
+    "aliases": [],
+    "per100g": {
+      "kcal": 342,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 34,
+      "proteinG": 6
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cheese_parmesan",
+    "name": "파마산치즈",
+    "aliases": [
+      "파마산",
+      "파르메산"
+    ],
+    "per100g": {
+      "kcal": 431,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 29,
+      "proteinG": 38
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cheese_slice",
+    "name": "슬라이스치즈",
+    "aliases": [
+      "체다슬라이스"
+    ],
+    "per100g": {
+      "kcal": 300,
+      "carbG": 6,
+      "fiberG": 0,
+      "fatG": 22,
+      "proteinG": 18
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "cheese_string",
+    "name": "스트링치즈",
+    "aliases": [
+      "치즈스틱"
+    ],
+    "per100g": {
+      "kcal": 320,
+      "carbG": 2,
+      "fiberG": 0,
+      "fatG": 24,
+      "proteinG": 24
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "heavy_cream",
+    "name": "생크림",
+    "aliases": [
+      "휘핑크림",
+      "동물성생크림"
+    ],
+    "per100g": {
+      "kcal": 340,
+      "carbG": 3,
+      "fiberG": 0,
+      "fatG": 36,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "sour_cream",
+    "name": "사워크림",
+    "aliases": [],
+    "per100g": {
+      "kcal": 200,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 19,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mascarpone",
+    "name": "마스카포네",
+    "aliases": [],
+    "per100g": {
+      "kcal": 435,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 44,
+      "proteinG": 5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "milk",
+    "name": "우유",
+    "aliases": [
+      "일반우유"
+    ],
+    "per100g": {
+      "kcal": 60,
+      "carbG": 5,
+      "fiberG": 0,
+      "fatG": 3.3,
+      "proteinG": 3
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "greek_yogurt",
+    "name": "그릭요거트",
+    "aliases": [
+      "무가당요거트",
+      "플레인요거트"
+    ],
+    "per100g": {
+      "kcal": 59,
+      "carbG": 3.6,
+      "fiberG": 0,
+      "fatG": 0.4,
+      "proteinG": 10
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "cabbage",
+    "name": "양배추",
+    "aliases": [],
+    "per100g": {
+      "kcal": 25,
+      "carbG": 6,
+      "fiberG": 2.5,
+      "fatG": 0.1,
+      "proteinG": 1.3
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "napa_cabbage",
+    "name": "배추",
+    "aliases": [
+      "알배추",
+      "얼갈이"
+    ],
+    "per100g": {
+      "kcal": 16,
+      "carbG": 3,
+      "fiberG": 1.2,
+      "fatG": 0.1,
+      "proteinG": 1.2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "spinach",
+    "name": "시금치",
+    "aliases": [],
+    "per100g": {
+      "kcal": 23,
+      "carbG": 3.6,
+      "fiberG": 2.2,
+      "fatG": 0.4,
+      "proteinG": 2.9
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "lettuce",
+    "name": "상추",
+    "aliases": [
+      "양상추",
+      "청상추"
+    ],
+    "per100g": {
+      "kcal": 15,
+      "carbG": 2.9,
+      "fiberG": 1.3,
+      "fatG": 0.2,
+      "proteinG": 1.4
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "perilla_leaf",
+    "name": "깻잎",
+    "aliases": [],
+    "per100g": {
+      "kcal": 40,
+      "carbG": 8,
+      "fiberG": 6,
+      "fatG": 0.7,
+      "proteinG": 4
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "zucchini",
+    "name": "애호박",
+    "aliases": [
+      "주키니",
+      "호박"
+    ],
+    "per100g": {
+      "kcal": 17,
+      "carbG": 3.1,
+      "fiberG": 1,
+      "fatG": 0.3,
+      "proteinG": 1.2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cucumber",
+    "name": "오이",
+    "aliases": [],
+    "per100g": {
+      "kcal": 15,
+      "carbG": 3.6,
+      "fiberG": 0.5,
+      "fatG": 0.1,
+      "proteinG": 0.7
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "broccoli",
+    "name": "브로콜리",
+    "aliases": [],
+    "per100g": {
+      "kcal": 34,
+      "carbG": 7,
+      "fiberG": 2.6,
+      "fatG": 0.4,
+      "proteinG": 2.8
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cauliflower",
+    "name": "콜리플라워",
+    "aliases": [
+      "컬리플라워"
+    ],
+    "per100g": {
+      "kcal": 25,
+      "carbG": 5,
+      "fiberG": 2,
+      "fatG": 0.3,
+      "proteinG": 1.9
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "bell_pepper",
+    "name": "파프리카",
+    "aliases": [
+      "피망"
+    ],
+    "per100g": {
+      "kcal": 26,
+      "carbG": 6,
+      "fiberG": 2,
+      "fatG": 0.3,
+      "proteinG": 1
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chili_green",
+    "name": "풋고추",
+    "aliases": [
+      "청양고추",
+      "고추",
+      "오이고추"
+    ],
+    "per100g": {
+      "kcal": 40,
+      "carbG": 9,
+      "fiberG": 1.5,
+      "fatG": 0.2,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mushroom_button",
+    "name": "양송이버섯",
+    "aliases": [
+      "양송이"
+    ],
+    "per100g": {
+      "kcal": 22,
+      "carbG": 3.3,
+      "fiberG": 1,
+      "fatG": 0.3,
+      "proteinG": 3.1
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mushroom_shiitake",
+    "name": "표고버섯",
+    "aliases": [
+      "표고"
+    ],
+    "per100g": {
+      "kcal": 34,
+      "carbG": 7,
+      "fiberG": 2.5,
+      "fatG": 0.5,
+      "proteinG": 2.2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mushroom_enoki",
+    "name": "팽이버섯",
+    "aliases": [
+      "팽이"
+    ],
+    "per100g": {
+      "kcal": 37,
+      "carbG": 8,
+      "fiberG": 3,
+      "fatG": 0.3,
+      "proteinG": 2.7
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "mushroom_oyster",
+    "name": "느타리버섯",
+    "aliases": [
+      "느타리"
+    ],
+    "per100g": {
+      "kcal": 33,
+      "carbG": 6,
+      "fiberG": 2.3,
+      "fatG": 0.4,
+      "proteinG": 3.3
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mushroom_king",
+    "name": "새송이버섯",
+    "aliases": [
+      "새송이",
+      "큰느타리"
+    ],
+    "per100g": {
+      "kcal": 35,
+      "carbG": 6,
+      "fiberG": 2,
+      "fatG": 0.3,
+      "proteinG": 2.5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "onion",
+    "name": "양파",
+    "aliases": [],
+    "per100g": {
+      "kcal": 40,
+      "carbG": 9.3,
+      "fiberG": 1.7,
+      "fatG": 0.1,
+      "proteinG": 1.1
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "green_onion",
+    "name": "대파",
+    "aliases": [
+      "파",
+      "쪽파"
+    ],
+    "per100g": {
+      "kcal": 32,
+      "carbG": 7,
+      "fiberG": 2.6,
+      "fatG": 0.2,
+      "proteinG": 1.8
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chives",
+    "name": "부추",
+    "aliases": [
+      "정구지"
+    ],
+    "per100g": {
+      "kcal": 30,
+      "carbG": 4.4,
+      "fiberG": 2.4,
+      "fatG": 0.4,
+      "proteinG": 3.3
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "garlic",
+    "name": "마늘",
+    "aliases": [
+      "다진마늘",
+      "깐마늘"
+    ],
+    "per100g": {
+      "kcal": 149,
+      "carbG": 33,
+      "fiberG": 2,
+      "fatG": 0.5,
+      "proteinG": 6
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "ginger",
+    "name": "생강",
+    "aliases": [
+      "다진생강"
+    ],
+    "per100g": {
+      "kcal": 80,
+      "carbG": 18,
+      "fiberG": 2,
+      "fatG": 0.8,
+      "proteinG": 1.8
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "radish",
+    "name": "무",
+    "aliases": [
+      "무우"
+    ],
+    "per100g": {
+      "kcal": 18,
+      "carbG": 4,
+      "fiberG": 1.6,
+      "fatG": 0.1,
+      "proteinG": 0.6
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "bean_sprout",
+    "name": "콩나물",
+    "aliases": [],
+    "per100g": {
+      "kcal": 31,
+      "carbG": 5,
+      "fiberG": 2.5,
+      "fatG": 0.5,
+      "proteinG": 5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mung_sprout",
+    "name": "숙주",
+    "aliases": [
+      "숙주나물"
+    ],
+    "per100g": {
+      "kcal": 30,
+      "carbG": 4,
+      "fiberG": 1.8,
+      "fatG": 0.2,
+      "proteinG": 3
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "tomato",
+    "name": "토마토",
+    "aliases": [],
+    "per100g": {
+      "kcal": 18,
+      "carbG": 3.9,
+      "fiberG": 1.2,
+      "fatG": 0.2,
+      "proteinG": 0.9
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "cherry_tomato",
+    "name": "방울토마토",
+    "aliases": [],
+    "per100g": {
+      "kcal": 18,
+      "carbG": 4,
+      "fiberG": 1.2,
+      "fatG": 0.2,
+      "proteinG": 0.9
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "eggplant",
+    "name": "가지",
+    "aliases": [],
+    "per100g": {
+      "kcal": 25,
+      "carbG": 6,
+      "fiberG": 3,
+      "fatG": 0.2,
+      "proteinG": 1
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "kimchi",
+    "name": "김치",
+    "aliases": [
+      "배추김치",
+      "묵은지"
+    ],
+    "per100g": {
+      "kcal": 33,
+      "carbG": 5,
+      "fiberG": 2,
+      "fatG": 0.5,
+      "proteinG": 2
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "avocado",
+    "name": "아보카도",
+    "aliases": [],
+    "per100g": {
+      "kcal": 160,
+      "carbG": 9,
+      "fiberG": 7,
+      "fatG": 15,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "olive",
+    "name": "올리브",
+    "aliases": [
+      "블랙올리브",
+      "그린올리브"
+    ],
+    "per100g": {
+      "kcal": 115,
+      "carbG": 6,
+      "fiberG": 3,
+      "fatG": 11,
+      "proteinG": 0.8
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "asparagus",
+    "name": "아스파라거스",
+    "aliases": [],
+    "per100g": {
+      "kcal": 20,
+      "carbG": 3.9,
+      "fiberG": 2.1,
+      "fatG": 0.1,
+      "proteinG": 2.2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "celery",
+    "name": "셀러리",
+    "aliases": [],
+    "per100g": {
+      "kcal": 16,
+      "carbG": 3,
+      "fiberG": 1.6,
+      "fatG": 0.2,
+      "proteinG": 0.7
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "kale",
+    "name": "케일",
+    "aliases": [],
+    "per100g": {
+      "kcal": 35,
+      "carbG": 4.4,
+      "fiberG": 4,
+      "fatG": 0.5,
+      "proteinG": 2.9
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "bok_choy",
+    "name": "청경채",
+    "aliases": [],
+    "per100g": {
+      "kcal": 13,
+      "carbG": 2.2,
+      "fiberG": 1,
+      "fatG": 0.2,
+      "proteinG": 1.5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "water_dropwort",
+    "name": "미나리",
+    "aliases": [],
+    "per100g": {
+      "kcal": 15,
+      "carbG": 3,
+      "fiberG": 1.5,
+      "fatG": 0.2,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "leek",
+    "name": "리크",
+    "aliases": [
+      "서양대파"
+    ],
+    "per100g": {
+      "kcal": 40,
+      "carbG": 9,
+      "fiberG": 1.5,
+      "fatG": 0.2,
+      "proteinG": 1
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "jalapeno",
+    "name": "할라피뇨",
+    "aliases": [],
+    "per100g": {
+      "kcal": 29,
+      "carbG": 6.5,
+      "fiberG": 2.8,
+      "fatG": 0.4,
+      "proteinG": 0.9
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "konjac",
+    "name": "곤약",
+    "aliases": [
+      "실곤약",
+      "곤약면"
+    ],
+    "per100g": {
+      "kcal": 8,
+      "carbG": 3,
+      "fiberG": 3,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "tofu",
+    "name": "두부",
+    "aliases": [
+      "모두부",
+      "부침두부"
+    ],
+    "per100g": {
+      "kcal": 79,
+      "carbG": 2,
+      "fiberG": 0.9,
+      "fatG": 4.8,
+      "proteinG": 8
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "soft_tofu",
+    "name": "순두부",
+    "aliases": [
+      "연두부"
+    ],
+    "per100g": {
+      "kcal": 47,
+      "carbG": 2,
+      "fiberG": 0.5,
+      "fatG": 2.7,
+      "proteinG": 5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "fried_tofu",
+    "name": "유부",
+    "aliases": [],
+    "per100g": {
+      "kcal": 200,
+      "carbG": 5,
+      "fiberG": 1,
+      "fatG": 13,
+      "proteinG": 16
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "carrot",
+    "name": "당근",
+    "aliases": [],
+    "per100g": {
+      "kcal": 35,
+      "carbG": 8,
+      "fiberG": 2.8,
+      "fatG": 0.2,
+      "proteinG": 0.9
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "pumpkin",
+    "name": "단호박",
+    "aliases": [
+      "늙은호박"
+    ],
+    "per100g": {
+      "kcal": 66,
+      "carbG": 17,
+      "fiberG": 3.5,
+      "fatG": 0.1,
+      "proteinG": 1.8
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "lemon",
+    "name": "레몬",
+    "aliases": [
+      "레몬즙"
+    ],
+    "per100g": {
+      "kcal": 29,
+      "carbG": 9,
+      "fiberG": 2.8,
+      "fatG": 0.3,
+      "proteinG": 1.1
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "lime",
+    "name": "라임",
+    "aliases": [
+      "라임즙"
+    ],
+    "per100g": {
+      "kcal": 30,
+      "carbG": 11,
+      "fiberG": 2.8,
+      "fatG": 0.2,
+      "proteinG": 0.7
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "blueberry",
+    "name": "블루베리",
+    "aliases": [],
+    "per100g": {
+      "kcal": 57,
+      "carbG": 14,
+      "fiberG": 2.4,
+      "fatG": 0.3,
+      "proteinG": 0.7
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "strawberry",
+    "name": "딸기",
+    "aliases": [],
+    "per100g": {
+      "kcal": 32,
+      "carbG": 8,
+      "fiberG": 2,
+      "fatG": 0.3,
+      "proteinG": 0.7
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "raspberry",
+    "name": "산딸기",
+    "aliases": [
+      "라즈베리"
+    ],
+    "per100g": {
+      "kcal": 52,
+      "carbG": 12,
+      "fiberG": 6.5,
+      "fatG": 0.7,
+      "proteinG": 1.2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "coconut_meat",
+    "name": "코코넛과육",
+    "aliases": [
+      "코코넛"
+    ],
+    "per100g": {
+      "kcal": 354,
+      "carbG": 15,
+      "fiberG": 9,
+      "fatG": 33,
+      "proteinG": 3
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "almond",
+    "name": "아몬드",
+    "aliases": [],
+    "per100g": {
+      "kcal": 579,
+      "carbG": 22,
+      "fiberG": 12,
+      "fatG": 50,
+      "proteinG": 21
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "walnut",
+    "name": "호두",
+    "aliases": [],
+    "per100g": {
+      "kcal": 654,
+      "carbG": 14,
+      "fiberG": 7,
+      "fatG": 65,
+      "proteinG": 15
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "macadamia",
+    "name": "마카다미아",
+    "aliases": [],
+    "per100g": {
+      "kcal": 718,
+      "carbG": 14,
+      "fiberG": 9,
+      "fatG": 76,
+      "proteinG": 8
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pecan",
+    "name": "피칸",
+    "aliases": [],
+    "per100g": {
+      "kcal": 691,
+      "carbG": 14,
+      "fiberG": 10,
+      "fatG": 72,
+      "proteinG": 9
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "peanut",
+    "name": "땅콩",
+    "aliases": [],
+    "per100g": {
+      "kcal": 567,
+      "carbG": 16,
+      "fiberG": 9,
+      "fatG": 49,
+      "proteinG": 26
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "pine_nut",
+    "name": "잣",
+    "aliases": [],
+    "per100g": {
+      "kcal": 673,
+      "carbG": 13,
+      "fiberG": 3.7,
+      "fatG": 68,
+      "proteinG": 14
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "chia_seed",
+    "name": "치아씨드",
+    "aliases": [
+      "치아씨"
+    ],
+    "per100g": {
+      "kcal": 486,
+      "carbG": 42,
+      "fiberG": 34,
+      "fatG": 31,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "flaxseed",
+    "name": "아마씨",
+    "aliases": [
+      "아마씨드",
+      "플랙스씨드"
+    ],
+    "per100g": {
+      "kcal": 534,
+      "carbG": 29,
+      "fiberG": 27,
+      "fatG": 42,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "pumpkin_seed",
+    "name": "호박씨",
+    "aliases": [],
+    "per100g": {
+      "kcal": 559,
+      "carbG": 11,
+      "fiberG": 6,
+      "fatG": 49,
+      "proteinG": 30
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "sunflower_seed",
+    "name": "해바라기씨",
+    "aliases": [],
+    "per100g": {
+      "kcal": 584,
+      "carbG": 20,
+      "fiberG": 8.6,
+      "fatG": 51,
+      "proteinG": 21
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "almond_flour",
+    "name": "아몬드가루",
+    "aliases": [
+      "아몬드파우더"
+    ],
+    "per100g": {
+      "kcal": 571,
+      "carbG": 20,
+      "fiberG": 11,
+      "fatG": 50,
+      "proteinG": 21
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "coconut_flour",
+    "name": "코코넛가루",
+    "aliases": [
+      "코코넛파우더"
+    ],
+    "per100g": {
+      "kcal": 400,
+      "carbG": 60,
+      "fiberG": 40,
+      "fatG": 13,
+      "proteinG": 18
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "psyllium",
+    "name": "사이리움",
+    "aliases": [
+      "차전자피"
+    ],
+    "per100g": {
+      "kcal": 200,
+      "carbG": 85,
+      "fiberG": 80,
+      "fatG": 0.5,
+      "proteinG": 1.5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "peanut_butter",
+    "name": "땅콩버터",
+    "aliases": [
+      "무가당땅콩버터"
+    ],
+    "per100g": {
+      "kcal": 588,
+      "carbG": 20,
+      "fiberG": 6,
+      "fatG": 50,
+      "proteinG": 25
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "pork_rind",
+    "name": "돼지껍질",
+    "aliases": [
+      "치차론",
+      "돼지껍데기"
+    ],
+    "per100g": {
+      "kcal": 544,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 31,
+      "proteinG": 61
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "gelatin",
+    "name": "젤라틴",
+    "aliases": [
+      "판젤라틴"
+    ],
+    "per100g": {
+      "kcal": 335,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 86
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "coconut_milk",
+    "name": "코코넛밀크",
+    "aliases": [
+      "코코넛크림"
+    ],
+    "per100g": {
+      "kcal": 230,
+      "carbG": 6,
+      "fiberG": 2,
+      "fatG": 24,
+      "proteinG": 2
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "almond_milk",
+    "name": "아몬드우유",
+    "aliases": [
+      "무가당아몬드밀크"
+    ],
+    "per100g": {
+      "kcal": 15,
+      "carbG": 1,
+      "fiberG": 0.5,
+      "fatG": 1.1,
+      "proteinG": 0.6
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "cocoa_powder",
+    "name": "코코아가루",
+    "aliases": [
+      "무가당코코아"
+    ],
+    "per100g": {
+      "kcal": 228,
+      "carbG": 58,
+      "fiberG": 33,
+      "fatG": 14,
+      "proteinG": 20
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "dark_chocolate",
+    "name": "다크초콜릿",
+    "aliases": [
+      "85%초콜릿"
+    ],
+    "per100g": {
+      "kcal": 600,
+      "carbG": 46,
+      "fiberG": 11,
+      "fatG": 43,
+      "proteinG": 8
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "olive_oil",
+    "name": "올리브오일",
+    "aliases": [
+      "올리브유",
+      "엑스트라버진"
+    ],
+    "per100g": {
+      "kcal": 884,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "coconut_oil",
+    "name": "코코넛오일",
+    "aliases": [
+      "코코넛유"
+    ],
+    "per100g": {
+      "kcal": 862,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "avocado_oil",
+    "name": "아보카도오일",
+    "aliases": [],
+    "per100g": {
+      "kcal": 884,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "sesame_oil",
+    "name": "참기름",
+    "aliases": [],
+    "per100g": {
+      "kcal": 884,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "perilla_oil",
+    "name": "들기름",
+    "aliases": [],
+    "per100g": {
+      "kcal": 884,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "lard",
+    "name": "라드",
+    "aliases": [
+      "돼지기름"
+    ],
+    "per100g": {
+      "kcal": 902,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "mayo",
+    "name": "마요네즈",
+    "aliases": [
+      "마요"
+    ],
+    "per100g": {
+      "kcal": 680,
+      "carbG": 1,
+      "fiberG": 0,
+      "fatG": 75,
+      "proteinG": 1
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "salt",
+    "name": "소금",
+    "aliases": [
+      "천일염",
+      "굵은소금"
+    ],
+    "per100g": {
+      "kcal": 0,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "black_pepper",
+    "name": "후추",
+    "aliases": [
+      "후춧가루",
+      "통후추"
+    ],
+    "per100g": {
+      "kcal": 251,
+      "carbG": 64,
+      "fiberG": 25,
+      "fatG": 3,
+      "proteinG": 10
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "soy_sauce",
+    "name": "간장",
+    "aliases": [
+      "진간장",
+      "양조간장"
+    ],
+    "per100g": {
+      "kcal": 60,
+      "carbG": 6,
+      "fiberG": 0.8,
+      "fatG": 0,
+      "proteinG": 6
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "soup_soy_sauce",
+    "name": "국간장",
+    "aliases": [
+      "조선간장"
+    ],
+    "per100g": {
+      "kcal": 50,
+      "carbG": 4,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 8
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "fish_sauce",
+    "name": "액젓",
+    "aliases": [
+      "멸치액젓",
+      "까나리액젓"
+    ],
+    "per100g": {
+      "kcal": 50,
+      "carbG": 3,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 8
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "doenjang",
+    "name": "된장",
+    "aliases": [],
+    "per100g": {
+      "kcal": 190,
+      "carbG": 13,
+      "fiberG": 5,
+      "fatG": 6,
+      "proteinG": 12
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "gochujang",
+    "name": "고추장",
+    "aliases": [],
+    "per100g": {
+      "kcal": 210,
+      "carbG": 45,
+      "fiberG": 5,
+      "fatG": 2,
+      "proteinG": 5
+    },
+    "keto": "avoid",
+    "pantry": true
+  },
+  {
+    "id": "ssamjang",
+    "name": "쌈장",
+    "aliases": [],
+    "per100g": {
+      "kcal": 180,
+      "carbG": 25,
+      "fiberG": 4,
+      "fatG": 6,
+      "proteinG": 6
+    },
+    "keto": "avoid",
+    "pantry": true
+  },
+  {
+    "id": "gochugaru",
+    "name": "고춧가루",
+    "aliases": [
+      "고추가루"
+    ],
+    "per100g": {
+      "kcal": 282,
+      "carbG": 57,
+      "fiberG": 28,
+      "fatG": 8,
+      "proteinG": 12
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "vinegar",
+    "name": "식초",
+    "aliases": [
+      "양조식초"
+    ],
+    "per100g": {
+      "kcal": 18,
+      "carbG": 0.1,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "apple_vinegar",
+    "name": "사과식초",
+    "aliases": [
+      "애플사이다비니거"
+    ],
+    "per100g": {
+      "kcal": 22,
+      "carbG": 0.9,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "mustard",
+    "name": "머스타드",
+    "aliases": [
+      "겨자",
+      "홀그레인머스타드"
+    ],
+    "per100g": {
+      "kcal": 66,
+      "carbG": 5,
+      "fiberG": 3,
+      "fatG": 4,
+      "proteinG": 4
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "oyster_sauce",
+    "name": "굴소스",
+    "aliases": [],
+    "per100g": {
+      "kcal": 51,
+      "carbG": 20,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 2
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "sesame",
+    "name": "참깨",
+    "aliases": [
+      "깨",
+      "통깨",
+      "깨소금"
+    ],
+    "per100g": {
+      "kcal": 573,
+      "carbG": 23,
+      "fiberG": 12,
+      "fatG": 50,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "perilla_seed",
+    "name": "들깨",
+    "aliases": [
+      "들깨가루",
+      "거피들깨"
+    ],
+    "per100g": {
+      "kcal": 508,
+      "carbG": 29,
+      "fiberG": 10,
+      "fatG": 36,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "erythritol",
+    "name": "에리스리톨",
+    "aliases": [
+      "에리스리톨스위트너",
+      "나한과"
+    ],
+    "per100g": {
+      "kcal": 0,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "allulose",
+    "name": "알룰로스",
+    "aliases": [],
+    "per100g": {
+      "kcal": 0,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "stevia",
+    "name": "스테비아",
+    "aliases": [],
+    "per100g": {
+      "kcal": 0,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "cooking_wine",
+    "name": "맛술",
+    "aliases": [
+      "미림",
+      "청주"
+    ],
+    "per100g": {
+      "kcal": 120,
+      "carbG": 20,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "sugar",
+    "name": "설탕",
+    "aliases": [
+      "백설탕",
+      "황설탕"
+    ],
+    "per100g": {
+      "kcal": 387,
+      "carbG": 100,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "avoid",
+    "pantry": true
+  },
+  {
+    "id": "honey",
+    "name": "꿀",
+    "aliases": [],
+    "per100g": {
+      "kcal": 304,
+      "carbG": 82,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "avoid",
+    "pantry": true
+  },
+  {
+    "id": "ketchup",
+    "name": "케찹",
+    "aliases": [
+      "토마토케찹"
+    ],
+    "per100g": {
+      "kcal": 100,
+      "carbG": 26,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 1
+    },
+    "keto": "avoid",
+    "pantry": true
+  },
+  {
+    "id": "curry_powder",
+    "name": "카레가루",
+    "aliases": [
+      "커리파우더"
+    ],
+    "per100g": {
+      "kcal": 325,
+      "carbG": 58,
+      "fiberG": 33,
+      "fatG": 13,
+      "proteinG": 13
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "dashida",
+    "name": "다시다",
+    "aliases": [
+      "소고기다시다",
+      "멸치다시다"
+    ],
+    "per100g": {
+      "kcal": 200,
+      "carbG": 40,
+      "fiberG": 0,
+      "fatG": 2,
+      "proteinG": 10
+    },
+    "keto": "caution",
+    "pantry": true
+  },
+  {
+    "id": "wasabi",
+    "name": "고추냉이",
+    "aliases": [
+      "와사비"
+    ],
+    "per100g": {
+      "kcal": 292,
+      "carbG": 64,
+      "fiberG": 8,
+      "fatG": 10,
+      "proteinG": 5
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "parsley",
+    "name": "파슬리",
+    "aliases": [
+      "이탈리안파슬리"
+    ],
+    "per100g": {
+      "kcal": 36,
+      "carbG": 6,
+      "fiberG": 3,
+      "fatG": 0.8,
+      "proteinG": 3
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "basil",
+    "name": "바질",
+    "aliases": [
+      "생바질",
+      "바질페스토"
+    ],
+    "per100g": {
+      "kcal": 23,
+      "carbG": 2.7,
+      "fiberG": 1.6,
+      "fatG": 0.6,
+      "proteinG": 3
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "oregano",
+    "name": "오레가노",
+    "aliases": [],
+    "per100g": {
+      "kcal": 265,
+      "carbG": 69,
+      "fiberG": 43,
+      "fatG": 4,
+      "proteinG": 9
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "rosemary",
+    "name": "로즈마리",
+    "aliases": [],
+    "per100g": {
+      "kcal": 131,
+      "carbG": 21,
+      "fiberG": 14,
+      "fatG": 6,
+      "proteinG": 3
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "thyme",
+    "name": "타임",
+    "aliases": [],
+    "per100g": {
+      "kcal": 101,
+      "carbG": 24,
+      "fiberG": 14,
+      "fatG": 1.7,
+      "proteinG": 6
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "bay_leaf",
+    "name": "월계수잎",
+    "aliases": [
+      "베이리프"
+    ],
+    "per100g": {
+      "kcal": 313,
+      "carbG": 75,
+      "fiberG": 26,
+      "fatG": 8,
+      "proteinG": 8
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "cinnamon",
+    "name": "계피",
+    "aliases": [
+      "시나몬",
+      "계피가루"
+    ],
+    "per100g": {
+      "kcal": 247,
+      "carbG": 81,
+      "fiberG": 53,
+      "fatG": 1.2,
+      "proteinG": 4
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "cumin",
+    "name": "커민",
+    "aliases": [
+      "쿠민"
+    ],
+    "per100g": {
+      "kcal": 375,
+      "carbG": 44,
+      "fiberG": 11,
+      "fatG": 22,
+      "proteinG": 18
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "paprika_powder",
+    "name": "파프리카가루",
+    "aliases": [
+      "파프리카파우더"
+    ],
+    "per100g": {
+      "kcal": 282,
+      "carbG": 54,
+      "fiberG": 35,
+      "fatG": 13,
+      "proteinG": 14
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "chili_flakes",
+    "name": "페페론치노",
+    "aliases": [
+      "고추플레이크",
+      "크러쉬드페퍼"
+    ],
+    "per100g": {
+      "kcal": 282,
+      "carbG": 57,
+      "fiberG": 28,
+      "fatG": 8,
+      "proteinG": 12
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "garlic_powder",
+    "name": "마늘가루",
+    "aliases": [
+      "갈릭파우더"
+    ],
+    "per100g": {
+      "kcal": 331,
+      "carbG": 72,
+      "fiberG": 9,
+      "fatG": 0.7,
+      "proteinG": 17
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "onion_powder",
+    "name": "양파가루",
+    "aliases": [
+      "어니언파우더"
+    ],
+    "per100g": {
+      "kcal": 341,
+      "carbG": 79,
+      "fiberG": 15,
+      "fatG": 1,
+      "proteinG": 10
+    },
+    "keto": "caution",
+    "pantry": true
+  }
+]
