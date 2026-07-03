@@ -288,7 +288,7 @@ export default function App() {
         </ol>
         <div className="mt-5 rounded-xl bg-emerald-50/60 px-4 py-3 text-xs leading-relaxed text-emerald-800/80">
           <strong className="font-semibold">키토 기준</strong> · 순탄수 = 총탄수 − 식이섬유. 1인분 순탄수 8g 이하 레시피만 추천하며, 하루 총 20g 이하를 권장합니다.
-          로그인하면 즐겨찾기·기록이 다른 기기에서도 이어집니다(선택).
+          즐겨찾기·기록은 이 브라우저에 저장돼요.
         </div>
       </section>
 
