@@ -22,6 +22,9 @@ const INGREDIENTS = ingredientsRaw as unknown as Ingredient[];
 const RECIPES = recipesRaw as unknown as Recipe[];
 const PANTRY_IDS = new Set(INGREDIENTS.filter((i) => i.pantry).map((i) => i.id));
 const INGREDIENT_BY_ID = new Map(INGREDIENTS.map((i) => [i.id, i]));
+// 자동완성 제안 대상: 레시피에 실제 등장하는 재료만 (막다른 선택 방지)
+const USED_INGREDIENT_IDS = new Set(RECIPES.flatMap((r) => r.ingredients.map((i) => i.id)));
+const SELECTABLE_INGREDIENTS = INGREDIENTS.filter((i) => USED_INGREDIENT_IDS.has(i.id));
 
 /** 원터치 추가용 인기 재료 */
 const POPULAR_IDS = ["pork_belly", "egg", "cabbage", "chicken_thigh", "tofu", "shrimp", "butter", "cheese_cheddar", "zucchini", "avocado"];
@@ -210,7 +213,7 @@ export default function App() {
           🧺 냉장고에 뭐가 있나요?
         </h2>
         <IngredientInput
-          ingredients={INGREDIENTS}
+          ingredients={SELECTABLE_INGREDIENTS}
           owned={owned}
           onAdd={(id) => setOwned((prev) => (prev.includes(id) ? prev : [...prev, id]))}
           onRemove={(id) => setOwned((prev) => prev.filter((x) => x !== id))}
@@ -274,7 +277,7 @@ export default function App() {
         <div className="mt-3">
           <p className="mb-2 text-xs text-stone-400">알레르기·비선호 재료가 든 레시피는 추천에서 빠져요.</p>
           <IngredientInput
-            ingredients={INGREDIENTS}
+            ingredients={SELECTABLE_INGREDIENTS}
             owned={excluded}
             onAdd={(id) => setExcluded((prev) => (prev.includes(id) ? prev : [...prev, id]))}
             onRemove={(id) => setExcluded((prev) => prev.filter((x) => x !== id))}

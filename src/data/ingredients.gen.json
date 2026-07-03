@@ -53,9 +53,7 @@
   {
     "id": "pork_loin",
     "name": "돼지등심",
-    "aliases": [
-      "등심"
-    ],
+    "aliases": [],
     "per100g": {
       "kcal": 150,
       "carbG": 0,
@@ -69,9 +67,7 @@
   {
     "id": "pork_tenderloin",
     "name": "돼지안심",
-    "aliases": [
-      "안심"
-    ],
+    "aliases": [],
     "per100g": {
       "kcal": 120,
       "carbG": 0,
@@ -183,8 +179,7 @@
     "id": "beef_sirloin",
     "name": "소등심",
     "aliases": [
-      "채끝",
-      "등심"
+      "채끝"
     ],
     "per100g": {
       "kcal": 210,
@@ -215,9 +210,7 @@
   {
     "id": "beef_tenderloin",
     "name": "소안심",
-    "aliases": [
-      "안심"
-    ],
+    "aliases": [],
     "per100g": {
       "kcal": 150,
       "carbG": 0,
