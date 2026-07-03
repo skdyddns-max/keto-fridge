@@ -54,5 +54,34 @@ export function matchRecipes(
       a.missing.length - b.missing.length ||
       a.recipe.computed.netCarbG - b.recipe.computed.netCarbG,
   );
-  return results;
+
+  // 다양성 보정 (spec §4): 동일 (상태, 부족개수) 그룹 안에서 같은 category 연속 노출 방지
+  const out: MatchResult[] = [];
+  const groupKey = (r: MatchResult) => `${r.status}:${r.missing.length}`;
+  let i = 0;
+  while (i < results.length) {
+    let j = i;
+    while (j < results.length && groupKey(results[j]) === groupKey(results[i])) j++;
+    out.push(...diversify(results.slice(i, j), (r) => r.recipe.category));
+    i = j;
+  }
+  return out;
+}
+
+/**
+ * 그리디 인터리빙: 직전과 같은 key(category)가 아닌 첫 후보를 차례로 선택.
+ * 대안이 없을 때만 같은 key 연속 허용. 원래 순서를 최대한 보존한다.
+ */
+export function diversify<T>(items: T[], keyOf: (t: T) => string): T[] {
+  const pool = [...items];
+  const out: T[] = [];
+  let prev = "";
+  while (pool.length > 0) {
+    let idx = pool.findIndex((t) => keyOf(t) !== prev);
+    if (idx === -1) idx = 0;
+    const [picked] = pool.splice(idx, 1);
+    out.push(picked);
+    prev = keyOf(picked);
+  }
+  return out;
 }

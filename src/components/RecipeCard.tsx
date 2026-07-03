@@ -11,13 +11,33 @@ const CATEGORY_LABEL: Record<string, string> = {
   snack: "간식",
 };
 
-export function RecipeCard({ result }: { result: MatchResult }) {
+interface Props {
+  result: MatchResult;
+  isFavorite?: boolean;
+  onClick?: () => void;
+}
+
+export function RecipeCard({ result, isFavorite = false, onClick }: Props) {
   const { recipe, status, missing } = result;
   return (
-    <article className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
+    <article
+      className="cursor-pointer rounded-2xl border border-stone-200 bg-white p-4 shadow-sm transition hover:border-emerald-300 hover:shadow"
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onClick?.();
+        }
+      }}
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <span className="text-[11px] font-medium text-stone-400">{CATEGORY_LABEL[recipe.category] ?? recipe.category}</span>
+          <span className="text-[11px] font-medium text-stone-400">
+            {CATEGORY_LABEL[recipe.category] ?? recipe.category}
+            {isFavorite && <span className="ml-1.5 text-amber-500">★</span>}
+          </span>
           <h3 className="truncate text-base font-semibold">{recipe.name}</h3>
         </div>
         <div className="shrink-0 text-right">

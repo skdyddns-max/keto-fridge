@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { matchRecipes, type MatchOptions } from "./match";
+import { diversify, matchRecipes, type MatchOptions } from "./match";
 import type { Recipe } from "./types";
 
 const recipe = (id: string, ingredientIds: string[], over: Partial<Recipe> = {}): Recipe => ({
@@ -60,6 +60,38 @@ describe("matchRecipes", () => {
     expect(r.missing).toEqual(["salt명"]);
   });
 
+  it("다양성 보정: 같은 category 연속 노출 방지 (같은 상태 그룹 안에서)", () => {
+    const rs = matchRecipes(
+      [
+        recipe("m1", ["pork"], { category: "meat", computed: { kcal: 0, netCarbG: 1, fatG: 1, proteinG: 1 } }),
+        recipe("m2", ["pork"], { category: "meat", computed: { kcal: 0, netCarbG: 2, fatG: 1, proteinG: 1 } }),
+        recipe("m3", ["pork"], { category: "meat", computed: { kcal: 0, netCarbG: 3, fatG: 1, proteinG: 1 } }),
+        recipe("e1", ["pork"], { category: "egg", computed: { kcal: 0, netCarbG: 4, fatG: 1, proteinG: 1 } }),
+        recipe("s1", ["pork"], { category: "soup", computed: { kcal: 0, netCarbG: 5, fatG: 1, proteinG: 1 } }),
+      ],
+      own("pork"),
+      none,
+      opts,
+    );
+    // 전부 cookNow — meat 3연속 대신 인터리빙되어야 함
+    expect(rs.map((r) => r.recipe.category)).toEqual(["meat", "egg", "meat", "soup", "meat"]);
+  });
+
+  it("다양성 보정이 상태 우선순위를 침범하지 않는다", () => {
+    const rs = matchRecipes(
+      [
+        recipe("now-meat", ["pork"], { category: "meat" }),
+        recipe("almost-egg", ["pork", "x"], { category: "egg" }),
+        recipe("now-meat2", ["pork"], { category: "meat" }),
+      ],
+      own("pork"),
+      none,
+      opts,
+    );
+    // cookNow 2개가 (같은 meat라도) almost보다 항상 앞
+    expect(rs.map((r) => r.status)).toEqual(["cookNow", "cookNow", "almost"]);
+  });
+
   it("랭킹: cookNow → 부족 적은 순 → 순탄수 낮은 순", () => {
     const rs = matchRecipes(
       [
@@ -73,5 +105,19 @@ describe("matchRecipes", () => {
       opts,
     );
     expect(rs.map((r) => r.recipe.id)).toEqual(["carb-low", "carb-high", "missing1", "missing2"]);
+  });
+});
+
+describe("diversify", () => {
+  it("대안이 없으면 같은 key 연속 허용", () => {
+    expect(diversify(["a", "a", "a"], (x) => x)).toEqual(["a", "a", "a"]);
+  });
+
+  it("빈 배열 안전", () => {
+    expect(diversify([], (x: string) => x)).toEqual([]);
+  });
+
+  it("원래 순서를 최대한 보존하며 인터리빙", () => {
+    expect(diversify(["a1", "a2", "b1", "a3"], (x) => x[0])).toEqual(["a1", "b1", "a2", "a3"]);
   });
 });

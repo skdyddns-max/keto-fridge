@@ -7,10 +7,18 @@ interface Props {
   owned: string[];
   onAdd: (id: string) => void;
   onRemove: (id: string) => void;
+  placeholder?: string;
+  /** 칩 색상 톤 — 보유재료(emerald) / 제외재료(rose) */
+  tone?: "emerald" | "rose";
 }
 
+const TONE = {
+  emerald: { chip: "bg-emerald-100 text-emerald-800", x: "text-emerald-600 hover:bg-emerald-200" },
+  rose: { chip: "bg-rose-100 text-rose-800", x: "text-rose-600 hover:bg-rose-200" },
+};
+
 /** 재료 태그 입력 — 자동완성(이름·별칭), 키보드 탐색, 칩 제거 */
-export function IngredientInput({ ingredients, owned, onAdd, onRemove }: Props) {
+export function IngredientInput({ ingredients, owned, onAdd, onRemove, placeholder, tone = "emerald" }: Props) {
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -56,7 +64,7 @@ export function IngredientInput({ ingredients, owned, onAdd, onRemove }: Props) 
             setActive(0);
           }}
           onKeyDown={onKeyDown}
-          placeholder="냉장고 재료를 입력하세요 (예: 삼겹살, 계란, 양배추)"
+          placeholder={placeholder ?? "냉장고 재료를 입력하세요 (예: 삼겹살, 계란, 양배추)"}
           className="w-full rounded-xl border border-stone-300 bg-white px-4 py-3 text-base outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
           aria-label="재료 검색"
         />
@@ -85,13 +93,13 @@ export function IngredientInput({ ingredients, owned, onAdd, onRemove }: Props) 
             const ing = byId.get(id);
             if (!ing) return null;
             return (
-              <span key={id} className="inline-flex items-center gap-1.5 rounded-full bg-emerald-100 py-1 pl-3 pr-1.5 text-sm font-medium text-emerald-800">
+              <span key={id} className={`inline-flex items-center gap-1.5 rounded-full py-1 pl-3 pr-1.5 text-sm font-medium ${TONE[tone].chip}`}>
                 {ing.name}
                 <button
                   type="button"
                   onClick={() => onRemove(id)}
                   aria-label={`${ing.name} 제거`}
-                  className="flex h-5 w-5 items-center justify-center rounded-full text-emerald-600 hover:bg-emerald-200"
+                  className={`flex h-5 w-5 items-center justify-center rounded-full ${TONE[tone].x}`}
                 >
                   ×
                 </button>
