@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @apply bg-stone-50 text-stone-900;
+}
