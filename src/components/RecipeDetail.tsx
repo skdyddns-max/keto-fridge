@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { MatchResult } from "../lib/match";
 import { categoryMeta } from "../lib/categories";
+import { householdLabel } from "../lib/measures";
 import { usePhotos } from "../store/usePhotos";
 import { MacroPie } from "./MacroPie";
 
@@ -121,6 +122,7 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
           <ul className="space-y-1.5">
             {recipe.ingredients.map((ri) => {
               const has = effectiveOwned.has(ri.id);
+              const hh = householdLabel(ri.id, ri.grams);
               return (
                 <li key={ri.id} className="flex items-center justify-between text-sm">
                   <span className={has ? "" : "text-stone-400"}>
@@ -129,7 +131,10 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
                     </span>
                     {ri.name}
                   </span>
-                  <span className="text-stone-500">{ri.grams}g</span>
+                  <span className="text-stone-500">
+                    {hh && <span className="mr-1.5 font-medium text-stone-700">{hh}</span>}
+                    <span className="text-stone-400">{ri.grams}g</span>
+                  </span>
                 </li>
               );
             })}
