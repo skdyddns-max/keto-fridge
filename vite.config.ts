@@ -17,6 +17,10 @@ export default defineConfig({
       // 레시피 데이터는 JS 번들에 포함되므로 정적 에셋 프리캐시만으로 완전 오프라인 동작
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg,ico,webmanifest}"],
+        // 새 버전 배포 시 서비스워커를 즉시 교체(대기 없이) → 사용자가 새로고침하면 바로 최신
+        clientsClaim: true,
+        skipWaiting: true,
+        cleanupOutdatedCaches: true,
       },
       manifest: {
         name: "키토 냉장고",
