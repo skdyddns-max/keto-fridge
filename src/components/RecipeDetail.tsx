@@ -25,6 +25,8 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
   const [ate, setAte] = useState(false);
   const [shopped, setShopped] = useState(false);
   const [zoom, setZoom] = useState<string | null>(null);
+  const [portions, setPortions] = useState(recipe.servings); // 만들 인분 수
+  const factor = portions / recipe.servings; // 재료 배수 (순탄수는 1인분 기준이라 불변)
   const fileRef = useRef<HTMLInputElement>(null);
   const { photos, add, remove, busy, error } = usePhotos(recipe.id, onPhotosChanged);
 
@@ -118,11 +120,36 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
         </section>
 
         <section className="mt-5">
-          <h3 className="mb-2 text-sm font-bold text-stone-500">재료 ({recipe.servings}인분)</h3>
+          <div className="mb-2 flex items-center justify-between">
+            <h3 className="text-sm font-bold text-stone-500">재료</h3>
+            {/* 인분 조절 */}
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setPortions((p) => Math.max(1, p - 1))}
+                disabled={portions <= 1}
+                aria-label="인분 줄이기"
+                className="flex h-7 w-7 items-center justify-center rounded-full border border-stone-300 text-stone-600 disabled:opacity-40"
+              >
+                −
+              </button>
+              <span className="min-w-14 text-center text-sm font-bold text-stone-700">{portions}인분</span>
+              <button
+                type="button"
+                onClick={() => setPortions((p) => Math.min(10, p + 1))}
+                disabled={portions >= 10}
+                aria-label="인분 늘리기"
+                className="flex h-7 w-7 items-center justify-center rounded-full border border-stone-300 text-stone-600 disabled:opacity-40"
+              >
+                +
+              </button>
+            </div>
+          </div>
           <ul className="space-y-1.5">
             {recipe.ingredients.map((ri) => {
               const has = effectiveOwned.has(ri.id);
-              const hh = householdLabel(ri.id, ri.grams);
+              const grams = Math.round(ri.grams * factor);
+              const hh = householdLabel(ri.id, ri.grams * factor);
               return (
                 <li key={ri.id} className="flex items-center justify-between text-sm">
                   <span className={has ? "" : "text-stone-400"}>
@@ -133,12 +160,15 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
                   </span>
                   <span className="text-stone-500">
                     {hh && <span className="mr-1.5 font-medium text-stone-700">{hh}</span>}
-                    <span className="text-stone-400">{ri.grams}g</span>
+                    <span className="text-stone-400">{grams}g</span>
                   </span>
                 </li>
               );
             })}
           </ul>
+          {portions !== recipe.servings && (
+            <p className="mt-2 text-[11px] text-stone-400">순탄수·매크로는 1인분 기준이라 그대로예요. 재료만 {portions}인분으로 계산했어요.</p>
+          )}
         </section>
 
         <section className="mt-5">
