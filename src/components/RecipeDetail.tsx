@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import type { MatchResult } from "../lib/match";
 import { categoryMeta } from "../lib/categories";
 import { householdLabel } from "../lib/measures";
+import { difficulty, estimateMinutes } from "../lib/recipeMeta";
+import { isPantry } from "../lib/pantry";
 import { usePhotos } from "../store/usePhotos";
 import { MacroPie } from "./MacroPie";
 import { CookMode } from "./CookMode";
@@ -93,6 +95,11 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
             {Math.round(recipe.computed.kcal)} kcal
             <div className="text-xs text-stone-400">1인분 기준</div>
           </div>
+        </div>
+
+        <div className="mt-2 flex gap-2 text-xs">
+          <span className="flex items-center gap-1 rounded-full bg-stone-100 px-2.5 py-1 font-medium text-stone-600">⏱️ 약 {estimateMinutes(recipe, isPantry)}분</span>
+          <span className="flex items-center gap-1 rounded-full bg-stone-100 px-2.5 py-1 font-medium text-stone-600">👌 {difficulty(recipe, isPantry)}</span>
         </div>
 
         <div className="mt-3 flex gap-2">

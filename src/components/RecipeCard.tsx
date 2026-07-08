@@ -1,6 +1,8 @@
 import { memo } from "react";
 import type { MatchResult } from "../lib/match";
 import { categoryMeta } from "../lib/categories";
+import { difficulty, estimateMinutes } from "../lib/recipeMeta";
+import { isPantry } from "../lib/pantry";
 import { MacroBar } from "./MacroBar";
 
 interface Props {
@@ -62,8 +64,8 @@ function RecipeCardBase({ result, isFavorite = false, hasPhoto = false, thumbUrl
         </div>
 
         <div className="mt-2 flex items-center justify-between text-[11px] text-stone-400">
+          <span>⏱️ 약 {estimateMinutes(recipe, isPantry)}분 · {difficulty(recipe, isPantry)}</span>
           <span>{Math.round(recipe.computed.kcal)} kcal</span>
-          {recipe.tags.length > 0 && <span className="truncate">#{recipe.tags.slice(0, 2).join(" #")}</span>}
         </div>
 
         {status === "almost" && missing.length > 0 && (
