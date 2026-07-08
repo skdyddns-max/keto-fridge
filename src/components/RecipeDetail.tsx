@@ -4,6 +4,7 @@ import { categoryMeta } from "../lib/categories";
 import { householdLabel } from "../lib/measures";
 import { usePhotos } from "../store/usePhotos";
 import { MacroPie } from "./MacroPie";
+import { CookMode } from "./CookMode";
 
 interface Props {
   result: MatchResult;
@@ -27,6 +28,7 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
   const [zoom, setZoom] = useState<string | null>(null);
   const [portions, setPortions] = useState(recipe.servings); // 만들 인분 수
   const factor = portions / recipe.servings; // 재료 배수 (순탄수는 1인분 기준이라 불변)
+  const [cooking, setCooking] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
   const { photos, add, remove, busy, error } = usePhotos(recipe.id, onPhotosChanged);
 
@@ -172,7 +174,16 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
         </section>
 
         <section className="mt-5">
-          <h3 className="mb-2 text-sm font-bold text-stone-500">조리 순서</h3>
+          <div className="mb-2 flex items-center justify-between">
+            <h3 className="text-sm font-bold text-stone-500">조리 순서</h3>
+            <button
+              type="button"
+              onClick={() => setCooking(true)}
+              className="rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-emerald-700"
+            >
+              👨‍🍳 요리 시작
+            </button>
+          </div>
           <ol className="space-y-2">
             {recipe.steps.map((s, i) => (
               <li key={i} className="flex gap-3 text-sm leading-relaxed">
@@ -254,6 +265,8 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
           <img src={zoom} alt="확대" className="max-h-full max-w-full rounded-lg object-contain" />
         </div>
       )}
+
+      {cooking && <CookMode recipe={recipe} factor={factor} onClose={() => setCooking(false)} />}
     </div>
   );
 }
