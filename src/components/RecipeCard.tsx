@@ -1,3 +1,4 @@
+import { memo } from "react";
 import type { MatchResult } from "../lib/match";
 import { categoryMeta } from "../lib/categories";
 import { MacroBar } from "./MacroBar";
@@ -11,7 +12,7 @@ interface Props {
   onClick?: () => void;
 }
 
-export function RecipeCard({ result, isFavorite = false, hasPhoto = false, thumbUrl, onClick }: Props) {
+function RecipeCardBase({ result, isFavorite = false, hasPhoto = false, thumbUrl, onClick }: Props) {
   const { recipe, status, missing } = result;
   const cat = categoryMeta(recipe.category);
 
@@ -77,3 +78,13 @@ export function RecipeCard({ result, isFavorite = false, hasPhoto = false, thumb
     </article>
   );
 }
+
+/**
+ * result 객체는 매칭 재계산 시에만 새로 생성되므로(모달 열기·인분 변경엔 불변),
+ * 참조 비교로 수백 개 카드의 불필요한 리렌더를 막는다. onClick은 동작이 안정적이라 비교에서 제외.
+ */
+export const RecipeCard = memo(
+  RecipeCardBase,
+  (a, b) =>
+    a.result === b.result && a.isFavorite === b.isFavorite && a.hasPhoto === b.hasPhoto && a.thumbUrl === b.thumbUrl,
+);

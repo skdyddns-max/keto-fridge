@@ -9,6 +9,19 @@ const base = process.env.DEPLOY_BASE ?? "/";
 
 export default defineConfig({
   base,
+  build: {
+    chunkSizeWarningLimit: 1200,
+    rollupOptions: {
+      output: {
+        // 청크 분리: react(자주 안 바뀜) / 레시피 데이터 / 앱 코드 → 캐시 효율 + 병렬 로드
+        manualChunks(id) {
+          if (id.includes("data/recipes.gen.json") || id.includes("data/ingredients.gen.json")) return "data";
+          if (id.includes("node_modules/react") || id.includes("node_modules/scheduler")) return "vendor";
+          if (id.includes("node_modules/@supabase")) return "supabase";
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),

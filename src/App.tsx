@@ -31,6 +31,7 @@ const POPULAR_IDS = ["pork_belly", "egg", "cabbage", "chicken_thigh", "tofu", "s
 
 const EXPLORE_LIMIT = 20;
 const BROWSE_LIMIT = 40;
+const ALMOST_LIMIT = 24; // '거의 가능해요' 초기 표시 상한 (렌더 성능)
 
 /** 레시피를 카드 표시용 결과로 감싼다 (추천·카테고리 탐색용) */
 const asResult = (recipe: Recipe): MatchResult => ({ recipe, status: "explore", missing: [], coverage: 0 });
@@ -56,6 +57,7 @@ export default function App() {
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [selected, setSelected] = useState<MatchResult | null>(null);
   const [showShopping, setShowShopping] = useState(false);
+  const [showAllAlmost, setShowAllAlmost] = useState(false);
   const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
   const [photoThumbs, setPhotoThumbs] = useState<Record<string, string>>({});
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
@@ -80,6 +82,11 @@ export default function App() {
     refreshPhotoIds();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // 검색 조건이 바뀌면 '거의 가능해요' 펼침 상태 초기화
+  useEffect(() => {
+    setShowAllAlmost(false);
+  }, [owned, excluded, assumePantry, categoryFilter, favoritesOnly]);
 
   const favoriteSet = useMemo(() => new Set(favorites), [favorites]);
 
@@ -346,7 +353,16 @@ export default function App() {
                 거의 가능해요
                 <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-600">{almost.length}</span>
               </h2>
-              {grid(almost)}
+              {grid(showAllAlmost ? almost : almost.slice(0, ALMOST_LIMIT))}
+              {!showAllAlmost && almost.length > ALMOST_LIMIT && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllAlmost(true)}
+                  className="mt-3 w-full rounded-xl bg-white/60 py-2.5 text-sm font-medium text-amber-700 transition hover:bg-white"
+                >
+                  거의 가능한 레시피 {almost.length - ALMOST_LIMIT}개 더 보기
+                </button>
+              )}
             </section>
           )}
 
