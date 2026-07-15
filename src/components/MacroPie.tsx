@@ -1,7 +1,7 @@
 import { macroPercents } from "../lib/nutrition";
 import type { Computed } from "../lib/types";
 
-const COLORS = { fat: "#fbbf24", protein: "#fb7185", carb: "#38bdf8" }; // amber-400 / rose-400 / sky-400
+const COLORS = { fat: "#e0913f", protein: "#e07a76", carb: "#6fa9be" }; // amber-400 / rose-400 / sky-400
 
 /** 매크로 도넛 파이 (경량 SVG, spec §6) */
 export function MacroPie({ computed, size = 96 }: { computed: Computed; size?: number }) {

@@ -1,16 +1,109 @@
 @import "tailwindcss";
 
+/*
+  Warm Editorial palette (design-systems/warm-editorial)
+  Paper #FAF7F2 · ink #1C1A17 · terracotta #C0512F · forest #2F5B4F · muted #8A817A.
+  Restyle is token-only: Tailwind color scales are remapped here so every existing
+  utility class (bg-emerald-600, text-stone-500 …) renders in warm tones. No markup,
+  classnames, or JS are touched.
+*/
+@theme {
+  /* Neutral — warm greige ink (background, borders, body/heading text) */
+  --color-stone-50: #faf7f2;
+  --color-stone-100: #f2ece3;
+  --color-stone-200: #e7dfd3;
+  --color-stone-300: #d6caba;
+  --color-stone-400: #a99e92;
+  --color-stone-500: #8a817a;
+  --color-stone-600: #6e655c;
+  --color-stone-700: #4a443d;
+  --color-stone-800: #2c2822;
+  --color-stone-900: #1c1a17;
+
+  /* Primary brand — forest green (keto identity, header, "cook now", CTAs) */
+  --color-emerald-50: #edf3f0;
+  --color-emerald-100: #dae7e1;
+  --color-emerald-200: #b7d0c6;
+  --color-emerald-300: #8db2a4;
+  --color-emerald-400: #59897a;
+  --color-emerald-500: #3b6b5c;
+  --color-emerald-600: #2f5b4f;
+  --color-emerald-700: #264a40;
+  --color-emerald-800: #1f3d35;
+  --color-emerald-900: #18302a;
+
+  /* Teal — header gradient partner, kept near forest for a near-solid warm fill */
+  --color-teal-400: #3e7365;
+  --color-teal-500: #356456;
+  --color-teal-600: #2c5449;
+
+  /* Secondary accent — honey → terracotta (favorites, "almost", badges, fat macro) */
+  --color-amber-50: #fbf1ea;
+  --color-amber-100: #f6e1d3;
+  --color-amber-200: #efc9b2;
+  --color-amber-300: #e8ac80;
+  --color-amber-400: #e0913f;
+  --color-amber-500: #c0512f;
+  --color-amber-600: #a5442a;
+  --color-amber-700: #883924;
+  --color-amber-800: #6e2f1f;
+  --color-amber-900: #5a281c;
+  --color-amber-950: #351409;
+
+  /* Danger / exclude — warm coral-red, kept distinct from terracotta accent */
+  --color-rose-50: #fbf0ee;
+  --color-rose-100: #f8ded9;
+  --color-rose-200: #f1c3bb;
+  --color-rose-400: #e07a76;
+  --color-rose-500: #ce4e4a;
+  --color-rose-600: #b23b3a;
+  --color-rose-700: #97302f;
+  --color-rose-800: #7c2827;
+
+  /* Category / macro hues — desaturated & warm-shifted to sit on paper */
+  --color-sky-50: #eef4f6;
+  --color-sky-100: #e1ebee;
+  --color-sky-400: #6fa9be;
+  --color-sky-700: #3f6f82;
+
+  --color-lime-50: #f1f2e4;
+  --color-lime-100: #eaeed4;
+  --color-lime-400: #a3b15a;
+  --color-lime-700: #5f6b2e;
+
+  --color-orange-50: #fbeddf;
+  --color-orange-100: #f8e4d0;
+  --color-orange-400: #e08a4a;
+  --color-orange-700: #8a4a22;
+
+  --color-violet-50: #f1eaef;
+  --color-violet-100: #ebe1e7;
+  --color-violet-400: #a87e9c;
+  --color-violet-700: #6a4b62;
+}
+
 :root {
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
   -webkit-font-smoothing: antialiased;
+  /* Editorial data feel: align figures in the carb/macro/net-carb numbers */
+  font-variant-numeric: tabular-nums;
 }
 
 body {
   @apply text-stone-900;
-  background-color: #fafaf9;
+  background-color: #faf7f2;
   background-image:
-    radial-gradient(60rem 40rem at 100% -10%, rgba(16, 185, 129, 0.1), transparent 60%),
-    radial-gradient(50rem 40rem at -10% 0%, rgba(251, 191, 36, 0.08), transparent 55%);
+    radial-gradient(60rem 40rem at 100% -10%, rgba(192, 81, 47, 0.06), transparent 60%),
+    radial-gradient(50rem 40rem at -10% 0%, rgba(47, 91, 79, 0.05), transparent 55%);
   background-attachment: fixed;
   min-height: 100vh;
+  line-height: 1.55;
+}
+
+/* Type hierarchy — headings carry presence without touching component markup */
+h1,
+h2,
+h3 {
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
