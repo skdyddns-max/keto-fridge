@@ -355,8 +355,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 431.8,
-      "netCarbG": 1.5,
+      "kcal": 434.2,
+      "netCarbG": 2,
       "fatG": 29.5,
       "proteinG": 39.9
     },
@@ -1177,7 +1177,7 @@
     ],
     "computed": {
       "kcal": 296.4,
-      "netCarbG": 3.1,
+      "netCarbG": 3,
       "fatG": 22.6,
       "proteinG": 21.1
     },
@@ -1461,7 +1461,7 @@
     ],
     "computed": {
       "kcal": 298.9,
-      "netCarbG": 2.6,
+      "netCarbG": 2.5,
       "fatG": 25.5,
       "proteinG": 14.4
     },
@@ -1993,7 +1993,7 @@
     ],
     "computed": {
       "kcal": 373.9,
-      "netCarbG": 2.2,
+      "netCarbG": 2.1,
       "fatG": 25.8,
       "proteinG": 33.3
     },
@@ -2748,7 +2748,7 @@
     ],
     "computed": {
       "kcal": 155.3,
-      "netCarbG": 4.8,
+      "netCarbG": 4.4,
       "fatG": 12.4,
       "proteinG": 6
     },
@@ -3130,7 +3130,7 @@
     ],
     "computed": {
       "kcal": 324.3,
-      "netCarbG": 3.1,
+      "netCarbG": 2.9,
       "fatG": 22.4,
       "proteinG": 26.3
     },
@@ -3180,8 +3180,8 @@
       "고소함"
     ],
     "computed": {
-      "kcal": 391.1,
-      "netCarbG": 3.2,
+      "kcal": 393.5,
+      "netCarbG": 3.7,
       "fatG": 31.3,
       "proteinG": 22.2
     },
@@ -3237,7 +3237,7 @@
     ],
     "computed": {
       "kcal": 371.4,
-      "netCarbG": 3.8,
+      "netCarbG": 3.6,
       "fatG": 34.2,
       "proteinG": 12.2
     },
@@ -3379,10 +3379,10 @@
       "간편"
     ],
     "computed": {
-      "kcal": 246.6,
-      "netCarbG": 7.5,
-      "fatG": 17.7,
-      "proteinG": 14.5
+      "kcal": 280.8,
+      "netCarbG": 7.9,
+      "fatG": 21.8,
+      "proteinG": 13.6
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -3431,7 +3431,7 @@
     ],
     "computed": {
       "kcal": 329.8,
-      "netCarbG": 1.7,
+      "netCarbG": 1.6,
       "fatG": 22.2,
       "proteinG": 29.7
     },
@@ -3482,7 +3482,7 @@
     ],
     "computed": {
       "kcal": 265.3,
-      "netCarbG": 2.2,
+      "netCarbG": 2.1,
       "fatG": 20.4,
       "proteinG": 16.3
     },
@@ -3528,7 +3528,7 @@
     ],
     "computed": {
       "kcal": 289.4,
-      "netCarbG": 4.3,
+      "netCarbG": 4,
       "fatG": 25.3,
       "proteinG": 12.3
     },
@@ -3610,7 +3610,7 @@
     ],
     "computed": {
       "kcal": 172.4,
-      "netCarbG": 1.6,
+      "netCarbG": 1.4,
       "fatG": 11.6,
       "proteinG": 15.2
     },
@@ -3911,8 +3911,8 @@
       "초간단"
     ],
     "computed": {
-      "kcal": 215,
-      "netCarbG": 3.4,
+      "kcal": 218.2,
+      "netCarbG": 4,
       "fatG": 20.3,
       "proteinG": 4.5
     },
@@ -3952,8 +3952,8 @@
       "매콤"
     ],
     "computed": {
-      "kcal": 304.6,
-      "netCarbG": 2.2,
+      "kcal": 307,
+      "netCarbG": 2.6,
       "fatG": 27.9,
       "proteinG": 9.9
     },
@@ -4497,7 +4497,7 @@
     ],
     "computed": {
       "kcal": 321.1,
-      "netCarbG": 4.2,
+      "netCarbG": 4.1,
       "fatG": 21.8,
       "proteinG": 22.9
     },
@@ -4544,7 +4544,7 @@
     ],
     "computed": {
       "kcal": 331.8,
-      "netCarbG": 2.8,
+      "netCarbG": 2.6,
       "fatG": 29.3,
       "proteinG": 12.8
     },
@@ -5021,8 +5021,8 @@
       "롤"
     ],
     "computed": {
-      "kcal": 198.6,
-      "netCarbG": 3.6,
+      "kcal": 201,
+      "netCarbG": 4.1,
       "fatG": 15.5,
       "proteinG": 10.5
     },
@@ -6058,7 +6058,7 @@
     ],
     "computed": {
       "kcal": 303.9,
-      "netCarbG": 6.1,
+      "netCarbG": 5.7,
       "fatG": 16.2,
       "proteinG": 31.4
     },
@@ -7552,7 +7552,7 @@
     ],
     "computed": {
       "kcal": 493.1,
-      "netCarbG": 6.5,
+      "netCarbG": 6.1,
       "fatG": 39,
       "proteinG": 28.3
     },
@@ -9150,7 +9150,7 @@
     ],
     "computed": {
       "kcal": 285.5,
-      "netCarbG": 6.1,
+      "netCarbG": 5.8,
       "fatG": 12.5,
       "proteinG": 35.4
     },
@@ -9512,7 +9512,7 @@
     ],
     "computed": {
       "kcal": 676.7,
-      "netCarbG": 2.4,
+      "netCarbG": 2.3,
       "fatG": 49.1,
       "proteinG": 53.2
     },
@@ -13694,7 +13694,7 @@
     ],
     "computed": {
       "kcal": 526.4,
-      "netCarbG": 2.7,
+      "netCarbG": 2.6,
       "fatG": 35.2,
       "proteinG": 49
     },
@@ -13814,7 +13814,7 @@
     ],
     "computed": {
       "kcal": 588.4,
-      "netCarbG": 4.1,
+      "netCarbG": 4,
       "fatG": 45,
       "proteinG": 39.7
     },
@@ -14516,7 +14516,7 @@
     ],
     "computed": {
       "kcal": 475.3,
-      "netCarbG": 3.6,
+      "netCarbG": 3.4,
       "fatG": 37.6,
       "proteinG": 26.1
     },
@@ -15693,7 +15693,7 @@
     ],
     "computed": {
       "kcal": 404,
-      "netCarbG": 5.7,
+      "netCarbG": 5.3,
       "fatG": 22.7,
       "proteinG": 43.1
     },
@@ -16507,7 +16507,7 @@
     ],
     "computed": {
       "kcal": 309.2,
-      "netCarbG": 6,
+      "netCarbG": 5.8,
       "fatG": 21.8,
       "proteinG": 19.9
     },
@@ -16667,7 +16667,7 @@
     ],
     "computed": {
       "kcal": 269.2,
-      "netCarbG": 3.5,
+      "netCarbG": 3.4,
       "fatG": 18.6,
       "proteinG": 21.2
     },
@@ -16926,7 +16926,7 @@
     ],
     "computed": {
       "kcal": 238.5,
-      "netCarbG": 6.5,
+      "netCarbG": 6.1,
       "fatG": 8.8,
       "proteinG": 34.1
     },
@@ -16983,7 +16983,7 @@
     ],
     "computed": {
       "kcal": 452.6,
-      "netCarbG": 3.9,
+      "netCarbG": 3.8,
       "fatG": 32.6,
       "proteinG": 36.9
     },
@@ -18586,7 +18586,7 @@
     ],
     "computed": {
       "kcal": 211.2,
-      "netCarbG": 6.4,
+      "netCarbG": 6.3,
       "fatG": 16.9,
       "proteinG": 6.5
     },
@@ -18913,8 +18913,8 @@
       "간식"
     ],
     "computed": {
-      "kcal": 318.7,
-      "netCarbG": 3.8,
+      "kcal": 323.5,
+      "netCarbG": 4.7,
       "fatG": 28.9,
       "proteinG": 11.3
     },
@@ -19504,8 +19504,8 @@
       "아침"
     ],
     "computed": {
-      "kcal": 389.5,
-      "netCarbG": 2.8,
+      "kcal": 391.9,
+      "netCarbG": 3.2,
       "fatG": 33.3,
       "proteinG": 21.5
     },
@@ -19781,8 +19781,8 @@
       "부드러움"
     ],
     "computed": {
-      "kcal": 388.8,
-      "netCarbG": 2.7,
+      "kcal": 391.2,
+      "netCarbG": 3.2,
       "fatG": 33.3,
       "proteinG": 21.4
     },
@@ -19975,7 +19975,7 @@
     ],
     "computed": {
       "kcal": 440.6,
-      "netCarbG": 4,
+      "netCarbG": 3.8,
       "fatG": 36.3,
       "proteinG": 26.3
     },
@@ -20231,7 +20231,7 @@
     ],
     "computed": {
       "kcal": 323.6,
-      "netCarbG": 2.5,
+      "netCarbG": 2.4,
       "fatG": 20.6,
       "proteinG": 32.9
     },
@@ -20721,7 +20721,7 @@
     ],
     "computed": {
       "kcal": 467.2,
-      "netCarbG": 2.5,
+      "netCarbG": 2.4,
       "fatG": 42.5,
       "proteinG": 20
     },
@@ -20763,7 +20763,7 @@
     ],
     "computed": {
       "kcal": 222,
-      "netCarbG": 1.4,
+      "netCarbG": 1.3,
       "fatG": 17,
       "proteinG": 16.9
     },
@@ -21104,7 +21104,7 @@
     ],
     "computed": {
       "kcal": 251.9,
-      "netCarbG": 2.1,
+      "netCarbG": 2,
       "fatG": 20.9,
       "proteinG": 13.8
     },
@@ -21688,7 +21688,7 @@
     ],
     "computed": {
       "kcal": 322.9,
-      "netCarbG": 1.9,
+      "netCarbG": 1.8,
       "fatG": 27.5,
       "proteinG": 14.3
     },
@@ -21981,7 +21981,7 @@
     ],
     "computed": {
       "kcal": 319.4,
-      "netCarbG": 3.1,
+      "netCarbG": 2.9,
       "fatG": 27.1,
       "proteinG": 14.8
     },
@@ -22186,7 +22186,7 @@
     ],
     "computed": {
       "kcal": 265.2,
-      "netCarbG": 2.8,
+      "netCarbG": 2.7,
       "fatG": 20.5,
       "proteinG": 17.9
     },
@@ -25122,7 +25122,7 @@
     ],
     "computed": {
       "kcal": 135.2,
-      "netCarbG": 6.5,
+      "netCarbG": 6,
       "fatG": 10.5,
       "proteinG": 3.6
     },
@@ -25163,7 +25163,7 @@
     ],
     "computed": {
       "kcal": 219.1,
-      "netCarbG": 5.7,
+      "netCarbG": 5.2,
       "fatG": 16.9,
       "proteinG": 10.9
     },
@@ -25210,7 +25210,7 @@
     ],
     "computed": {
       "kcal": 269.2,
-      "netCarbG": 5.7,
+      "netCarbG": 5.3,
       "fatG": 24.4,
       "proteinG": 7.8
     },
@@ -25412,7 +25412,7 @@
     ],
     "computed": {
       "kcal": 161.4,
-      "netCarbG": 2.9,
+      "netCarbG": 2.8,
       "fatG": 12.5,
       "proteinG": 8.6
     },
@@ -26504,7 +26504,7 @@
     ],
     "computed": {
       "kcal": 231.4,
-      "netCarbG": 4,
+      "netCarbG": 3.8,
       "fatG": 19.6,
       "proteinG": 9.6
     },
@@ -26551,7 +26551,7 @@
     ],
     "computed": {
       "kcal": 334.1,
-      "netCarbG": 4.9,
+      "netCarbG": 4.8,
       "fatG": 24.8,
       "proteinG": 24
     },
@@ -32566,7 +32566,7 @@
     ],
     "computed": {
       "kcal": 378.4,
-      "netCarbG": 6.2,
+      "netCarbG": 5.9,
       "fatG": 37.8,
       "proteinG": 4.2
     },
@@ -32960,7 +32960,7 @@
     ],
     "computed": {
       "kcal": 406.8,
-      "netCarbG": 4.6,
+      "netCarbG": 4.5,
       "fatG": 39.9,
       "proteinG": 7.7
     },
@@ -33202,7 +33202,7 @@
     ],
     "computed": {
       "kcal": 462,
-      "netCarbG": 5.4,
+      "netCarbG": 5.2,
       "fatG": 43.3,
       "proteinG": 13.3
     },
@@ -33361,8 +33361,8 @@
       "서양식"
     ],
     "computed": {
-      "kcal": 481.7,
-      "netCarbG": 3.5,
+      "kcal": 483.3,
+      "netCarbG": 3.8,
       "fatG": 44.5,
       "proteinG": 17.4
     },
@@ -33523,7 +33523,7 @@
     ],
     "computed": {
       "kcal": 408.2,
-      "netCarbG": 1.7,
+      "netCarbG": 1.6,
       "fatG": 29.9,
       "proteinG": 26.7
     },
@@ -33846,7 +33846,7 @@
     ],
     "computed": {
       "kcal": 298,
-      "netCarbG": 4.3,
+      "netCarbG": 4.2,
       "fatG": 23.9,
       "proteinG": 15.5
     },
@@ -34175,7 +34175,7 @@
     ],
     "computed": {
       "kcal": 557.3,
-      "netCarbG": 1.9,
+      "netCarbG": 1.8,
       "fatG": 46.8,
       "proteinG": 31.1
     },
@@ -34711,7 +34711,7 @@
     ],
     "computed": {
       "kcal": 392.7,
-      "netCarbG": 3.7,
+      "netCarbG": 3.4,
       "fatG": 29.8,
       "proteinG": 24.4
     },
@@ -35098,7 +35098,7 @@
     ],
     "computed": {
       "kcal": 340.8,
-      "netCarbG": 4.2,
+      "netCarbG": 3.9,
       "fatG": 21.2,
       "proteinG": 31.6
     },
@@ -35373,7 +35373,7 @@
     ],
     "computed": {
       "kcal": 332.2,
-      "netCarbG": 4.3,
+      "netCarbG": 4.1,
       "fatG": 27.1,
       "proteinG": 15.9
     },
@@ -35583,8 +35583,8 @@
       "스틱샐러드"
     ],
     "computed": {
-      "kcal": 202.8,
-      "netCarbG": 6.7,
+      "kcal": 206.8,
+      "netCarbG": 7.5,
       "fatG": 17.3,
       "proteinG": 4.4
     },
@@ -35739,7 +35739,7 @@
     ],
     "computed": {
       "kcal": 255.3,
-      "netCarbG": 2.3,
+      "netCarbG": 2.2,
       "fatG": 21.6,
       "proteinG": 10.8
     },
@@ -35839,7 +35839,7 @@
     ],
     "computed": {
       "kcal": 278.5,
-      "netCarbG": 3,
+      "netCarbG": 2.8,
       "fatG": 25.2,
       "proteinG": 6.5
     },
@@ -35945,10 +35945,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 101.4,
-      "netCarbG": 6.7,
-      "fatG": 5.4,
-      "proteinG": 7
+      "kcal": 124.2,
+      "netCarbG": 6.9,
+      "fatG": 8.1,
+      "proteinG": 6.4
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -35996,7 +35996,7 @@
     ],
     "computed": {
       "kcal": 274.6,
-      "netCarbG": 5.9,
+      "netCarbG": 5.5,
       "fatG": 25.2,
       "proteinG": 5.6
     },
@@ -36091,7 +36091,7 @@
     ],
     "computed": {
       "kcal": 175.4,
-      "netCarbG": 2.9,
+      "netCarbG": 2.8,
       "fatG": 14.5,
       "proteinG": 8
     },
@@ -36141,7 +36141,7 @@
     ],
     "computed": {
       "kcal": 229.6,
-      "netCarbG": 4.4,
+      "netCarbG": 4.3,
       "fatG": 20.2,
       "proteinG": 8.3
     },
@@ -36242,7 +36242,7 @@
     ],
     "computed": {
       "kcal": 176.7,
-      "netCarbG": 5,
+      "netCarbG": 4.8,
       "fatG": 15.1,
       "proteinG": 2.6
     },
@@ -36660,10 +36660,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 120.1,
+      "kcal": 135.3,
       "netCarbG": 5,
-      "fatG": 7.8,
-      "proteinG": 6.2
+      "fatG": 9.7,
+      "proteinG": 5.8
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -37523,7 +37523,7 @@
     ],
     "computed": {
       "kcal": 293.3,
-      "netCarbG": 2.9,
+      "netCarbG": 2.8,
       "fatG": 26,
       "proteinG": 12.4
     },
@@ -38066,8 +38066,8 @@
       "파테도우"
     ],
     "computed": {
-      "kcal": 398.4,
-      "netCarbG": 5.1,
+      "kcal": 399.5,
+      "netCarbG": 5.3,
       "fatG": 31.1,
       "proteinG": 24.5
     },
@@ -38232,8 +38232,8 @@
       "베이글"
     ],
     "computed": {
-      "kcal": 441.2,
-      "netCarbG": 5.8,
+      "kcal": 442.4,
+      "netCarbG": 6,
       "fatG": 34.9,
       "proteinG": 26
     },
@@ -38320,8 +38320,8 @@
       "폭신"
     ],
     "computed": {
-      "kcal": 192.8,
-      "netCarbG": 1.8,
+      "kcal": 194.8,
+      "netCarbG": 2.1,
       "fatG": 16,
       "proteinG": 11.3
     },
@@ -38413,7 +38413,7 @@
     ],
     "computed": {
       "kcal": 176.3,
-      "netCarbG": 0.6,
+      "netCarbG": 0.5,
       "fatG": 10.1,
       "proteinG": 19.3
     },
@@ -39008,8 +39008,8 @@
       "무스"
     ],
     "computed": {
-      "kcal": 378.1,
-      "netCarbG": 4.5,
+      "kcal": 382.9,
+      "netCarbG": 5.4,
       "fatG": 38.4,
       "proteinG": 4.7
     },
@@ -39055,8 +39055,8 @@
       "소량"
     ],
     "computed": {
-      "kcal": 388.9,
-      "netCarbG": 5.4,
+      "kcal": 393.7,
+      "netCarbG": 6.3,
       "fatG": 39.2,
       "proteinG": 5.8
     },
@@ -39101,8 +39101,8 @@
       "소량"
     ],
     "computed": {
-      "kcal": 350.8,
-      "netCarbG": 5.4,
+      "kcal": 355.6,
+      "netCarbG": 6.3,
       "fatG": 34.9,
       "proteinG": 4.6
     },
@@ -39147,8 +39147,8 @@
       "견과"
     ],
     "computed": {
-      "kcal": 304.3,
-      "netCarbG": 3.7,
+      "kcal": 308.3,
+      "netCarbG": 4.4,
       "fatG": 30,
       "proteinG": 6
     },
@@ -39462,10 +39462,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 152.4,
-      "netCarbG": 4.6,
-      "fatG": 9.4,
-      "proteinG": 13
+      "kcal": 190.4,
+      "netCarbG": 5,
+      "fatG": 14,
+      "proteinG": 12
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -39503,10 +39503,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 99.4,
-      "netCarbG": 6.4,
-      "fatG": 3,
-      "proteinG": 11.2
+      "kcal": 137.4,
+      "netCarbG": 6.8,
+      "fatG": 7.6,
+      "proteinG": 10.2
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -39548,10 +39548,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 110.5,
-      "netCarbG": 5,
-      "fatG": 3.5,
-      "proteinG": 11.8
+      "kcal": 148.5,
+      "netCarbG": 5.4,
+      "fatG": 8.1,
+      "proteinG": 10.8
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -39669,8 +39669,8 @@
       "김스낵"
     ],
     "computed": {
-      "kcal": 162.6,
-      "netCarbG": 2.3,
+      "kcal": 165.8,
+      "netCarbG": 2.9,
       "fatG": 15.2,
       "proteinG": 4.9
     },
@@ -39715,7 +39715,7 @@
     ],
     "computed": {
       "kcal": 231.1,
-      "netCarbG": 2.1,
+      "netCarbG": 1.9,
       "fatG": 22.6,
       "proteinG": 3.7
     },
@@ -40043,7 +40043,7 @@
     ],
     "computed": {
       "kcal": 233.7,
-      "netCarbG": 4.7,
+      "netCarbG": 4.5,
       "fatG": 22.4,
       "proteinG": 3.6
     },
@@ -40089,7 +40089,7 @@
     ],
     "computed": {
       "kcal": 234.5,
-      "netCarbG": 3.7,
+      "netCarbG": 3.6,
       "fatG": 22.8,
       "proteinG": 2.3
     },
@@ -40136,7 +40136,7 @@
     ],
     "computed": {
       "kcal": 131.4,
-      "netCarbG": 3.9,
+      "netCarbG": 3.8,
       "fatG": 10.7,
       "proteinG": 2.2
     },
@@ -40187,10 +40187,10 @@
       "소량"
     ],
     "computed": {
-      "kcal": 140.2,
-      "netCarbG": 4.6,
-      "fatG": 7.5,
-      "proteinG": 12.1
+      "kcal": 170.6,
+      "netCarbG": 4.9,
+      "fatG": 11.1,
+      "proteinG": 11.3
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -40279,8 +40279,8 @@
       "카나페"
     ],
     "computed": {
-      "kcal": 199.6,
-      "netCarbG": 4.2,
+      "kcal": 202.8,
+      "netCarbG": 4.8,
       "fatG": 19.1,
       "proteinG": 3.9
     },
@@ -40572,7 +40572,7 @@
     ],
     "computed": {
       "kcal": 279.8,
-      "netCarbG": 4.5,
+      "netCarbG": 4.3,
       "fatG": 21.2,
       "proteinG": 15.6
     },
@@ -40665,8 +40665,8 @@
       "핑거푸드"
     ],
     "computed": {
-      "kcal": 250.1,
-      "netCarbG": 3,
+      "kcal": 253.3,
+      "netCarbG": 3.6,
       "fatG": 24.5,
       "proteinG": 4.2
     },
@@ -40760,7 +40760,7 @@
     ],
     "computed": {
       "kcal": 331.8,
-      "netCarbG": 3.6,
+      "netCarbG": 3.5,
       "fatG": 29,
       "proteinG": 14.1
     },
@@ -41158,7 +41158,7 @@
     ],
     "computed": {
       "kcal": 186.1,
-      "netCarbG": 1.4,
+      "netCarbG": 1.3,
       "fatG": 12.9,
       "proteinG": 16.8
     },
@@ -41363,8 +41363,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 211.4,
-      "netCarbG": 1.8,
+      "kcal": 213,
+      "netCarbG": 2.1,
       "fatG": 16.8,
       "proteinG": 14.2
     },
@@ -42007,7 +42007,7 @@
     ],
     "computed": {
       "kcal": 34,
-      "netCarbG": 4.4,
+      "netCarbG": 4,
       "fatG": 0.4,
       "proteinG": 2.8
     },
@@ -42823,7 +42823,7 @@
     ],
     "computed": {
       "kcal": 204.2,
-      "netCarbG": 2,
+      "netCarbG": 1.8,
       "fatG": 20,
       "proteinG": 2
     },
@@ -42891,7 +42891,7 @@
     ],
     "computed": {
       "kcal": 104.7,
-      "netCarbG": 4.4,
+      "netCarbG": 4,
       "fatG": 8.4,
       "proteinG": 2.8
     },
@@ -46760,7 +46760,7 @@
     ],
     "computed": {
       "kcal": 160,
-      "netCarbG": 2,
+      "netCarbG": 1.8,
       "fatG": 15,
       "proteinG": 2
     },
@@ -46827,8 +46827,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 112.2,
-      "netCarbG": 2,
+      "kcal": 114.6,
+      "netCarbG": 2.5,
       "fatG": 10.3,
       "proteinG": 2.2
     },
@@ -47002,7 +47002,7 @@
     ],
     "computed": {
       "kcal": 129.3,
-      "netCarbG": 1.2,
+      "netCarbG": 1,
       "fatG": 8.7,
       "proteinG": 11.4
     },
@@ -47208,7 +47208,7 @@
     ],
     "computed": {
       "kcal": 161.5,
-      "netCarbG": 2.4,
+      "netCarbG": 2.2,
       "fatG": 15,
       "proteinG": 2
     },
@@ -47276,8 +47276,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 114.6,
-      "netCarbG": 3.7,
+      "kcal": 117,
+      "netCarbG": 4.1,
       "fatG": 10.3,
       "proteinG": 2.4
     },
@@ -47413,8 +47413,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 116.4,
-      "netCarbG": 1.8,
+      "kcal": 118.8,
+      "netCarbG": 2.2,
       "fatG": 10.3,
       "proteinG": 5
     },
@@ -47476,10 +47476,10 @@
       "디저트"
     ],
     "computed": {
-      "kcal": 145.3,
-      "netCarbG": 3.9,
-      "fatG": 10.1,
-      "proteinG": 10.3
+      "kcal": 175.7,
+      "netCarbG": 4.3,
+      "fatG": 13.8,
+      "proteinG": 9.5
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -47517,7 +47517,7 @@
     ],
     "computed": {
       "kcal": 291,
-      "netCarbG": 2.1,
+      "netCarbG": 2,
       "fatG": 25,
       "proteinG": 14.1
     },
@@ -47747,7 +47747,7 @@
     ],
     "computed": {
       "kcal": 251.8,
-      "netCarbG": 1.6,
+      "netCarbG": 1.5,
       "fatG": 19.4,
       "proteinG": 18.7
     },
@@ -47816,8 +47816,8 @@
       "크림치즈"
     ],
     "computed": {
-      "kcal": 245.6,
-      "netCarbG": 2.2,
+      "kcal": 248,
+      "netCarbG": 2.7,
       "fatG": 20.2,
       "proteinG": 14.8
     },
@@ -48477,7 +48477,7 @@
     ],
     "computed": {
       "kcal": 214,
-      "netCarbG": 2.8,
+      "netCarbG": 2.6,
       "fatG": 16.6,
       "proteinG": 14.2
     },
@@ -48782,7 +48782,7 @@
     ],
     "computed": {
       "kcal": 280.4,
-      "netCarbG": 2,
+      "netCarbG": 1.9,
       "fatG": 24,
       "proteinG": 14.1
     },
@@ -48816,7 +48816,7 @@
     ],
     "computed": {
       "kcal": 133.2,
-      "netCarbG": 1.8,
+      "netCarbG": 1.7,
       "fatG": 12,
       "proteinG": 2.8
     },
@@ -48936,7 +48936,7 @@
     ],
     "computed": {
       "kcal": 147.8,
-      "netCarbG": 4.8,
+      "netCarbG": 4.3,
       "fatG": 11.3,
       "proteinG": 6.6
     },
@@ -49397,8 +49397,8 @@
       "채소"
     ],
     "computed": {
-      "kcal": 90.4,
-      "netCarbG": 3.1,
+      "kcal": 92,
+      "netCarbG": 3.4,
       "fatG": 7.1,
       "proteinG": 4.3
     },
@@ -49717,8 +49717,8 @@
       "채소"
     ],
     "computed": {
-      "kcal": 148.8,
-      "netCarbG": 2.2,
+      "kcal": 150.4,
+      "netCarbG": 2.5,
       "fatG": 13.7,
       "proteinG": 4.2
     },
@@ -50077,7 +50077,7 @@
     ],
     "computed": {
       "kcal": 137.4,
-      "netCarbG": 3,
+      "netCarbG": 2.9,
       "fatG": 12.2,
       "proteinG": 2.1
     },
@@ -50246,7 +50246,7 @@
     ],
     "computed": {
       "kcal": 235,
-      "netCarbG": 2.5,
+      "netCarbG": 2.4,
       "fatG": 19.8,
       "proteinG": 10.8
     },
@@ -50322,8 +50322,8 @@
       "구이"
     ],
     "computed": {
-      "kcal": 186.9,
-      "netCarbG": 2.5,
+      "kcal": 188.5,
+      "netCarbG": 2.8,
       "fatG": 14,
       "proteinG": 13.2
     },
@@ -50364,7 +50364,7 @@
     ],
     "computed": {
       "kcal": 227.3,
-      "netCarbG": 2.3,
+      "netCarbG": 2.2,
       "fatG": 16.5,
       "proteinG": 17.7
     },
@@ -51044,7 +51044,7 @@
     ],
     "computed": {
       "kcal": 188.8,
-      "netCarbG": 2.2,
+      "netCarbG": 2.1,
       "fatG": 14.6,
       "proteinG": 12.1
     },
@@ -51499,7 +51499,7 @@
     ],
     "computed": {
       "kcal": 227,
-      "netCarbG": 1.6,
+      "netCarbG": 1.5,
       "fatG": 21.4,
       "proteinG": 4.7
     },
@@ -51780,7 +51780,7 @@
     ],
     "computed": {
       "kcal": 259.7,
-      "netCarbG": 0.6,
+      "netCarbG": 0.5,
       "fatG": 12.2,
       "proteinG": 34.3
     },
@@ -52407,7 +52407,7 @@
     ],
     "computed": {
       "kcal": 298.7,
-      "netCarbG": 0.6,
+      "netCarbG": 0.5,
       "fatG": 18.7,
       "proteinG": 30.4
     },
@@ -52484,7 +52484,7 @@
     ],
     "computed": {
       "kcal": 236.3,
-      "netCarbG": 0.6,
+      "netCarbG": 0.5,
       "fatG": 14,
       "proteinG": 26.1
     },
@@ -53101,7 +53101,7 @@
     ],
     "computed": {
       "kcal": 192.2,
-      "netCarbG": 1.7,
+      "netCarbG": 1.6,
       "fatG": 16.4,
       "proteinG": 8.6
     },
@@ -53220,8 +53220,8 @@
       "롤"
     ],
     "computed": {
-      "kcal": 269,
-      "netCarbG": 1.2,
+      "kcal": 271.4,
+      "netCarbG": 1.7,
       "fatG": 20.6,
       "proteinG": 17.8
     },
@@ -53546,7 +53546,7 @@
     ],
     "computed": {
       "kcal": 188.5,
-      "netCarbG": 2.4,
+      "netCarbG": 2.3,
       "fatG": 10.2,
       "proteinG": 20.9
     },
@@ -53626,7 +53626,7 @@
     ],
     "computed": {
       "kcal": 243.2,
-      "netCarbG": 1.5,
+      "netCarbG": 1.3,
       "fatG": 16.7,
       "proteinG": 20.5
     },
@@ -54228,7 +54228,7 @@
     ],
     "computed": {
       "kcal": 227.4,
-      "netCarbG": 2.3,
+      "netCarbG": 2.1,
       "fatG": 18.5,
       "proteinG": 13.7
     },
@@ -54339,7 +54339,7 @@
     ],
     "computed": {
       "kcal": 199.3,
-      "netCarbG": 2.5,
+      "netCarbG": 2.4,
       "fatG": 18,
       "proteinG": 8.5
     },
@@ -54444,7 +54444,7 @@
     ],
     "computed": {
       "kcal": 176.6,
-      "netCarbG": 2,
+      "netCarbG": 1.8,
       "fatG": 14.9,
       "proteinG": 7.1
     },
@@ -54514,8 +54514,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 114.4,
-      "netCarbG": 2,
+      "kcal": 116,
+      "netCarbG": 2.3,
       "fatG": 11.2,
       "proteinG": 1.5
     },
@@ -54585,7 +54585,7 @@
     ],
     "computed": {
       "kcal": 186.1,
-      "netCarbG": 1.4,
+      "netCarbG": 1.3,
       "fatG": 12.9,
       "proteinG": 16.8
     },
@@ -54660,7 +54660,7 @@
     ],
     "computed": {
       "kcal": 212.8,
-      "netCarbG": 0.9,
+      "netCarbG": 0.8,
       "fatG": 17.5,
       "proteinG": 11.7
     },
@@ -54695,7 +54695,7 @@
     ],
     "computed": {
       "kcal": 184.6,
-      "netCarbG": 0.9,
+      "netCarbG": 0.8,
       "fatG": 16.4,
       "proteinG": 9.3
     },
@@ -54805,8 +54805,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 240.5,
-      "netCarbG": 2.2,
+      "kcal": 243.7,
+      "netCarbG": 2.8,
       "fatG": 24.4,
       "proteinG": 3.8
     },
@@ -54881,7 +54881,7 @@
     ],
     "computed": {
       "kcal": 284.2,
-      "netCarbG": 2.2,
+      "netCarbG": 2,
       "fatG": 28,
       "proteinG": 4.4
     },
@@ -54922,7 +54922,7 @@
     ],
     "computed": {
       "kcal": 339,
-      "netCarbG": 2.7,
+      "netCarbG": 2.5,
       "fatG": 29.5,
       "proteinG": 14.7
     },
@@ -54956,8 +54956,8 @@
       "치즈"
     ],
     "computed": {
-      "kcal": 117.6,
-      "netCarbG": 4.3,
+      "kcal": 120,
+      "netCarbG": 4.8,
       "fatG": 10.3,
       "proteinG": 2.5
     },
@@ -55161,10 +55161,10 @@
       "견과"
     ],
     "computed": {
-      "kcal": 145,
-      "netCarbG": 4,
-      "fatG": 11.1,
-      "proteinG": 7.6
+      "kcal": 167.9,
+      "netCarbG": 4.2,
+      "fatG": 13.8,
+      "proteinG": 7
     },
     "hasAvoidIngredient": false,
     "keto": true
@@ -55247,8 +55247,8 @@
       "견과"
     ],
     "computed": {
-      "kcal": 213.5,
-      "netCarbG": 3.4,
+      "kcal": 215.9,
+      "netCarbG": 3.8,
       "fatG": 20.1,
       "proteinG": 4.6
     },
@@ -55293,7 +55293,7 @@
     ],
     "computed": {
       "kcal": 184.5,
-      "netCarbG": 3.6,
+      "netCarbG": 3.5,
       "fatG": 17.1,
       "proteinG": 2.2
     },
@@ -55413,7 +55413,7 @@
     ],
     "computed": {
       "kcal": 238,
-      "netCarbG": 2.4,
+      "netCarbG": 2.3,
       "fatG": 23.4,
       "proteinG": 2.1
     },

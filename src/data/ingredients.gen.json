@@ -984,8 +984,8 @@
     "name": "크림치즈",
     "aliases": [],
     "per100g": {
-      "kcal": 342,
-      "carbG": 4,
+      "kcal": 350,
+      "carbG": 5.5,
       "fiberG": 0,
       "fatG": 34,
       "proteinG": 6
@@ -1002,7 +1002,7 @@
     ],
     "per100g": {
       "kcal": 431,
-      "carbG": 4,
+      "carbG": 3.4,
       "fiberG": 0,
       "fatG": 29,
       "proteinG": 38
@@ -1111,11 +1111,11 @@
       "플레인요거트"
     ],
     "per100g": {
-      "kcal": 59,
-      "carbG": 3.6,
+      "kcal": 97,
+      "carbG": 4,
       "fiberG": 0,
-      "fatG": 0.4,
-      "proteinG": 10
+      "fatG": 5,
+      "proteinG": 9
     },
     "keto": "caution",
     "pantry": false
@@ -1233,7 +1233,7 @@
     "aliases": [],
     "per100g": {
       "kcal": 34,
-      "carbG": 7,
+      "carbG": 6.6,
       "fiberG": 2.6,
       "fatG": 0.4,
       "proteinG": 2.8
@@ -1563,8 +1563,8 @@
     "aliases": [],
     "per100g": {
       "kcal": 160,
-      "carbG": 9,
-      "fiberG": 7,
+      "carbG": 8.5,
+      "fiberG": 6.7,
       "fatG": 15,
       "proteinG": 2
     },
