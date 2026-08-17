@@ -40,6 +40,9 @@ const ALMOST_LIMIT = 24; // '거의 가능해요' 초기 표시 상한 (렌더 �
 /** 레시피를 카드 표시용 결과로 감싼다 (추천·카테고리 탐색용) */
 const asResult = (recipe: Recipe): MatchResult => ({ recipe, status: "explore", missing: [], coverage: 0 });
 
+/** 랜덤 추천 풀 (전체 키토 레시피) */
+const ALL_KETO_RESULTS: MatchResult[] = RECIPES.filter((r) => r.keto).map(asResult);
+
 /** 첫 화면 추천 — 카테고리별로 가장 간단한(주재료 적고 순탄수 낮은) 레시피 1개씩 */
 const nonPantryCount = (r: Recipe) => r.ingredients.filter((i) => !PANTRY_IDS.has(i.id)).length;
 const RECOMMENDED: Recipe[] = CATEGORY_ORDER.map(
@@ -65,6 +68,17 @@ export default function App() {
   const [searchQ, setSearchQ] = useState("");
   const [showPicker, setShowPicker] = useState(false);
   const toggleOwned = (id: string) => setOwned((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+
+  // 오늘 뭐 먹지? — 재료가 있으면 만들 수 있는 것 중, 없으면 전체에서 무작위 (직전 것과 안 겹치게)
+  const pickRandom = () => {
+    const relevant = results.filter((r) => r.status !== "explore");
+    const pool = relevant.length > 0 ? relevant : ALL_KETO_RESULTS;
+    let pick = pool[Math.floor(Math.random() * pool.length)];
+    if (pool.length > 1 && selected && pick.recipe.id === selected.recipe.id) {
+      pick = pool[(pool.indexOf(pick) + 1) % pool.length];
+    }
+    setSelected(pick);
+  };
   const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
   const [photoThumbs, setPhotoThumbs] = useState<Record<string, string>>({});
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
@@ -247,6 +261,14 @@ export default function App() {
         </section>
       ) : (
       <>
+      <button
+        type="button"
+        onClick={pickRandom}
+        className="mb-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-400 py-3 text-sm font-bold text-white shadow-sm transition hover:from-amber-500 hover:to-orange-500"
+      >
+        🎲 오늘 뭐 먹지? {owned.length > 0 ? "(내 재료로 랜덤 추천)" : "(랜덤 추천)"}
+      </button>
+
       {syncEnabled && (
         <SyncPanel session={sync.session} status={sync.status} onSignIn={sync.signIn} onSignInPassword={sync.signInPassword} onSignOut={sync.signOut} />
       )}
