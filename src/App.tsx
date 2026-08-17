@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import ingredientsRaw from "./data/ingredients.gen.json";
 import recipesRaw from "./data/recipes.gen.json";
 import { diversify, matchRecipes, type MatchResult } from "./lib/match";
+import { searchRecipes } from "./lib/search";
 import { CATEGORY_ORDER, categoryMeta } from "./lib/categories";
 import type { Ingredient, Recipe } from "./lib/types";
 import { getPhotos } from "./lib/photos";
@@ -58,6 +59,7 @@ export default function App() {
   const [selected, setSelected] = useState<MatchResult | null>(null);
   const [showShopping, setShowShopping] = useState(false);
   const [showAllAlmost, setShowAllAlmost] = useState(false);
+  const [searchQ, setSearchQ] = useState("");
   const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
   const [photoThumbs, setPhotoThumbs] = useState<Record<string, string>>({});
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
@@ -150,6 +152,9 @@ export default function App() {
   );
   const grid = (rs: MatchResult[]) => <div className="grid gap-3 sm:grid-cols-2">{rs.map(card)}</div>;
 
+  const searching = searchQ.trim().length > 0;
+  const searchResults = useMemo(() => searchRecipes(searchQ, RECIPES), [searchQ]);
+
   const categoryTiles = (
     <div className="mb-6">
       <p className="mb-2 text-sm font-bold text-stone-700">🍽️ 카테고리로 둘러보기</p>
@@ -204,6 +209,39 @@ export default function App() {
         </div>
       </header>
 
+      {/* 레시피 이름 검색 */}
+      <div className="relative mb-4">
+        <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-stone-400">🔍</span>
+        <input
+          value={searchQ}
+          onChange={(e) => setSearchQ(e.target.value)}
+          placeholder="레시피 이름으로 찾기 (예: 계란말이, 팻밤)"
+          aria-label="레시피 검색"
+          className="w-full rounded-2xl border border-stone-300 bg-white py-3 pl-11 pr-10 text-base outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100"
+        />
+        {searching && (
+          <button type="button" onClick={() => setSearchQ("")} aria-label="검색 지우기" className="absolute right-3 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-full text-stone-400 hover:bg-stone-100">
+            ×
+          </button>
+        )}
+      </div>
+
+      {searching ? (
+        <section>
+          <h2 className="mb-3 flex items-center gap-2 text-lg font-bold text-stone-700">
+            "{searchQ.trim()}" 검색 결과
+            <span className="rounded-full bg-stone-100 px-2 py-0.5 text-xs font-bold text-stone-500">{searchResults.length}</span>
+          </h2>
+          {searchResults.length === 0 ? (
+            <p className="rounded-2xl border border-dashed border-stone-300 bg-white/70 p-8 text-center text-sm text-stone-500">
+              "{searchQ.trim()}"에 맞는 레시피가 없어요. 다른 이름으로 검색해보세요.
+            </p>
+          ) : (
+            grid(searchResults.map(asResult))
+          )}
+        </section>
+      ) : (
+      <>
       {syncEnabled && (
         <SyncPanel session={sync.session} status={sync.status} onSignIn={sync.signIn} onSignInPassword={sync.signInPassword} onSignOut={sync.signOut} />
       )}
@@ -376,6 +414,8 @@ export default function App() {
           )}
         </div>
       )}
+      </>
+      )}
 
       {selected && (
         <RecipeDetail
@@ -399,7 +439,8 @@ export default function App() {
         />
       )}
 
-      {/* 사용법 안내 */}
+      {/* 사용법 안내 (검색 중엔 숨김) */}
+      {!searching && (
       <section className="mt-12 rounded-3xl border border-stone-200/70 bg-white/70 p-6">
         <h2 className="mb-4 flex items-center gap-2 text-base font-bold text-stone-700">💡 이렇게 사용하세요</h2>
         <ol className="space-y-3">
@@ -420,11 +461,24 @@ export default function App() {
             </li>
           ))}
         </ol>
-        <div className="mt-5 rounded-xl bg-emerald-50/60 px-4 py-3 text-xs leading-relaxed text-emerald-800/80">
-          <strong className="font-semibold">키토 기준</strong> · 순탄수 = 총탄수 − 식이섬유. 1인분 순탄수 8g 이하 레시피만 추천하며, 하루 총 20g 이하를 권장합니다.
-          즐겨찾기·기록은 이 브라우저에 저장돼요.
+        <div className="mt-5 space-y-3 rounded-2xl bg-emerald-50/60 p-4 text-xs leading-relaxed text-emerald-900/80">
+          <p>
+            <strong className="font-semibold">🥑 키토 기준</strong> · 순탄수 = 총탄수 − 식이섬유. 1인분 순탄수 <strong>8g 이하</strong> 레시피만 추천하고, 하루 총 <strong>20g 이하</strong>를 권장해요. 매크로 목표는 지방 70 / 단백질 25 / 탄수 5.
+          </p>
+          <div className="border-t border-emerald-200/60 pt-3">
+            <p className="mb-1.5 font-semibold text-emerald-800">2026 밸런스드 키토 팁</p>
+            <ul className="space-y-1">
+              <li>• <strong>단백질을 충분히</strong> — 극단적 고지방보다, 코티지치즈·계란·생선으로 단백질을 챙기는 흐름이에요.</li>
+              <li>• <strong>전해질 챙기기</strong> — 나트륨·칼륨·마그네슘, 물을 넉넉히. 초기 '키토 플루' 예방에 도움돼요.</li>
+              <li>• <strong>감미료</strong> — 설탕 대신 에리스리톨·알룰로스·나한과(몽크프루트). 혈당 영향이 거의 없어요.</li>
+              <li>• <strong>좋은 지방</strong> — 올리브·아보카도·MCT오일·견과. 가공 트랜스지방은 피해요.</li>
+              <li>• <strong>가공식품 주의</strong> — '무설탕' 표기여도 순탄수를 꼭 확인하세요.</li>
+            </ul>
+          </div>
+          <p className="border-t border-emerald-200/60 pt-3 text-emerald-700/70">즐겨찾기·기록은 이 브라우저에 저장돼요.</p>
         </div>
       </section>
+      )}
 
       <footer className="mt-8 text-center text-[11px] text-stone-400">
         영양 정보는 식약처·USDA 기준 참고용입니다. 의학적 판단의 근거로 사용하지 마세요.

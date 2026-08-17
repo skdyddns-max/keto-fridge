@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { coupangSearchUrl } from "../lib/search";
 
 export interface ShoppingItem {
   id: string;
@@ -44,21 +45,33 @@ export function ShoppingList({ items, onRemove, onClear, onClose }: Props) {
           <>
             <ul className="space-y-1">
               {items.map((it) => (
-                <li key={it.id}>
+                <li key={it.id} className="flex items-center gap-1">
                   <button
                     type="button"
                     onClick={() => onRemove(it.id)}
-                    className="flex w-full items-center gap-3 rounded-lg px-2 py-2.5 text-left text-sm hover:bg-stone-50"
+                    className="flex flex-1 items-center gap-3 rounded-lg px-2 py-2.5 text-left text-sm hover:bg-stone-50"
                   >
                     <span className="flex h-5 w-5 items-center justify-center rounded border border-stone-300 text-transparent">✓</span>
                     <span>{it.name}</span>
                   </button>
+                  <a
+                    href={coupangSearchUrl(it.name)}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    onClick={(e) => e.stopPropagation()}
+                    className="shrink-0 rounded-lg bg-[#ff5a5f]/10 px-2.5 py-1.5 text-xs font-semibold text-[#e03e43] hover:bg-[#ff5a5f]/20"
+                  >
+                    🛒 쿠팡
+                  </a>
                 </li>
               ))}
             </ul>
-            <button type="button" onClick={onClear} className="mt-4 text-xs text-stone-400 underline hover:text-stone-600">
-              전체 비우기
-            </button>
+            <div className="mt-4 flex items-center justify-between">
+              <button type="button" onClick={onClear} className="text-xs text-stone-400 underline hover:text-stone-600">
+                전체 비우기
+              </button>
+              <span className="text-[10px] text-stone-300">쿠팡 검색으로 이동해요</span>
+            </div>
           </>
         )}
       </div>

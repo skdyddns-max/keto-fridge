@@ -55419,5 +55419,2735 @@
     },
     "hasAvoidIngredient": false,
     "keto": true
+  },
+  {
+    "id": "r1211",
+    "name": "코티지치즈 딸기볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "strawberry",
+        "name": "딸기",
+        "grams": 25
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈를 볼에 담고 나한과를 살짝 뿌려 섞는다.",
+      "딸기를 작게 썰어 올리고 가볍게 버무려 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 155,
+      "netCarbG": 6.6,
+      "fatG": 6.5,
+      "proteinG": 16.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1212",
+    "name": "코티지치즈 블루베리볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "blueberry",
+        "name": "블루베리",
+        "grams": 12
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈에 나한과를 넣어 살살 섞는다.",
+      "블루베리를 소량만 올려 톡톡 터뜨리며 먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 153.8,
+      "netCarbG": 6.5,
+      "fatG": 6.5,
+      "proteinG": 16.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1213",
+    "name": "코티지치즈 스크램블",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "버터를 두른 팬에 푼 계란을 붓고 약불에서 저어 반쯤 익힌다.",
+      "코티지치즈를 넣고 소금·후추로 간해 부드럽게 마무리한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 278.8,
+      "netCarbG": 3.7,
+      "fatG": 19.9,
+      "proteinG": 21.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1214",
+    "name": "코티지치즈 팬케이크",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "almond_flour",
+        "name": "아몬드가루",
+        "grams": 30
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      },
+      {
+        "id": "erythritol",
+        "name": "에리스리톨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "계란·아몬드가루·코티지치즈·에리스리톨을 한데 섞어 반죽을 만든다.",
+      "약불 팬에 한 국자씩 올려 양면을 노릇하게 굽는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 392.7,
+      "netCarbG": 6.4,
+      "fatG": 28.4,
+      "proteinG": 28.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1215",
+    "name": "코티지치즈 채소스틱 딥",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "celery",
+        "name": "셀러리",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "코티지치즈에 소금·후추로 간해 딥을 만든다.",
+      "오이와 셀러리를 스틱으로 썰어 딥에 찍어 먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 156.2,
+      "netCarbG": 6.6,
+      "fatG": 6.5,
+      "proteinG": 16.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1216",
+    "name": "코티지치즈 아몬드빵 오픈토스트",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "almond_flour",
+        "name": "아몬드가루",
+        "grams": 25
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      },
+      {
+        "id": "psyllium",
+        "name": "사이리움",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "아몬드가루·계란·사이리움을 섞어 전자레인지로 아몬드빵을 만든 뒤 노릇하게 굽는다.",
+      "빵 위에 코티지치즈를 듬뿍 올리고 소금·후추로 간해 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 298.7,
+      "netCarbG": 5.6,
+      "fatG": 21,
+      "proteinG": 20.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1217",
+    "name": "코티지치즈 카카오닙 아이스크림풍",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "heavy_cream",
+        "name": "생크림",
+        "grams": 20
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈·생크림·나한과를 곱게 갈아 용기에 담는다.",
+      "카카오닙스를 섞어 냉동실에 얼린 뒤 살짝 녹여 아이스크림처럼 떠먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 280.4,
+      "netCarbG": 6.4,
+      "fatG": 18.3,
+      "proteinG": 18.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1218",
+    "name": "코티지치즈 에그볼",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 100
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "삶은 계란을 굵게 다져 코티지치즈·마요네즈와 섞는다.",
+      "소금·후추로 간하고 한입 크기로 동그랗게 뭉쳐 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 309,
+      "netCarbG": 4.5,
+      "fatG": 21.8,
+      "proteinG": 24.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1219",
+    "name": "코티지치즈 참치볼",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tuna_can",
+        "name": "참치캔",
+        "grams": 80
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 100
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 30
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "기름 뺀 참치와 코티지치즈, 잘게 썬 오이를 마요네즈와 섞는다.",
+      "소금·후추로 간해 볼 형태로 뭉쳐 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 288.5,
+      "netCarbG": 4.4,
+      "fatG": 14.5,
+      "proteinG": 34.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1220",
+    "name": "코티지치즈 아보카도볼",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 80
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 120
+      },
+      {
+        "id": "lemon",
+        "name": "레몬",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "아보카도를 큼직하게 으깨 레몬즙과 소금·후추로 간한다.",
+      "코티지치즈를 얹어 가볍게 버무려 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 247.1,
+      "netCarbG": 5.8,
+      "fatG": 17.2,
+      "proteinG": 14.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1221",
+    "name": "헴프씨드 코티지치즈볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 15
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈에 나한과를 넣어 섞는다.",
+      "헴프씨드를 뿌리고 가볍게 섞어 고소하게 즐긴다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 230,
+      "netCarbG": 5.8,
+      "fatG": 13.8,
+      "proteinG": 21.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1222",
+    "name": "코티지치즈 산딸기볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "raspberry",
+        "name": "산딸기",
+        "grams": 25
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈에 나한과를 넣어 섞는다.",
+      "산딸기를 올려 살짝 으깨며 버무려 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 160,
+      "netCarbG": 6.5,
+      "fatG": 6.6,
+      "proteinG": 16.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1223",
+    "name": "코티지치즈 오이롤",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      }
+    ],
+    "steps": [
+      "오이를 필러로 얇고 길게 슬라이스한다.",
+      "코티지치즈를 올려 돌돌 말고 소금·후추로 간해 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 93.4,
+      "netCarbG": 5.8,
+      "fatG": 3.5,
+      "proteinG": 9.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1224",
+    "name": "코티지치즈 시금치 딥",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "spinach",
+        "name": "시금치",
+        "grams": 30
+      },
+      {
+        "id": "garlic",
+        "name": "마늘",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "데친 시금치를 잘게 다지고 마늘을 곱게 다진다.",
+      "코티지치즈와 섞어 소금·후추로 간한 뒤 채소에 곁들여 먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 156.9,
+      "netCarbG": 6.1,
+      "fatG": 6.6,
+      "proteinG": 17.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1225",
+    "name": "코티지치즈 명란볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "pollock_roe",
+        "name": "명란",
+        "grams": 30
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 120
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      }
+    ],
+    "steps": [
+      "삶은 계란을 다지고 명란은 껍질을 벗겨 알만 발라낸다.",
+      "코티지치즈와 함께 섞어 동그랗게 뭉쳐 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 225.1,
+      "netCarbG": 4.9,
+      "fatG": 11.1,
+      "proteinG": 26.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1226",
+    "name": "코티지치즈 코코아 무스컵",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "cocoa_powder",
+        "name": "코코아가루",
+        "grams": 5
+      },
+      {
+        "id": "erythritol",
+        "name": "에리스리톨",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "코티지치즈·코코아가루·에리스리톨을 곱게 갈아 무스처럼 만든다.",
+      "컵에 담아 차갑게 식혀 떠먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 158.4,
+      "netCarbG": 6.4,
+      "fatG": 7.2,
+      "proteinG": 17.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1227",
+    "name": "코티지치즈 블루베리 파르페",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 130
+      },
+      {
+        "id": "blueberry",
+        "name": "블루베리",
+        "grams": 12
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "컵에 코티지치즈를 한 층 깔고 블루베리를 소량 올린다.",
+      "헴프씨드를 뿌려 층층이 쌓아 파르페처럼 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 161.9,
+      "netCarbG": 6,
+      "fatG": 8.1,
+      "proteinG": 16
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1228",
+    "name": "코티지치즈 그릭요거트볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 100
+      },
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 80
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "코티지치즈와 그릭요거트를 섞고 나한과로 단맛을 더한다.",
+      "볼에 담아 부드럽게 떠먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 175.6,
+      "netCarbG": 6.6,
+      "fatG": 8.3,
+      "proteinG": 18.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1229",
+    "name": "코티지치즈 아몬드버터 프로틴볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 120
+      },
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 15
+      },
+      {
+        "id": "erythritol",
+        "name": "에리스리톨",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "코티지치즈·아몬드버터·에리스리톨을 되직하게 섞는다.",
+      "한입 크기로 굴려 냉장고에 굳혀 프로틴볼로 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 209.7,
+      "netCarbG": 5.4,
+      "fatG": 13.6,
+      "proteinG": 16.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1230",
+    "name": "코티지치즈 셀러리 스터프드",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "celery",
+        "name": "셀러리",
+        "grams": 60
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 100
+      },
+      {
+        "id": "walnut",
+        "name": "호두",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "셀러리를 먹기 좋은 길이로 잘라 홈에 코티지치즈를 채운다.",
+      "다진 호두를 뿌리고 소금·후추로 간해 낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 173,
+      "netCarbG": 4.9,
+      "fatG": 10.9,
+      "proteinG": 12.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1231",
+    "name": "코코넛 MCT 팻밤",
+    "category": "snack",
+    "servings": 3,
+    "ingredients": [
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 40
+      },
+      {
+        "id": "coconut_meat",
+        "name": "코코넛과육",
+        "grams": 30
+      },
+      {
+        "id": "mct_oil",
+        "name": "MCT오일",
+        "grams": 15
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 4
+      }
+    ],
+    "steps": [
+      "코코넛오일을 살짝 녹여 코코넛과육, MCT오일, 나한과와 함께 잘 섞는다.",
+      "실리콘 몰드에 나눠 담고 냉장고에서 30분 이상 굳힌다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 191.8,
+      "netCarbG": 0.6,
+      "fatG": 21.6,
+      "proteinG": 0.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1232",
+    "name": "아몬드버터 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 20
+      },
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 30
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "코코넛오일을 부드럽게 녹여 아몬드버터, 나한과와 매끈하게 섞는다.",
+      "몰드에 부어 냉장고에서 굳힌 뒤 한 입 크기로 즐긴다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 190.7,
+      "netCarbG": 0.9,
+      "fatG": 20.6,
+      "proteinG": 2.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1233",
+    "name": "카카오 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 30
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 15
+      },
+      {
+        "id": "cocoa_powder",
+        "name": "코코아가루",
+        "grams": 5
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "녹인 코코넛오일에 코코아가루와 나한과를 풀어 진한 초코 베이스를 만든다.",
+      "카카오닙스를 섞어 몰드에 담고 냉장고에서 굳힌다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 184,
+      "netCarbG": 1.2,
+      "fatG": 18.9,
+      "proteinG": 1.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1234",
+    "name": "아몬드버터 헴프 프로틴볼",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 20
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 15
+      },
+      {
+        "id": "flaxseed",
+        "name": "아마씨",
+        "grams": 10
+      },
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "볼에 아몬드버터, 헴프씨드, 아마씨, 녹인 코코넛오일, 나한과를 넣고 반죽처럼 뭉친다.",
+      "한 입 크기로 동그랗게 굴려 냉장고에서 20분간 굳힌다."
+    ],
+    "tags": [
+      "트렌드",
+      "프로틴볼",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 172.7,
+      "netCarbG": 1.4,
+      "fatG": 16.4,
+      "proteinG": 5.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1235",
+    "name": "카카오닙스 요거트볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 120
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "그릭요거트에 나한과를 섞어 살짝 단맛을 낸다.",
+      "카카오닙스를 위에 뿌려 바삭한 식감을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "요거트볼"
+    ],
+    "computed": {
+      "kcal": 181.8,
+      "netCarbG": 5.5,
+      "fatG": 10.7,
+      "proteinG": 12.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1236",
+    "name": "헴프 그릭요거트볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 120
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 15
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "그릭요거트에 나한과를 넣고 부드럽게 저어준다.",
+      "헴프씨드를 듬뿍 올려 고소한 단백질 토핑으로 마무리한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "요거트볼"
+    ],
+    "computed": {
+      "kcal": 199.4,
+      "netCarbG": 5.5,
+      "fatG": 13.3,
+      "proteinG": 15.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1237",
+    "name": "파마산 헴프 치즈칩",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "cheese_parmesan",
+        "name": "파마산치즈",
+        "grams": 40
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "종이 포일에 파마산치즈를 한 스푼씩 동그랗게 펴 담고 헴프씨드를 뿌린다.",
+      "180도 오븐이나 팬에서 가장자리가 노릇해질 때까지 구워 식혀 바삭하게 만든다."
+    ],
+    "tags": [
+      "트렌드",
+      "치즈칩",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 113.9,
+      "netCarbG": 0.9,
+      "fatG": 8.2,
+      "proteinG": 9.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1238",
+    "name": "차이브 클라우드브레드",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 150
+      },
+      {
+        "id": "cheese_cream",
+        "name": "크림치즈",
+        "grams": 40
+      },
+      {
+        "id": "chives",
+        "name": "부추",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "노른자에 부드러운 크림치즈와 다진 부추를 섞고, 흰자는 단단히 거품 내 폭신하게 폴딩한다.",
+      "구름 모양으로 떠 올려 160도 오븐에서 25분간 노릇하게 굽는다."
+    ],
+    "tags": [
+      "트렌드",
+      "클라우드브레드",
+      "빵대용"
+    ],
+    "computed": {
+      "kcal": 178,
+      "netCarbG": 1.9,
+      "fatG": 14.3,
+      "proteinG": 11
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1239",
+    "name": "베이컨 체다 에그바이트",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 150
+      },
+      {
+        "id": "cheese_cheddar",
+        "name": "체다치즈",
+        "grams": 30
+      },
+      {
+        "id": "bacon",
+        "name": "베이컨",
+        "grams": 30
+      },
+      {
+        "id": "heavy_cream",
+        "name": "생크림",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란과 생크림을 곱게 풀고 잘게 썬 베이컨과 체다치즈를 섞는다.",
+      "머핀틀에 나눠 붓고 170도 오븐에서 18분간 부풀 때까지 구워낸다."
+    ],
+    "tags": [
+      "트렌드",
+      "에그바이트",
+      "고단백"
+    ],
+    "computed": {
+      "kcal": 261.7,
+      "netCarbG": 1.4,
+      "fatG": 22.1,
+      "proteinG": 15.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1240",
+    "name": "아보카도 MCT 스무디볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 100
+      },
+      {
+        "id": "coconut_milk",
+        "name": "코코넛밀크",
+        "grams": 30
+      },
+      {
+        "id": "mct_oil",
+        "name": "MCT오일",
+        "grams": 10
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 5
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "아보카도, 코코넛밀크, MCT오일, 나한과를 곱게 갈아 크리미한 볼에 담는다.",
+      "헴프씨드를 뿌려 고소함과 단백질을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "스무디볼",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 339.7,
+      "netCarbG": 3.2,
+      "fatG": 34.6,
+      "proteinG": 4.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1241",
+    "name": "코코넛 아몬드버터 바이트",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 15
+      },
+      {
+        "id": "coconut_meat",
+        "name": "코코넛과육",
+        "grams": 20
+      },
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 15
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "녹인 코코넛오일에 아몬드버터와 나한과를 섞고 잘게 부순 코코넛과육을 넣는다.",
+      "작은 몰드에 담아 냉장고에서 굳혀 한 입 바이트로 만든다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 146.1,
+      "netCarbG": 1.3,
+      "fatG": 15,
+      "proteinG": 1.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1242",
+    "name": "카카오닙스 헴프 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 30
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 12
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "녹인 코코넛오일에 아몬드버터와 나한과를 풀고 헴프씨드, 카카오닙스를 섞는다.",
+      "몰드에 부어 냉장고에서 단단히 굳힌다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 226.9,
+      "netCarbG": 1.1,
+      "fatG": 23.1,
+      "proteinG": 3.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1243",
+    "name": "코티지치즈 헴프볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "코티지치즈에 나한과를 섞어 부드럽게 단맛을 낸다.",
+      "헴프씨드를 올려 고소한 고단백 스낵볼로 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "코티지치즈"
+    ],
+    "computed": {
+      "kcal": 202.3,
+      "netCarbG": 5.6,
+      "fatG": 11.3,
+      "proteinG": 19.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1244",
+    "name": "코티지치즈 카카오닙스볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "코티지치즈에 나한과를 넣어 저어준다.",
+      "카카오닙스를 뿌려 바삭한 초코 식감을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "코티지치즈"
+    ],
+    "computed": {
+      "kcal": 212.4,
+      "netCarbG": 5.8,
+      "fatG": 11.1,
+      "proteinG": 17.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1245",
+    "name": "버터 MCT 초코 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 30
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 20
+      },
+      {
+        "id": "mct_oil",
+        "name": "MCT오일",
+        "grams": 15
+      },
+      {
+        "id": "cocoa_powder",
+        "name": "코코아가루",
+        "grams": 4
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "코코넛오일과 버터를 함께 녹여 MCT오일, 코코아가루, 나한과를 매끈하게 섞는다.",
+      "몰드에 부어 냉장고에서 굳히면 진한 초코 팻밤이 된다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 267.8,
+      "netCarbG": 0.5,
+      "fatG": 30.9,
+      "proteinG": 0.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1246",
+    "name": "아몬드버터 마카다미아 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 15
+      },
+      {
+        "id": "macadamia",
+        "name": "마카다미아",
+        "grams": 20
+      },
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 20
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "녹인 코코넛오일에 아몬드버터와 나한과를 섞고 굵게 다진 마카다미아를 넣는다.",
+      "몰드에 담아 냉장고에서 굳혀 견과 씹히는 팻밤으로 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 204.1,
+      "netCarbG": 1.2,
+      "fatG": 21.8,
+      "proteinG": 2.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1247",
+    "name": "코코넛 헴프 팻밤",
+    "category": "snack",
+    "servings": 2,
+    "ingredients": [
+      {
+        "id": "coconut_oil",
+        "name": "코코넛오일",
+        "grams": 35
+      },
+      {
+        "id": "coconut_meat",
+        "name": "코코넛과육",
+        "grams": 20
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 12
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "녹인 코코넛오일에 나한과를 풀고 코코넛과육과 헴프씨드를 고루 섞는다.",
+      "몰드에 담아 냉장고에서 굳혀 고소한 팻밤으로 만든다."
+    ],
+    "tags": [
+      "트렌드",
+      "팻밤",
+      "고지방"
+    ],
+    "computed": {
+      "kcal": 219.4,
+      "netCarbG": 0.9,
+      "fatG": 23.7,
+      "proteinG": 2.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1248",
+    "name": "코티지치즈 아몬드버터볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 120
+      },
+      {
+        "id": "almond_butter",
+        "name": "아몬드버터",
+        "grams": 15
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "코티지치즈에 아몬드버터와 나한과를 넣고 부드럽게 섞는다.",
+      "볼에 담아 고소하고 크리미한 고단백 스낵으로 즐긴다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "코티지치즈"
+    ],
+    "computed": {
+      "kcal": 209.7,
+      "netCarbG": 5.4,
+      "fatG": 13.6,
+      "proteinG": 16.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1249",
+    "name": "헴프 카카오닙스 요거트볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 110
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 8
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 10
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "그릭요거트에 나한과를 섞어 살짝 달게 한다.",
+      "헴프씨드와 카카오닙스를 함께 올려 고소하고 바삭한 토핑을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "요거트볼"
+    ],
+    "computed": {
+      "kcal": 216.3,
+      "netCarbG": 5.5,
+      "fatG": 14.1,
+      "proteinG": 13.8
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1250",
+    "name": "코티지치즈 카카오 무스컵",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 120
+      },
+      {
+        "id": "cocoa_powder",
+        "name": "코코아가루",
+        "grams": 5
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 5
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 3
+      }
+    ],
+    "steps": [
+      "코티지치즈, 코코아가루, 나한과를 곱게 갈아 부드러운 초코 무스로 만든다.",
+      "컵에 담고 카카오닙스를 올려 식감을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "코티지치즈"
+    ],
+    "computed": {
+      "kcal": 161.7,
+      "netCarbG": 5.7,
+      "fatG": 8.2,
+      "proteinG": 14.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1251",
+    "name": "콜리플라워 라이스 연어볼",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "salmon",
+        "name": "연어",
+        "grams": 100
+      },
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 40
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 잘게 다져 팬에 올리브오일로 볶아 라이스처럼 만들고 소금·후추로 간한다.",
+      "연어는 굽거나 데쳐 큐브로 썰고, 아보카도는 슬라이스한다.",
+      "볼에 콜리라이스를 깔고 연어·아보카도를 올린 뒤 헴프씨드를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 401.5,
+      "netCarbG": 4.8,
+      "fatG": 29.2,
+      "proteinG": 26.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1252",
+    "name": "콜리플라워 라이스 새우볼",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 100
+      },
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 40
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "avocado_oil",
+        "name": "아보카도오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 다져 아보카도오일에 볶아 라이스처럼 만들고 소금으로 간한다.",
+      "새우는 껍질을 벗겨 팬에 굽고, 아보카도는 큐브로 썬다.",
+      "볼에 콜리라이스·새우·아보카도를 담고 헴프씨드를 올린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 292.5,
+      "netCarbG": 5,
+      "fatG": 16.5,
+      "proteinG": 30.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1253",
+    "name": "콜리플라워 라이스 닭가슴살볼",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 100
+      },
+      {
+        "id": "chicken_breast",
+        "name": "닭가슴살",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 50
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 다져 올리브오일에 볶아 라이스처럼 만든다.",
+      "닭가슴살은 소금·후추로 밑간해 굽고 한입 크기로 썬다.",
+      "볼에 콜리라이스·닭가슴살을 담고 코티지치즈와 헴프씨드를 올린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 283.5,
+      "netCarbG": 5.2,
+      "fatG": 13.8,
+      "proteinG": 33.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1254",
+    "name": "곤약 비빔볼",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "beef_ground",
+        "name": "다진소고기",
+        "grams": 80
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "perilla_leaf",
+        "name": "깻잎",
+        "grams": 5
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 5
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      },
+      {
+        "id": "gochugaru",
+        "name": "고춧가루",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "곤약은 데쳐 물기를 빼고, 다진소고기는 간장·고춧가루로 볶는다.",
+      "오이·깻잎은 채 썰고 계란은 반숙 프라이로 굽는다.",
+      "볼에 곤약을 담고 소고기·채소·계란을 올린 뒤 참기름을 둘러 비벼 먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "저탄수"
+    ],
+    "computed": {
+      "kcal": 347.5,
+      "netCarbG": 2.7,
+      "fatG": 26.2,
+      "proteinG": 21.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1255",
+    "name": "두부 포케볼",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 120
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 40
+      },
+      {
+        "id": "gim",
+        "name": "김",
+        "grams": 2
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 8
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "두부는 큐브로 썰어 간장·참기름에 살짝 절인다.",
+      "오이·아보카도는 큐브로 썰고 김은 잘게 부순다.",
+      "볼에 두부와 채소를 담고 김가루·헴프씨드를 뿌려 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 272.5,
+      "netCarbG": 4.3,
+      "fatG": 21.7,
+      "proteinG": 15.1
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1256",
+    "name": "코티지치즈 파워볼",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 150
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 30
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "코티지치즈를 볼에 넉넉히 담는다.",
+      "오이는 잘게 썰어 올리고 올리브오일을 두른 뒤 소금·후추로 간한다.",
+      "헴프씨드를 뿌려 단백질을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "간편"
+    ],
+    "computed": {
+      "kcal": 251,
+      "netCarbG": 6.5,
+      "fatG": 16.4,
+      "proteinG": 19.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1257",
+    "name": "아보카도 코티지 에그볼",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 60
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 60
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "계란은 완숙으로 삶아 반으로 썰고, 아보카도는 슬라이스한다.",
+      "볼에 아보카도·계란·코티지치즈를 담는다.",
+      "올리브오일과 헴프씨드를 뿌리고 소금·후추로 간한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 397.3,
+      "netCarbG": 4.6,
+      "fatG": 31.5,
+      "proteinG": 23.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1258",
+    "name": "참치 코티지 샐러드볼",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tuna_can",
+        "name": "참치캔",
+        "grams": 80
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      },
+      {
+        "id": "lettuce",
+        "name": "상추",
+        "grams": 40
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 30
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "참치캔은 기름을 빼고 코티지치즈·마요네즈와 섞는다.",
+      "상추는 한입 크기로 뜯고 오이는 슬라이스한다.",
+      "볼에 채소를 깔고 참치 코티지 믹스를 올린 뒤 후추를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 308.9,
+      "netCarbG": 4.4,
+      "fatG": 17.5,
+      "proteinG": 32.9
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1259",
+    "name": "닭가슴살 헴프볼",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_breast",
+        "name": "닭가슴살",
+        "grams": 120
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 60
+      },
+      {
+        "id": "broccoli",
+        "name": "브로콜리",
+        "grams": 60
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 12
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "닭가슴살은 소금·후추로 밑간해 굽고 슬라이스한다.",
+      "브로콜리는 데쳐 한입 크기로 썬다.",
+      "볼에 닭가슴살·브로콜리·코티지치즈를 담고 헴프씨드와 올리브오일을 두른다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 321.8,
+      "netCarbG": 5,
+      "fatG": 15.5,
+      "proteinG": 39.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1260",
+    "name": "소고기 콜리볼",
+    "category": "meat",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "beef_ground",
+        "name": "다진소고기",
+        "grams": 100
+      },
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "bell_pepper",
+        "name": "파프리카",
+        "grams": 30
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 다져 올리브오일에 볶아 라이스처럼 만든다.",
+      "다진소고기는 소금·후추로 볶고 파프리카는 잘게 썬다.",
+      "볼에 콜리라이스를 깔고 소고기·파프리카를 올린 뒤 헴프씨드를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 391.3,
+      "netCarbG": 5.3,
+      "fatG": 30.3,
+      "proteinG": 22.7
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1261",
+    "name": "에그 코티지 머핀",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 150
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 80
+      },
+      {
+        "id": "spinach",
+        "name": "시금치",
+        "grams": 30
+      },
+      {
+        "id": "cheese_cheddar",
+        "name": "체다치즈",
+        "grams": 20
+      }
+    ],
+    "steps": [
+      "계란을 풀어 코티지치즈·잘게 썬 시금치·체다치즈를 섞고 소금·후추로 간한다.",
+      "머핀틀에 반죽을 붓는다.",
+      "180도 오븐에서 18~20분 구워 에그 머핀을 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밀프렙"
+    ],
+    "computed": {
+      "kcal": 380.4,
+      "netCarbG": 4.9,
+      "fatG": 25.2,
+      "proteinG": 34.2
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1262",
+    "name": "코티지치즈 오믈렛",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 150
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 70
+      },
+      {
+        "id": "chives",
+        "name": "부추",
+        "grams": 10
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "계란을 풀어 소금·후추로 간하고 부추를 잘게 썰어 섞는다.",
+      "버터 두른 팬에 계란물을 부어 반쯤 익으면 코티지치즈를 올린다.",
+      "반으로 접어 부드럽게 익혀 오믈렛을 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "간편"
+    ],
+    "computed": {
+      "kcal": 343.5,
+      "netCarbG": 4.1,
+      "fatG": 24.5,
+      "proteinG": 27.6
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1263",
+    "name": "그릭 단백질 샐러드",
+    "category": "salad",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "chicken_breast",
+        "name": "닭가슴살",
+        "grams": 100
+      },
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 60
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "lettuce",
+        "name": "상추",
+        "grams": 30
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "lemon",
+        "name": "레몬",
+        "grams": 10
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "닭가슴살은 구워 슬라이스하고, 그릭요거트에 레몬즙·올리브오일·소금을 섞어 드레싱을 만든다.",
+      "상추·오이는 한입 크기로 썰어 볼에 담는다.",
+      "닭가슴살을 올리고 드레싱을 두른 뒤 헴프씨드를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 281.1,
+      "netCarbG": 5.2,
+      "fatG": 14.5,
+      "proteinG": 32.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1264",
+    "name": "코티지치즈 스크램블 볼",
+    "category": "egg",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 70
+      },
+      {
+        "id": "green_onion",
+        "name": "대파",
+        "grams": 10
+      },
+      {
+        "id": "butter",
+        "name": "버터",
+        "grams": 8
+      }
+    ],
+    "steps": [
+      "계란을 풀어 코티지치즈를 섞고 소금·후추로 간한다.",
+      "버터 두른 팬에 약불로 부드럽게 스크램블한다.",
+      "볼에 담고 잘게 썬 대파를 올린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "간편"
+    ],
+    "computed": {
+      "kcal": 272.2,
+      "netCarbG": 3.8,
+      "fatG": 19.5,
+      "proteinG": 21
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1265",
+    "name": "연어 코티지 포케볼",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "salmon",
+        "name": "연어",
+        "grams": 90
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 60
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 40
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 8
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "연어는 큐브로 썰어 간장·참기름에 살짝 절인다.",
+      "오이·아보카도는 큐브로 썬다.",
+      "볼에 연어·채소를 담고 코티지치즈를 곁들인 뒤 헴프씨드를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 420.3,
+      "netCarbG": 4.9,
+      "fatG": 30.2,
+      "proteinG": 29.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1266",
+    "name": "새우 곤약 비빔볼",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "konjac",
+        "name": "곤약",
+        "grams": 150
+      },
+      {
+        "id": "shrimp",
+        "name": "새우",
+        "grams": 100
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 40
+      },
+      {
+        "id": "bean_sprout",
+        "name": "콩나물",
+        "grams": 40
+      },
+      {
+        "id": "egg",
+        "name": "계란",
+        "grams": 50
+      },
+      {
+        "id": "soy_sauce",
+        "name": "간장",
+        "grams": 6
+      },
+      {
+        "id": "sesame_oil",
+        "name": "참기름",
+        "grams": 5
+      },
+      {
+        "id": "gochugaru",
+        "name": "고춧가루",
+        "grams": 2
+      }
+    ],
+    "steps": [
+      "곤약은 데쳐 물기를 빼고 콩나물은 데친다.",
+      "새우는 팬에 굽고 계란은 반숙 프라이로 익힌다.",
+      "볼에 곤약·새우·콩나물·오이를 담고 간장·고춧가루·참기름으로 비벼 먹는다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "저탄수"
+    ],
+    "computed": {
+      "kcal": 254.3,
+      "netCarbG": 3.8,
+      "fatG": 10.7,
+      "proteinG": 33.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1267",
+    "name": "두부 코티지 파워볼",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "tofu",
+        "name": "두부",
+        "grams": 120
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 70
+      },
+      {
+        "id": "cucumber",
+        "name": "오이",
+        "grams": 30
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 12
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "두부는 큐브로 썰어 물기를 빼고 소금으로 밑간한다.",
+      "볼에 두부와 코티지치즈를 담고 잘게 썬 오이를 올린다.",
+      "올리브오일을 두르고 헴프씨드를 뿌려 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 278.5,
+      "netCarbG": 5.2,
+      "fatG": 19.7,
+      "proteinG": 21.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1268",
+    "name": "콜리플라워 라이스 참치볼",
+    "category": "seafood",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "tuna_can",
+        "name": "참치캔",
+        "grams": 80
+      },
+      {
+        "id": "avocado",
+        "name": "아보카도",
+        "grams": 40
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "mayo",
+        "name": "마요네즈",
+        "grams": 10
+      }
+    ],
+    "steps": [
+      "콜리플라워를 다져 팬에 볶아 라이스처럼 만들고 소금으로 간한다.",
+      "참치캔은 기름을 빼고 마요네즈와 버무린다.",
+      "볼에 콜리라이스를 깔고 참치마요·아보카도를 올린 뒤 헴프씨드를 뿌린다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 369.3,
+      "netCarbG": 4.9,
+      "fatG": 25.1,
+      "proteinG": 29.5
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1269",
+    "name": "헴프 코티지 요거트볼",
+    "category": "snack",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "greek_yogurt",
+        "name": "그릭요거트",
+        "grams": 100
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 50
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 12
+      },
+      {
+        "id": "cacao_nibs",
+        "name": "카카오닙스",
+        "grams": 8
+      },
+      {
+        "id": "monk_fruit",
+        "name": "나한과",
+        "grams": 1
+      }
+    ],
+    "steps": [
+      "그릭요거트와 코티지치즈를 볼에 담고 나한과로 살짝 단맛을 낸다.",
+      "헴프씨드를 뿌려 단백질을 보강한다.",
+      "카카오닙스를 올려 바삭한 식감을 더한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "간편"
+    ],
+    "computed": {
+      "kcal": 264.7,
+      "netCarbG": 6.8,
+      "fatG": 16.8,
+      "proteinG": 19.4
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
+  },
+  {
+    "id": "r1270",
+    "name": "콜리플라워 코티지 라이스볼",
+    "category": "veg_side",
+    "servings": 1,
+    "ingredients": [
+      {
+        "id": "cauliflower",
+        "name": "콜리플라워",
+        "grams": 120
+      },
+      {
+        "id": "cottage_cheese",
+        "name": "코티지치즈",
+        "grams": 70
+      },
+      {
+        "id": "hemp_seed",
+        "name": "헴프씨드",
+        "grams": 10
+      },
+      {
+        "id": "chives",
+        "name": "부추",
+        "grams": 5
+      },
+      {
+        "id": "olive_oil",
+        "name": "올리브오일",
+        "grams": 5
+      }
+    ],
+    "steps": [
+      "콜리플라워를 다져 올리브오일에 볶아 라이스처럼 만들고 소금·후추로 간한다.",
+      "볼에 콜리라이스를 담고 코티지치즈를 올린다.",
+      "잘게 썬 부추와 헴프씨드를 뿌려 완성한다."
+    ],
+    "tags": [
+      "트렌드",
+      "고단백",
+      "밸런스드"
+    ],
+    "computed": {
+      "kcal": 199.6,
+      "netCarbG": 6.5,
+      "fatG": 13.3,
+      "proteinG": 13.3
+    },
+    "hasAvoidIngredient": false,
+    "keto": true
   }
 ]

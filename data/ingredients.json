@@ -2873,5 +2873,104 @@
     },
     "keto": "caution",
     "pantry": true
+  },
+  {
+    "id": "cottage_cheese",
+    "name": "코티지치즈",
+    "aliases": [
+      "커티지치즈"
+    ],
+    "per100g": {
+      "kcal": 98,
+      "carbG": 3.4,
+      "fiberG": 0,
+      "fatG": 4.3,
+      "proteinG": 11
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "mct_oil",
+    "name": "MCT오일",
+    "aliases": [
+      "엠씨티오일"
+    ],
+    "per100g": {
+      "kcal": 830,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 100,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "monk_fruit",
+    "name": "나한과",
+    "aliases": [
+      "몽크프루트",
+      "나한과당"
+    ],
+    "per100g": {
+      "kcal": 0,
+      "carbG": 0,
+      "fiberG": 0,
+      "fatG": 0,
+      "proteinG": 0
+    },
+    "keto": "friendly",
+    "pantry": true
+  },
+  {
+    "id": "hemp_seed",
+    "name": "헴프씨드",
+    "aliases": [
+      "대마씨",
+      "햄프씨드"
+    ],
+    "per100g": {
+      "kcal": 553,
+      "carbG": 8.7,
+      "fiberG": 4,
+      "fatG": 48.8,
+      "proteinG": 31.5
+    },
+    "keto": "friendly",
+    "pantry": false
+  },
+  {
+    "id": "almond_butter",
+    "name": "아몬드버터",
+    "aliases": [
+      "무가당아몬드버터"
+    ],
+    "per100g": {
+      "kcal": 614,
+      "carbG": 19,
+      "fiberG": 10,
+      "fatG": 56,
+      "proteinG": 21
+    },
+    "keto": "caution",
+    "pantry": false
+  },
+  {
+    "id": "cacao_nibs",
+    "name": "카카오닙스",
+    "aliases": [
+      "카카오닙",
+      "카카오닢"
+    ],
+    "per100g": {
+      "kcal": 654,
+      "carbG": 34,
+      "fiberG": 27,
+      "fatG": 47,
+      "proteinG": 14
+    },
+    "keto": "caution",
+    "pantry": false
   }
 ]
