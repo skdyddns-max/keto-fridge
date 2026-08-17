@@ -13,6 +13,7 @@ import { syncEnabled } from "./lib/supabase";
 import type { SyncState } from "./lib/sync";
 import { useSync } from "./store/useSync";
 import { IngredientInput } from "./components/IngredientInput";
+import { IngredientPicker } from "./components/IngredientPicker";
 import { RecipeCard } from "./components/RecipeCard";
 import { RecipeDetail } from "./components/RecipeDetail";
 import { DayTracker } from "./components/DayTracker";
@@ -26,6 +27,8 @@ const INGREDIENT_BY_ID = new Map(INGREDIENTS.map((i) => [i.id, i]));
 // 자동완성 제안 대상: 레시피에 실제 등장하는 재료만 (막다른 선택 방지)
 const USED_INGREDIENT_IDS = new Set(RECIPES.flatMap((r) => r.ingredients.map((i) => i.id)));
 const SELECTABLE_INGREDIENTS = INGREDIENTS.filter((i) => USED_INGREDIENT_IDS.has(i.id));
+// 골라 담기용: 양념(pantry)은 제외 — 소금·기름 등은 '기본 보유'라 고를 필요 없음
+const PICKABLE_INGREDIENTS = SELECTABLE_INGREDIENTS.filter((i) => !i.pantry);
 
 /** 원터치 추가용 인기 재료 */
 const POPULAR_IDS = ["pork_belly", "egg", "cabbage", "chicken_thigh", "tofu", "shrimp", "butter", "cheese_cheddar", "zucchini", "avocado"];
@@ -60,6 +63,8 @@ export default function App() {
   const [showShopping, setShowShopping] = useState(false);
   const [showAllAlmost, setShowAllAlmost] = useState(false);
   const [searchQ, setSearchQ] = useState("");
+  const [showPicker, setShowPicker] = useState(false);
+  const toggleOwned = (id: string) => setOwned((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
   const [photoIds, setPhotoIds] = useState<Set<string>>(new Set());
   const [photoThumbs, setPhotoThumbs] = useState<Record<string, string>>({});
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
@@ -254,9 +259,16 @@ export default function App() {
       />
 
       <section className="mb-4 rounded-2xl border border-stone-200/80 bg-white p-4 shadow-sm">
-        <h2 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-stone-700">
-          🧺 냉장고에 뭐가 있나요?
-        </h2>
+        <div className="mb-2 flex items-center justify-between">
+          <h2 className="flex items-center gap-1.5 text-sm font-bold text-stone-700">🧺 냉장고에 뭐가 있나요?</h2>
+          <button
+            type="button"
+            onClick={() => setShowPicker(true)}
+            className="rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 transition hover:bg-emerald-100"
+          >
+            📋 골라 담기
+          </button>
+        </div>
         <IngredientInput
           ingredients={SELECTABLE_INGREDIENTS}
           owned={owned}
@@ -436,6 +448,15 @@ export default function App() {
           onRemove={(id) => setShopping((prev) => prev.filter((x) => x.id !== id))}
           onClear={() => setShopping([])}
           onClose={() => setShowShopping(false)}
+        />
+      )}
+
+      {showPicker && (
+        <IngredientPicker
+          ingredients={PICKABLE_INGREDIENTS}
+          owned={owned}
+          onToggle={toggleOwned}
+          onClose={() => setShowPicker(false)}
         />
       )}
 
