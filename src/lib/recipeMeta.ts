@@ -28,6 +28,12 @@ function roundTo5(n: number): number {
   return Math.max(5, Math.round(n / 5) * 5);
 }
 
+/** 고단백 레시피 — 1인분 단백질 25g 이상 (운동인 대상 컬렉션) */
+export const HIGH_PROTEIN_G = 25;
+export function isHighProtein(recipe: Recipe): boolean {
+  return recipe.computed.proteinG >= HIGH_PROTEIN_G;
+}
+
 export type Difficulty = "쉬움" | "보통" | "손이 가요";
 
 /** 난이도 — 단계 수 + 주재료 수 기반 (초간단 태그면 무조건 쉬움) */

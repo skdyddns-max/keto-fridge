@@ -4,6 +4,8 @@ import recipesRaw from "./data/recipes.gen.json";
 import { diversify, matchRecipes, type MatchResult } from "./lib/match";
 import { searchRecipes } from "./lib/search";
 import { CATEGORY_ORDER, categoryMeta } from "./lib/categories";
+import { isHighProtein } from "./lib/recipeMeta";
+import { addToPlan, removeFromPlan, type Plan } from "./lib/planner";
 import type { Ingredient, Recipe } from "./lib/types";
 import { getPhotos } from "./lib/photos";
 import { useLocalStorage } from "./store/useLocalStorage";
@@ -14,6 +16,7 @@ import type { SyncState } from "./lib/sync";
 import { useSync } from "./store/useSync";
 import { IngredientInput } from "./components/IngredientInput";
 import { IngredientPicker } from "./components/IngredientPicker";
+import { WeekPlanner } from "./components/WeekPlanner";
 import { RecipeCard } from "./components/RecipeCard";
 import { RecipeDetail } from "./components/RecipeDetail";
 import { DayTracker } from "./components/DayTracker";
@@ -42,6 +45,7 @@ const asResult = (recipe: Recipe): MatchResult => ({ recipe, status: "explore", 
 
 /** 랜덤 추천 풀 (전체 키토 레시피) */
 const ALL_KETO_RESULTS: MatchResult[] = RECIPES.filter((r) => r.keto).map(asResult);
+const RECIPE_BY_ID = new Map(RECIPES.map((r) => [r.id, r]));
 
 /** 첫 화면 추천 — 카테고리별로 가장 간단한(주재료 적고 순탄수 낮은) 레시피 1개씩 */
 const nonPantryCount = (r: Recipe) => r.ingredients.filter((i) => !PANTRY_IDS.has(i.id)).length;
@@ -67,6 +71,9 @@ export default function App() {
   const [showAllAlmost, setShowAllAlmost] = useState(false);
   const [searchQ, setSearchQ] = useState("");
   const [showPicker, setShowPicker] = useState(false);
+  const [plan, setPlan] = useLocalStorage<Plan>("kf.plan", {});
+  const [showPlanner, setShowPlanner] = useState(false);
+  const planCount = Object.values(plan).reduce((s, ids) => s + ids.length, 0);
   const toggleOwned = (id: string) => setOwned((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
 
   // 오늘 뭐 먹지? — 재료가 있으면 만들 수 있는 것 중, 없으면 전체에서 무작위 (직전 것과 안 겹치게)
@@ -115,9 +122,10 @@ export default function App() {
     () => matchRecipes(RECIPES, new Set(owned), new Set(excluded), { assumePantry, pantryIds: PANTRY_IDS }),
     [owned, excluded, assumePantry],
   );
-  const catOk = (r: MatchResult) => !categoryFilter || r.recipe.category === categoryFilter;
+  const matchesFilter = (r: MatchResult) =>
+    !categoryFilter || (categoryFilter === "high_protein" ? isHighProtein(r.recipe) : r.recipe.category === categoryFilter);
   const base = favoritesOnly ? results.filter((r) => favoriteSet.has(r.recipe.id)) : results;
-  const visible = base.filter(catOk);
+  const visible = base.filter(matchesFilter);
 
   const cookNow = visible.filter((r) => r.status === "cookNow");
   const almost = visible.filter((r) => r.status === "almost");
@@ -125,13 +133,16 @@ export default function App() {
   const hasInput = owned.length > 0;
 
   // 재료 입력 전 카테고리만 선택한 경우: 그 카테고리 레시피 둘러보기
-  const browse = useMemo(
-    () =>
-      !hasInput && !favoritesOnly && categoryFilter
-        ? diversify(RECIPES.filter((r) => r.keto && r.category === categoryFilter), (r) => r.name).slice(0, BROWSE_LIMIT).map(asResult)
-        : [],
-    [hasInput, favoritesOnly, categoryFilter],
-  );
+  const browse = useMemo(() => {
+    if (hasInput || favoritesOnly || !categoryFilter) return [];
+    if (categoryFilter === "high_protein") {
+      return RECIPES.filter((r) => r.keto && isHighProtein(r))
+        .sort((a, b) => b.computed.proteinG - a.computed.proteinG)
+        .slice(0, BROWSE_LIMIT)
+        .map(asResult);
+    }
+    return diversify(RECIPES.filter((r) => r.keto && r.category === categoryFilter), (r) => r.name).slice(0, BROWSE_LIMIT).map(asResult);
+  }, [hasInput, favoritesOnly, categoryFilter]);
 
   const effectiveOwned = useMemo(() => {
     const s = new Set(owned);
@@ -196,6 +207,16 @@ export default function App() {
           );
         })}
       </div>
+      {/* 운동인용 고단백 컬렉션 */}
+      <button
+        type="button"
+        onClick={() => setCategoryFilter(categoryFilter === "high_protein" ? null : "high_protein")}
+        className={`mt-2 flex w-full items-center justify-center gap-2 rounded-2xl border py-2.5 text-sm font-bold transition ${
+          categoryFilter === "high_protein" ? "border-rose-400 bg-rose-50 text-rose-700 ring-1 ring-rose-200" : "border-rose-200 bg-white text-rose-600 hover:bg-rose-50"
+        }`}
+      >
+        💪 고단백 레시피 모음 <span className="text-xs font-medium text-stone-400">단백질 25g↑</span>
+      </button>
     </div>
   );
 
@@ -212,19 +233,34 @@ export default function App() {
             </h1>
             <p className="mt-1.5 text-sm text-emerald-50/90">냉장고에 있는 재료로, 지금 만들 수 있는 키토 레시피</p>
           </div>
-          <button
-            type="button"
-            onClick={() => setShowShopping(true)}
-            className="relative flex shrink-0 items-center gap-1.5 rounded-full bg-white/15 px-3 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
-            aria-label="장보기 리스트 열기"
-          >
-            🛒 장보기
-            {shopping.length > 0 && (
-              <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1 text-[11px] font-bold text-amber-950">
-                {shopping.length}
-              </span>
-            )}
-          </button>
+          <div className="flex shrink-0 flex-col gap-1.5">
+            <button
+              type="button"
+              onClick={() => setShowShopping(true)}
+              className="relative flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+              aria-label="장보기 리스트 열기"
+            >
+              🛒 장보기
+              {shopping.length > 0 && (
+                <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1 text-[11px] font-bold text-amber-950">
+                  {shopping.length}
+                </span>
+              )}
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowPlanner(true)}
+              className="relative flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/25"
+              aria-label="주간 식단 열기"
+            >
+              🗓️ 식단
+              {planCount > 0 && (
+                <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1 text-[11px] font-bold text-amber-950">
+                  {planCount}
+                </span>
+              )}
+            </button>
+          </div>
         </div>
       </header>
 
@@ -459,6 +495,7 @@ export default function App() {
           onToggleFavorite={() => toggleFavorite(selected.recipe.id)}
           onEat={() => eatRecipe(selected.recipe)}
           onAddShopping={addShopping}
+          onAddToPlan={(day) => setPlan((prev) => addToPlan(prev, day, selected.recipe.id))}
           onPhotosChanged={refreshPhotoIds}
           onClose={() => setSelected(null)}
         />
@@ -479,6 +516,20 @@ export default function App() {
           owned={owned}
           onToggle={toggleOwned}
           onClose={() => setShowPicker(false)}
+        />
+      )}
+
+      {showPlanner && (
+        <WeekPlanner
+          plan={plan}
+          byId={RECIPE_BY_ID}
+          onRemove={(day, idx) => setPlan((prev) => removeFromPlan(prev, day, idx))}
+          onOpenRecipe={(id) => {
+            const r = RECIPE_BY_ID.get(id);
+            if (r) { setShowPlanner(false); setSelected(asResult(r)); }
+          }}
+          onClear={() => setPlan({})}
+          onClose={() => setShowPlanner(false)}
         />
       )}
 

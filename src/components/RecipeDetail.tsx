@@ -4,6 +4,7 @@ import { categoryMeta } from "../lib/categories";
 import { householdLabel } from "../lib/measures";
 import { difficulty, estimateMinutes } from "../lib/recipeMeta";
 import { isPantry } from "../lib/pantry";
+import { PLAN_DAYS } from "../lib/planner";
 import { usePhotos } from "../store/usePhotos";
 import { MacroPie } from "./MacroPie";
 import { CookMode } from "./CookMode";
@@ -16,18 +17,20 @@ interface Props {
   onToggleFavorite: () => void;
   onEat: () => void;
   onAddShopping: (items: { id: string; name: string }[]) => void;
+  onAddToPlan: (day: string) => void;
   onPhotosChanged?: () => void;
   onClose: () => void;
 }
 
 /** 레시피 상세 모달 — 재료(보유 표시)·조리 순서·매크로 파이·내 사진 */
-export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onEat, onAddShopping, onPhotosChanged, onClose }: Props) {
+export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavorite, onEat, onAddShopping, onAddToPlan, onPhotosChanged, onClose }: Props) {
   const { recipe } = result;
   const missing = recipe.ingredients.filter((ri) => !effectiveOwned.has(ri.id));
 
   const [ate, setAte] = useState(false);
   const [shopped, setShopped] = useState(false);
   const [zoom, setZoom] = useState<string | null>(null);
+  const [planned, setPlanned] = useState<string | null>(null); // 방금 추가한 요일
   const [portions, setPortions] = useState(recipe.servings); // 만들 인분 수
   const factor = portions / recipe.servings; // 재료 배수 (순탄수는 1인분 기준이라 불변)
   const [cooking, setCooking] = useState(false);
@@ -121,6 +124,26 @@ export function RecipeDetail({ result, effectiveOwned, isFavorite, onToggleFavor
               {shopped ? "장보기에 담았어요 ✓" : `부족 재료 담기 (${missing.length})`}
             </button>
           )}
+        </div>
+
+        {/* 주간 식단에 추가 */}
+        <div className="mt-2 rounded-xl border border-stone-200 bg-stone-50/60 px-3 py-2.5">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold text-stone-600">🗓️ 식단에 추가</span>
+            {planned && <span className="text-xs font-medium text-emerald-600">{planned}요일에 담았어요 ✓</span>}
+          </div>
+          <div className="mt-2 flex gap-1.5">
+            {PLAN_DAYS.map((d) => (
+              <button
+                key={d.key}
+                type="button"
+                onClick={() => { onAddToPlan(d.key); setPlanned(d.label); }}
+                className="flex h-8 flex-1 items-center justify-center rounded-lg border border-stone-200 bg-white text-sm font-medium text-stone-600 transition hover:border-emerald-400 hover:bg-emerald-50 hover:text-emerald-700"
+              >
+                {d.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         <section className="mt-5">

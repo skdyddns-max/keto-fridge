@@ -18,6 +18,8 @@ export const CATEGORIES: Record<string, CategoryMeta> = {
   soup: { label: "국·찌개", emoji: "🍲", chip: "bg-orange-100 text-orange-700", accent: "bg-orange-400", tile: "from-orange-100 to-orange-50" },
   salad: { label: "샐러드", emoji: "🥗", chip: "bg-emerald-100 text-emerald-700", accent: "bg-emerald-400", tile: "from-emerald-100 to-emerald-50" },
   snack: { label: "간식", emoji: "🍪", chip: "bg-violet-100 text-violet-700", accent: "bg-violet-400", tile: "from-violet-100 to-violet-50" },
+  // 특수 필터(카테고리 아님): 고단백 컬렉션
+  high_protein: { label: "고단백", emoji: "💪", chip: "bg-rose-100 text-rose-700", accent: "bg-rose-500", tile: "from-rose-100 to-rose-50" },
 };
 
 /** 타일·바로가기에 쓸 카테고리 순서 */
